@@ -1,9 +1,9 @@
-name: Daily scraper of CISA KEV Updates
+name: Daily Check of CISA KEV That Are Due
 
 on:
   workflow_dispatch:
   schedule:
-    - cron: '6 18 * * *'
+    - cron: '6 5 * * *'
 
 jobs:
   scheduled:
@@ -15,12 +15,12 @@ jobs:
       with:
         fetch-depth: 0
 
-    - name: Scrape CISA KEV For Updates
-      run: curl --silent https://www.cisa.gov/sites/default/files/csv/known_exploited_vulnerabilities.csv | grep -e $(date -I), -e "cveID,vendorProject" > vulns-added/$(date -I)-cisa-kev-new.csv
+    - name: Check CISA KEV for Vulns Due Today
+      run: curl --silent https://www.cisa.gov/sites/default/files/csv/known_exploited_vulnerabilities.csv | grep -e "Apply updates per vendor instructions.,""$(date -I)" -e "cveID,vendorProject" > vulns-due/$(date -I)-cisa-kev-due.csv
 
     - name: Clean scrape if only contains header
-      run: find vulns-added/ -size 97c |  xargs rm
-
+      run: find vulns-due/ -size 97c |  xargs rm
+      
     - name: Commit and push if it changed
       run: |-
         git config user.name "Automated"
