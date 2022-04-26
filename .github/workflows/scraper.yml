@@ -15,7 +15,10 @@ jobs:
       with:
         fetch-depth: 0
 
-    - name: Scrape CISA KEV For Updates
+    - name: Scrape Entire CISA KEV to latest File
+      run: curl --silent --output cisa-kev-latest.csv https://www.cisa.gov/sites/default/files/csv/known_exploited_vulnerabilities.csv
+
+    - name: Scrape CISA KEV For Updates Only
       run: curl --silent https://www.cisa.gov/sites/default/files/csv/known_exploited_vulnerabilities.csv | grep -e $(date -I), -e "cveID,vendorProject" > vulns-added/$(date -I)-cisa-kev-new.csv
 
     - name: Clean scrape if only contains header
