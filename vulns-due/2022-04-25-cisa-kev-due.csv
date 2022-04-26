@@ -1,0 +1,4 @@
+cveID,vendorProject,product,vulnerabilityName,dateAdded,shortDescription,requiredAction,dueDate
+CVE-2022-22965,VMware,Spring Framework,Spring Framework JDK 9+ Remote Code Execution Vulnerability,2022-04-04,Spring MVC or Spring WebFlux application running on JDK 9+ may be vulnerable to remote code execution (RCE) via data binding.,Apply updates per vendor instructions.,2022-04-25
+CVE-2022-22675,Apple,macOS,Apple macOS Out-of-Bounds Write Vulnerability,2022-04-04,macOS Monterey contains an out-of-bounds write vulnerability that could allow an application to execute arbitrary code with kernel privileges.,Apply updates per vendor instructions.,2022-04-25
+CVE-2022-22674,Apple,macOS,Apple macOS Out-of-Bounds Read Vulnerability,2022-04-04,macOS Monterey contains an out-of-bounds read vulnerability that could allow an application to read kernel memory.,Apply updates per vendor instructions.,2022-04-25
