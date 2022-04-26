@@ -1,4 +1,4 @@
-[![Daily Check of Updates to CISA's Known Exploited Vulnerabilities Catalog](https://github.com/zarguell/cisa-kev/actions/workflows/scraper.yml/badge.svg)](https://github.com/zarguell/cisa-kev/actions/workflows/scraper.yml)
+[![Daily Check of Updates to CISA's Known Exploited Vulnerabilities Catalog](https://github.com/zarguell/cisa-kev/actions/workflows/scraper.yml/badge.svg)](https://github.com/zarguell/cisa-kev/actions/workflows/scraper.yml) [![Vulnerabilties Due Today](https://github.com/zarguell/cisa-kev/actions/workflows/duedate_scraper.yml/badge.svg)](https://github.com/zarguell/cisa-kev/actions/workflows/duedate_scraper.yml)
 
 # cisa-known-exploited-vulns
 

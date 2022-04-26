@@ -1,4 +1,4 @@
-name: Daily scraper of CISA KEV Updates
+name: What's Added Today?
 
 on:
   workflow_dispatch:

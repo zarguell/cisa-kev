@@ -1,4 +1,4 @@
-name: Daily Check of CISA KEV That Are Due
+name: What's Due Today?
 
 on:
   workflow_dispatch:
