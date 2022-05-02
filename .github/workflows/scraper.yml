@@ -22,7 +22,7 @@ jobs:
       run: curl --silent https://www.cisa.gov/sites/default/files/csv/known_exploited_vulnerabilities.csv | grep -e $(date -I), -e "cveID,vendorProject" > vulns-added/$(date -I)-cisa-kev-new.csv
 
     - name: Clean scrape if only contains header
-      run: find vulns-added/ -size 97c |  xargs rm
+      run: find vulns-added/ -size 97c | xargs --no-run-if-empty rm
 
     - name: Commit and push if it changed
       run: |-
