@@ -1,0 +1,4 @@
+cveID,vendorProject,product,vulnerabilityName,dateAdded,shortDescription,requiredAction,dueDate
+CVE-2021-3156,Sudo,Sudo,Sudo Heap-Based Buffer Overflow Vulnerability,2022-04-06,"Sudo contains an off-by-one error that can result in a heap-based buffer overflow, which allows for privilege escalation.",Apply updates per vendor instructions.,2022-04-27
+CVE-2021-31166,Microsoft,HTTP Protocol Stack,Microsoft HTTP Protocol Stack Remote Code Execution Vulnerability,2022-04-06,Microsoft HTTP Protocol Stack contains a vulnerability in http.sys that allows for remote code execution.,Apply updates per vendor instructions.,2022-04-27
+CVE-2017-0148,Microsoft,SMBv1 server,Microsoft SMBv1 Server Remote Code Execution Vulnerability,2022-04-06,The SMBv1 server in Microsoft allows remote attackers to execute arbitrary code via crafted packets.,Apply updates per vendor instructions.,2022-04-27
