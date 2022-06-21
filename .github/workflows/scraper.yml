@@ -3,7 +3,7 @@ name: What's Added Today?
 on:
   workflow_dispatch:
   schedule:
-    - cron: '6 18 * * *'
+    - cron: '6 3,11,23 * * *'
 
 jobs:
   scheduled:

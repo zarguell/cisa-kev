@@ -1,0 +1,2 @@
+cveID,vendorProject,product,vulnerabilityName,dateAdded,shortDescription,requiredAction,dueDate
+CVE-2022-26925,Microsoft,Windows,Microsoft Windows LSA Spoofing Vulnerability,2022-05-11,Microsoft Windows Local Security Authority (LSA) contains a spoofing vulnerability where an attacker can coerce the domain controller to authenticate to the attacker using NTLM.,Apply updates per vendor instructions.,2022-06-01
