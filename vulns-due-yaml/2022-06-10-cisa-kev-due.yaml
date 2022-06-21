@@ -1,0 +1,93 @@
+- cveID: CVE-2019-13272
+  vendorProject: Linux
+  product: Kernel
+  vulnerabilityName: Linux Kernel Improper Privilege Management Vulnerability
+  dateAdded: '2021-12-10'
+  shortDescription: Kernel/ptrace.c in Linux kernel mishandles contains an improper
+    privilege management vulnerability which allows local users to obtain root access.
+  requiredAction: Apply updates per vendor instructions.
+  dueDate: '2022-06-10'
+  notes: ''
+- cveID: CVE-2019-7238
+  vendorProject: Sonatype
+  product: Nexus Repository Manager
+  vulnerabilityName: Sonatype Nexus Repository Manager Incorrect Access Control Vulnerability
+  dateAdded: '2021-12-10'
+  shortDescription: Sonatype Nexus Repository Manager before 3.15.0 has an incorrect
+    access control vulnerability. Exploitation allows for remote code execution.
+  requiredAction: Apply updates per vendor instructions.
+  dueDate: '2022-06-10'
+  notes: ''
+- cveID: CVE-2019-0193
+  vendorProject: Apache
+  product: Solr
+  vulnerabilityName: Apache Solr DataImportHandler Code Injection Vulnerability
+  dateAdded: '2021-12-10'
+  shortDescription: The optional Apache Solr module DataImportHandler contains a code
+    injection vulnerability.
+  requiredAction: Apply updates per vendor instructions.
+  dueDate: '2022-06-10'
+  notes: ''
+- cveID: CVE-2017-17562
+  vendorProject: Embedthis
+  product: GoAhead
+  vulnerabilityName: Embedthis GoAhead Remote Code Execution Vulnerability
+  dateAdded: '2021-12-10'
+  shortDescription: Embedthis GoAhead before 3.6.5 allows remote code execution if
+    CGI is enabled and a CGI program is dynamically linked.
+  requiredAction: Apply updates per vendor instructions.
+  dueDate: '2022-06-10'
+  notes: ''
+- cveID: CVE-2017-12149
+  vendorProject: Red Hat
+  product: JBoss Application Server
+  vulnerabilityName: Red Hat JBoss Application Server Remote Code Execution Vulnerability
+  dateAdded: '2021-12-10'
+  shortDescription: The JBoss Application Server, shipped with Red Hat Enterprise
+    Application Platform 5.2, allows an attacker to execute arbitrary code via crafted
+    serialized data.
+  requiredAction: Apply updates per vendor instructions.
+  dueDate: '2022-06-10'
+  notes: ''
+- cveID: CVE-2010-1871
+  vendorProject: Red Hat
+  product: JBoss Seam 2
+  vulnerabilityName: Red Hat Linux JBoss Seam 2 Remote Code Execution Vulnerability
+  dateAdded: '2021-12-10'
+  shortDescription: JBoss Seam 2 (jboss-seam2), as used in JBoss Enterprise Application
+    Platform 4.3.0 for Red Hat Linux, allows attackers to perform remote code execution.
+    This vulnerability can only be exploited when the Java Security Manager is not
+    properly configured.
+  requiredAction: Apply updates per vendor instructions.
+  dueDate: '2022-06-10'
+  notes: ''
+- cveID: CVE-2020-17463
+  vendorProject: Fuel CMS
+  product: ''
+  vulnerabilityName: Fuel CMS SQL Injection Vulnerability
+  dateAdded: '2021-12-10'
+  shortDescription: FUEL CMS 1.4.7 allows SQL Injection via the col parameter to /pages/items,
+    /permissions/items, or /navigation/items.
+  requiredAction: Apply updates per vendor instructions.
+  dueDate: '2022-06-10'
+  notes: ''
+- cveID: CVE-2020-8816
+  vendorProject: Pi-hole
+  product: AdminLTE
+  vulnerabilityName: Pi-Hole AdminLTE Remote Code Execution Vulnerability
+  dateAdded: '2021-12-10'
+  shortDescription: Pi-hole Web v4.3.2 (aka AdminLTE) allows Remote Code Execution
+    by privileged dashboard users via a crafted DHCP static lease.
+  requiredAction: Apply updates per vendor instructions.
+  dueDate: '2022-06-10'
+  notes: ''
+- cveID: CVE-2019-10758
+  vendorProject: MongoDB
+  product: mongo-express
+  vulnerabilityName: MongoDB mongo-express Remote Code Execution Vulnerability
+  dateAdded: '2021-12-10'
+  shortDescription: mongo-express before 0.54.0 is vulnerable to Remote Code Execution
+    via endpoints that uses the `toBSON` method.
+  requiredAction: Apply updates per vendor instructions.
+  dueDate: '2022-06-10'
+  notes: ''

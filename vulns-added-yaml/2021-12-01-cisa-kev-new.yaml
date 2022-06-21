@@ -1,0 +1,57 @@
+- cveID: CVE-2020-11261
+  vendorProject: Qualcomm
+  product: Snapdragon Auto, Snapdragon Compute, Snapdragon Connectivity, Snapdragon
+    Consumer IOT, Snapdragon Industrial IOT, Snapdragon Mobile, Snapdragon Voice &
+    Music, Snapdragon Wearables
+  vulnerabilityName: Qualcomm Multiple Chipsets Improper Input Validation Vulnerability
+  dateAdded: '2021-12-01'
+  shortDescription: Memory corruption due to improper check to return error when user
+    application requests memory allocation of a huge size in Snapdragon Auto, Snapdragon
+    Compute, Snapdragon Connectivity, Snapdragon Consumer IOT, Snapdragon Industrial
+    IOT, Snapdragon Mobile, Snapdragon Voice & Music, Snapdragon Wearables
+  requiredAction: Apply updates per vendor instructions.
+  dueDate: '2022-06-01'
+  notes: ''
+- cveID: CVE-2018-14847
+  vendorProject: MikroTik
+  product: RouterOS
+  vulnerabilityName: MikroTik Router OS Directory Traversal Vulnerability
+  dateAdded: '2021-12-01'
+  shortDescription: MikroTik RouterOS through 6.42 allows unauthenticated remote attackers
+    to read arbitrary files and remote authenticated attackers to write arbitrary
+    files due to a directory traversal vulnerability in the WinBox interface.
+  requiredAction: Apply updates per vendor instructions.
+  dueDate: '2022-06-01'
+  notes: ''
+- cveID: CVE-2021-37415
+  vendorProject: Zoho
+  product: ManageEngine ServiceDesk Plus (SDP)
+  vulnerabilityName: Zoho ManageEngine ServiceDesk Authentication Bypass Vulnerability
+  dateAdded: '2021-12-01'
+  shortDescription: Zoho ManageEngine ServiceDesk Plus before 11302 is vulnerable
+    to authentication bypass that allows a few REST-API URLs without authentication
+  requiredAction: Apply updates per vendor instructions.
+  dueDate: '2021-12-15'
+  notes: ''
+- cveID: CVE-2021-40438
+  vendorProject: Apache
+  product: Apache
+  vulnerabilityName: Apache HTTP Server-Side Request Forgery (SSRF)
+  dateAdded: '2021-12-01'
+  shortDescription: A crafted request uri-path can cause mod_proxy to forward the
+    request to an origin server choosen by the remote user. This issue affects Apache
+    HTTP Server 2.4.48 and earlier.
+  requiredAction: Apply updates per vendor instructions.
+  dueDate: '2021-12-15'
+  notes: ''
+- cveID: CVE-2021-44077
+  vendorProject: Zoho
+  product: ManageEngine ServiceDesk Plus (SDP) / SupportCenter Plus
+  vulnerabilityName: Zoho ManageEngine ServiceDesk Plus Remote Code Execution Vulnerability
+  dateAdded: '2021-12-01'
+  shortDescription: Zoho ManageEngine ServiceDesk Plus before 11306, ServiceDesk Plus
+    MSP before 10530, and SupportCenter Plus before 11014 are vulnerable to unauthenticated
+    remote code execution
+  requiredAction: Apply updates per vendor instructions.
+  dueDate: '2021-12-15'
+  notes: ''

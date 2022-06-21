@@ -1,0 +1,768 @@
+- cveID: CVE-2017-8540
+  vendorProject: Microsoft
+  product: Malware Protection Engine
+  vulnerabilityName: Microsoft Malware Protection Engine Improper Restriction of Operations
+    Vulnerability
+  dateAdded: '2022-03-03'
+  shortDescription: The Microsoft Malware Protection Engine running on Microsoft Forefront
+    and Microsoft Defender on Microsoft Windows Server 2008 SP2 and R2 SP1, Windows
+    7 SP1, Windows 8.1, Windows Server 2012 Gold and R2, Windows RT 8.1, Windows 10
+    Gold, 1511, 1607, and 1703, and Windows Server 2016, Microsoft Exchange Server
+    2013 and 2016, does not properly scan a specially crafted file leading to memory
+    corruption. aka "Microsoft Malware Protection Engine Remote Code Execution Vulnerability".
+  requiredAction: Apply updates per vendor instructions.
+  dueDate: '2022-03-24'
+  notes: ''
+- cveID: CVE-2017-6744
+  vendorProject: Cisco
+  product: IOS software
+  vulnerabilityName: Cisco IOS Software SNMP Remote Code Execution Vulnerability
+  dateAdded: '2022-03-03'
+  shortDescription: The Simple Network Management Protocol (SNMP) subsystem of Cisco
+    IOS 1 contains a vulnerability that could allow an authenticated, remote attacker
+    to remotely execute code on an affected system or cause an affected system to
+    reload. An attacker could exploit these vulnerabilities by sending a crafted SNMP
+    packet to an affected system via IPv4 or IPv6.
+  requiredAction: Apply updates per vendor instructions.
+  dueDate: '2022-03-24'
+  notes: ''
+- cveID: CVE-2017-6743
+  vendorProject: Cisco
+  product: IOS and IOS XE Software
+  vulnerabilityName: Cisco IOS and IOS XE Software SNMP Remote Code Execution Vulnerability
+  dateAdded: '2022-03-03'
+  shortDescription: The Simple Network Management Protocol (SNMP) subsystem of Cisco
+    IOS and IOS XE contains a vulnerability that could allow an authenticated, remote
+    attacker to remotely execute code.
+  requiredAction: Apply updates per vendor instructions.
+  dueDate: '2022-03-24'
+  notes: ''
+- cveID: CVE-2017-6740
+  vendorProject: Cisco
+  product: IOS and IOS XE Software
+  vulnerabilityName: Cisco IOS and IOS XE Software SNMP Remote Code Execution Vulnerability
+  dateAdded: '2022-03-03'
+  shortDescription: The Simple Network Management Protocol (SNMP) subsystem of Cisco
+    IOS and IOS XE contains a vulnerability that could allow an authenticated, remote
+    attacker to remotely execute code on an affected system or cause an affected system
+    to reload.
+  requiredAction: Apply updates per vendor instructions.
+  dueDate: '2022-03-24'
+  notes: ''
+- cveID: CVE-2017-6739
+  vendorProject: Cisco
+  product: IOS and IOS XE Software
+  vulnerabilityName: Cisco IOS and IOS XE Software SNMP Remote Code Execution Vulnerability
+  dateAdded: '2022-03-03'
+  shortDescription: The Simple Network Management Protocol (SNMP) subsystem of Cisco
+    IOS and IOS XE contains a vulnerability that could allow an authenticated, remote
+    attacker to remotely execute code on an affected system or cause an affected system
+    to reload.
+  requiredAction: Apply updates per vendor instructions.
+  dueDate: '2022-03-24'
+  notes: ''
+- cveID: CVE-2017-6738
+  vendorProject: Cisco
+  product: IOS and IOS XE Software
+  vulnerabilityName: Cisco IOS and IOS XE Software SNMP Remote Code Execution Vulnerability
+  dateAdded: '2022-03-03'
+  shortDescription: The Simple Network Management Protocol (SNMP) subsystem of Cisco
+    IOS and IOS XE contains a vulnerability that could allow an authenticated, remote
+    attacker to remotely execute code.
+  requiredAction: Apply updates per vendor instructions.
+  dueDate: '2022-03-24'
+  notes: ''
+- cveID: CVE-2017-6737
+  vendorProject: Cisco
+  product: IOS and IOS XE Software
+  vulnerabilityName: Cisco IOS and IOS XE Software SNMP Remote Code Execution Vulnerability
+  dateAdded: '2022-03-03'
+  shortDescription: The Simple Network Management Protocol (SNMP) subsystem of Cisco
+    IOS and IOS XE contains a vulnerability that could allow an authenticated, remote
+    attacker to remotely execute code.
+  requiredAction: Apply updates per vendor instructions.
+  dueDate: '2022-03-24'
+  notes: ''
+- cveID: CVE-2017-6736
+  vendorProject: Cisco
+  product: IOS and IOS XE Software
+  vulnerabilityName: Cisco IOS and IOS XE Software SNMP Remote Code Execution Vulnerability
+  dateAdded: '2022-03-03'
+  shortDescription: The Simple Network Management Protocol (SNMP) subsystem of Cisco
+    IOS and IOS XE contains a vulnerability that could allow an authenticated, remote
+    attacker to remotely execute code.
+  requiredAction: Apply updates per vendor instructions.
+  dueDate: '2022-03-24'
+  notes: ''
+- cveID: CVE-2017-6663
+  vendorProject: Cisco
+  product: IOS and IOS XE Software
+  vulnerabilityName: Cisco IOS Software and Cisco IOS XE Software Denial-of-Service
+    Vulnerability
+  dateAdded: '2022-03-03'
+  shortDescription: A vulnerability in the Autonomic Networking feature of Cisco IOS
+    Software and Cisco IOS XE Software could allow an unauthenticated, adjacent attacker
+    to cause autonomic nodes of an affected system to reload, resulting in denial-of-service
+    (DoS).
+  requiredAction: Apply updates per vendor instructions.
+  dueDate: '2022-03-24'
+  notes: ''
+- cveID: CVE-2017-6627
+  vendorProject: Cisco
+  product: IOS and IOS XE Software
+  vulnerabilityName: Cisco IOS Software and Cisco IOS XE Software UDP Packet Processing
+    Denial-of-Service Vulnerability
+  dateAdded: '2022-03-03'
+  shortDescription: A vulnerability in the UDP processing code of Cisco IOS and IOS
+    XE could allow an unauthenticated, remote attacker to cause the input queue of
+    an affected system to hold UDP packets, causing an interface queue wedge and denial
+    of service.
+  requiredAction: Apply updates per vendor instructions.
+  dueDate: '2022-03-24'
+  notes: ''
+- cveID: CVE-2017-12319
+  vendorProject: Cisco
+  product: IOS XE Software
+  vulnerabilityName: Cisco IOS XE Software Ethernet Virtual Private Network Border
+    Gateway Protocol Denial-of-Service Vulnerability
+  dateAdded: '2022-03-03'
+  shortDescription: A vulnerability in the Border Gateway Protocol (BGP) over an Ethernet
+    Virtual Private Network (EVPN) for Cisco IOS XE Software could allow an unauthenticated,
+    remote attacker to cause the device to reload, resulting in a denial of service
+    (DoS) condition, or potentially corrupt the BGP routing table, which could result
+    in network instability.
+  requiredAction: Apply updates per vendor instructions.
+  dueDate: '2022-03-24'
+  notes: ''
+- cveID: CVE-2017-12240
+  vendorProject: Cisco
+  product: IOS and IOS XE Software
+  vulnerabilityName: Cisco IOS and IOS XE Software DHCP Remote Code Execution Vulnerability
+  dateAdded: '2022-03-03'
+  shortDescription: The Dynamic Host Configuration Protocol (DHCP) relay subsystem
+    of Cisco IOS and Cisco IOS XE Software contains a vulnerability that could allow
+    an unauthenticated, remote attacker to execute arbitrary code and gain full control
+    of an affected system.
+  requiredAction: Apply updates per vendor instructions.
+  dueDate: '2022-03-24'
+  notes: ''
+- cveID: CVE-2017-12238
+  vendorProject: Cisco
+  product: Catalyst 6800 Series Switches
+  vulnerabilityName: Cisco Catalyst 6800 Series Switches VPLS Denial-of-Service Vulnerability
+  dateAdded: '2022-03-03'
+  shortDescription: A vulnerability in the Virtual Private LAN Service (VPLS) code
+    of Cisco IOS for Cisco Catalyst 6800 Series Switches could allow an unauthenticated,
+    adjacent attacker to cause a denial of service.
+  requiredAction: Apply updates per vendor instructions.
+  dueDate: '2022-03-24'
+  notes: ''
+- cveID: CVE-2017-12237
+  vendorProject: Cisco
+  product: IOS and IOS XE Software
+  vulnerabilityName: Cisco IOS and IOS XE Software Internet Key Exchange Denial-of-Service
+    Vulnerability
+  dateAdded: '2022-03-03'
+  shortDescription: A vulnerability in the Internet Key Exchange Version 2 (IKEv2)
+    module of Cisco IOS and Cisco IOS XE could allow an unauthenticated, remote attacker
+    to cause high CPU utilization, traceback messages, or a reload of an affected
+    device that leads to a denial of service.
+  requiredAction: Apply updates per vendor instructions.
+  dueDate: '2022-03-24'
+  notes: ''
+- cveID: CVE-2017-12235
+  vendorProject: Cisco
+  product: IOS software
+  vulnerabilityName: Cisco IOS Software for Cisco Industrial Ethernet Switches PROFINET
+    Denial-of-Service Vulnerability
+  dateAdded: '2022-03-03'
+  shortDescription: A vulnerability in the implementation of the PROFINET Discovery
+    and Configuration Protocol (PN-DCP) for Cisco IOS could allow an unauthenticated,
+    remote attacker to cause an affected device to reload, resulting in a denial of
+    service.
+  requiredAction: Apply updates per vendor instructions.
+  dueDate: '2022-03-24'
+  notes: ''
+- cveID: CVE-2017-12234
+  vendorProject: Cisco
+  product: IOS software
+  vulnerabilityName: Cisco IOS Software Common Industrial Protocol Request Denial-of-Service
+    Vulnerability
+  dateAdded: '2022-03-03'
+  shortDescription: There is a vulnerability in the implementation of the Common Industrial
+    Protocol (CIP) feature in Cisco IOS could allow an unauthenticated, remote attacker
+    to cause an affected device to reload, resulting in a denial of service.
+  requiredAction: Apply updates per vendor instructions.
+  dueDate: '2022-03-24'
+  notes: ''
+- cveID: CVE-2017-12233
+  vendorProject: Cisco
+  product: IOS software
+  vulnerabilityName: Cisco IOS Software Common Industrial Protocol Request Denial-of-Service
+    Vulnerability
+  dateAdded: '2022-03-03'
+  shortDescription: There is a vulnerability in the implementation of the Common Industrial
+    Protocol (CIP) feature in Cisco IOS could allow an unauthenticated, remote attacker
+    to cause an affected device to reload, resulting in a denial of service.
+  requiredAction: Apply updates per vendor instructions.
+  dueDate: '2022-03-24'
+  notes: ''
+- cveID: CVE-2017-12232
+  vendorProject: Cisco
+  product: IOS software
+  vulnerabilityName: Cisco IOS Software for Cisco Integrated Services Routers Denial-of-Service
+    Vulnerability
+  dateAdded: '2022-03-03'
+  shortDescription: A vulnerability in the implementation of a protocol in Cisco Integrated
+    Services Routers Generation 2 (ISR G2) Routers running Cisco IOS could allow an
+    unauthenticated, adjacent attacker to cause an affected device to reload, resulting
+    in a denial of service.
+  requiredAction: Apply updates per vendor instructions.
+  dueDate: '2022-03-24'
+  notes: ''
+- cveID: CVE-2017-12231
+  vendorProject: Cisco
+  product: IOS software
+  vulnerabilityName: Cisco IOS Software Network Address Translation Denial-of-Service
+    Vulnerability
+  dateAdded: '2022-03-03'
+  shortDescription: A vulnerability in the implementation of Network Address Translation
+    (NAT) functionality in Cisco IOS could allow an unauthenticated, remote attacker
+    to cause a denial of service.
+  requiredAction: Apply updates per vendor instructions.
+  dueDate: '2022-03-24'
+  notes: ''
+- cveID: CVE-2017-11826
+  vendorProject: Microsoft
+  product: Office
+  vulnerabilityName: Microsoft Office Remote Code Execution Vulnerability
+  dateAdded: '2022-03-03'
+  shortDescription: A remote code execution vulnerability exists in Microsoft Office
+    software when the software fails to properly handle objects in memory. An attacker
+    who successfully exploited the vulnerability could run arbitrary code in the context
+    of the current user.
+  requiredAction: Apply updates per vendor instructions.
+  dueDate: '2022-03-24'
+  notes: ''
+- cveID: CVE-2017-11292
+  vendorProject: Adobe
+  product: Flash Player
+  vulnerabilityName: Adobe Flash Player Type Confusion Vulnerability
+  dateAdded: '2022-03-03'
+  shortDescription: Adobe Flash Player contains a type confusion vulnerability which
+    can allow for remote code execution.
+  requiredAction: The impacted product is end-of-life and should be disconnected if
+    still in use.
+  dueDate: '2022-03-24'
+  notes: ''
+- cveID: CVE-2017-0261
+  vendorProject: Microsoft
+  product: Office
+  vulnerabilityName: Microsoft Office Use-After-Free Vulnerability
+  dateAdded: '2022-03-03'
+  shortDescription: Microsoft Office contains a use-after-free vulnerability which
+    can allow for remote code execution.
+  requiredAction: Apply updates per vendor instructions.
+  dueDate: '2022-03-24'
+  notes: ''
+- cveID: CVE-2017-0001
+  vendorProject: Microsoft
+  product: Graphics Device Interface (GDI)
+  vulnerabilityName: Microsoft Graphics Device Interface (GDI) Privilege Escalation
+    Vulnerability
+  dateAdded: '2022-03-03'
+  shortDescription: The Graphics Device Interface (GDI) in Microsoft Windows Vista
+    SP2; Windows Server 2008 SP2 and R2 SP1; Windows 7 SP1; Windows 8.1; Windows Server
+    2012 Gold and R2; Windows RT 8.1; and Windows 10 Gold, 1511, and 1607 allows local
+    users to gain privileges
+  requiredAction: Apply updates per vendor instructions.
+  dueDate: '2022-03-24'
+  notes: ''
+- cveID: CVE-2016-8562
+  vendorProject: Siemens
+  product: SIMATIC CP
+  vulnerabilityName: Siemens SIMATIC CP 1543-1 Improper Privilege Management Vulnerability
+  dateAdded: '2022-03-03'
+  shortDescription: An improper privilege management vulnerability exists within the
+    Siemens SIMATIC Communication Processor (CP) that allows a privileged attacker
+    to remotely cause a denial of service.
+  requiredAction: Apply updates per vendor instructions.
+  dueDate: '2022-03-24'
+  notes: ''
+- cveID: CVE-2016-7855
+  vendorProject: Adobe
+  product: Flash Player
+  vulnerabilityName: Adobe Flash Player Use-After-Free Vulnerability
+  dateAdded: '2022-03-03'
+  shortDescription: Use-after-free vulnerability in Adobe Flash Player Windows and
+    OS and Linux allows remote attackers to execute arbitrary code.
+  requiredAction: The impacted product is end-of-life and should be disconnected if
+    still in use.
+  dueDate: '2022-03-24'
+  notes: ''
+- cveID: CVE-2016-7262
+  vendorProject: Microsoft
+  product: Excel
+  vulnerabilityName: Microsoft Office Security Feature Bypass Vulnerability
+  dateAdded: '2022-03-03'
+  shortDescription: A security feature bypass vulnerability exists when Microsoft
+    Office improperly handles input. An attacker who successfully exploited the vulnerability
+    could execute arbitrary commands.
+  requiredAction: Apply updates per vendor instructions.
+  dueDate: '2022-03-24'
+  notes: ''
+- cveID: CVE-2016-7193
+  vendorProject: Microsoft
+  product: Office
+  vulnerabilityName: Microsoft Office Memory Corruption Vulnerability
+  dateAdded: '2022-03-03'
+  shortDescription: Microsoft Office contains a memory corruption vulnerability which
+    can allow for remote code execution.
+  requiredAction: Apply updates per vendor instructions.
+  dueDate: '2022-03-24'
+  notes: ''
+- cveID: CVE-2016-5195
+  vendorProject: Linux
+  product: Kernel
+  vulnerabilityName: Linux Kernel Race Condition Vulnerability
+  dateAdded: '2022-03-03'
+  shortDescription: Race condition in mm/gup.c in the Linux kernel allows local users
+    to escalate privileges.
+  requiredAction: Apply updates per vendor instructions.
+  dueDate: '2022-03-24'
+  notes: ''
+- cveID: CVE-2016-4117
+  vendorProject: Adobe
+  product: Flash Player
+  vulnerabilityName: Adobe Flash Player Arbitrary Code Execution Vulnerability
+  dateAdded: '2022-03-03'
+  shortDescription: An access of resource using incompatible type vulnerability exists
+    within Adobe Flash Player that allows an attacker to perform remote code execution.
+  requiredAction: The impacted product is end-of-life and should be disconnected if
+    still in use.
+  dueDate: '2022-03-24'
+  notes: ''
+- cveID: CVE-2016-1019
+  vendorProject: Adobe
+  product: Flash Player
+  vulnerabilityName: Adobe Flash Player Arbitrary Code Execution Vulnerability
+  dateAdded: '2022-03-03'
+  shortDescription: Adobe Flash Player allows remote attackers to cause a denial of
+    service or possibly execute arbitrary code.
+  requiredAction: The impacted product is end-of-life and should be disconnected if
+    still in use.
+  dueDate: '2022-03-24'
+  notes: ''
+- cveID: CVE-2016-0099
+  vendorProject: Microsoft
+  product: Windows
+  vulnerabilityName: Microsoft Windows Secondary Logon Service Privilege Escalation
+    Vulnerability
+  dateAdded: '2022-03-03'
+  shortDescription: A privilege escalation vulnerability exists in Microsoft Windows
+    if the Windows Secondary Logon Service fails to properly manage request handles
+    in memory. An attacker who successfully exploited this vulnerability could run
+    arbitrary code as an administrator.
+  requiredAction: Apply updates per vendor instructions.
+  dueDate: '2022-03-24'
+  notes: ''
+- cveID: CVE-2015-7645
+  vendorProject: Adobe
+  product: Flash Player
+  vulnerabilityName: Adobe Flash Player Arbitrary Code Execution Vulnerability
+  dateAdded: '2022-03-03'
+  shortDescription: Adobe Flash Player allows remote attackers to execute arbitrary
+    code via a crafted SWF file.
+  requiredAction: The impacted product is end-of-life and should be disconnected if
+    still in use.
+  dueDate: '2022-03-24'
+  notes: ''
+- cveID: CVE-2015-5119
+  vendorProject: Adobe
+  product: Flash Player
+  vulnerabilityName: Adobe Flash Player Use-After-Free Vulnerability
+  dateAdded: '2022-03-03'
+  shortDescription: A use-after-free vulnerability exists within the ActionScript
+    3 ByteArray class in Adobe Flash Player that allows an attacker to perform remote
+    code execution.
+  requiredAction: The impacted product is end-of-life and should be disconnected if
+    still in use.
+  dueDate: '2022-03-24'
+  notes: ''
+- cveID: CVE-2015-4902
+  vendorProject: Oracle
+  product: Java SE
+  vulnerabilityName: Oracle Java SE Integrity Check Vulnerability
+  dateAdded: '2022-03-03'
+  shortDescription: Unspecified vulnerability in Oracle Java SE allows remote attackers
+    to affect integrity via unknown vectors related to deployment.
+  requiredAction: Apply updates per vendor instructions.
+  dueDate: '2022-03-24'
+  notes: ''
+- cveID: CVE-2015-3043
+  vendorProject: Adobe
+  product: Flash Player
+  vulnerabilityName: Adobe Flash Player Memory Corruption Vulnerability
+  dateAdded: '2022-03-03'
+  shortDescription: A memory corruption vulnerability exists in Adobe Flash Player
+    that allows an attacker to perform remote code execution.
+  requiredAction: The impacted product is end-of-life and should be disconnected if
+    still in use.
+  dueDate: '2022-03-24'
+  notes: ''
+- cveID: CVE-2015-2590
+  vendorProject: Oracle
+  product: Java SE
+  vulnerabilityName: Oracle Java SE and Java SE Embedded Remote Code Execution Vulnerability
+  dateAdded: '2022-03-03'
+  shortDescription: An unspecified vulnerability exists within Oracle Java Runtime
+    Environment that allows an attacker to perform remote code execution.
+  requiredAction: Apply updates per vendor instructions.
+  dueDate: '2022-03-24'
+  notes: ''
+- cveID: CVE-2015-2545
+  vendorProject: Microsoft
+  product: Office
+  vulnerabilityName: Microsoft Office Malformed EPS File Vulnerability
+  dateAdded: '2022-03-03'
+  shortDescription: Microsoft Office allows remote attackers to execute arbitrary
+    code via a crafted EPS image.
+  requiredAction: Apply updates per vendor instructions.
+  dueDate: '2022-03-24'
+  notes: ''
+- cveID: CVE-2015-2424
+  vendorProject: Microsoft
+  product: PowerPoint
+  vulnerabilityName: Microsoft PowerPoint Memory Corruption Vulnerability
+  dateAdded: '2022-03-03'
+  shortDescription: Microsoft PowerPoint allows remote attackers to execute arbitrary
+    code or cause a denial of service (memory corruption) via a crafted Office document.
+  requiredAction: Apply updates per vendor instructions.
+  dueDate: '2022-03-24'
+  notes: ''
+- cveID: CVE-2015-2387
+  vendorProject: Microsoft
+  product: ATM Font Driver
+  vulnerabilityName: Microsoft ATM Font Driver Privilege Escalation Vulnerability
+  dateAdded: '2022-03-03'
+  shortDescription: ATMFD.DLL in the Adobe Type Manager Font Driver in Microsoft Windows
+    Server allows local users to gain privileges via a crafted application.
+  requiredAction: Apply updates per vendor instructions.
+  dueDate: '2022-03-24'
+  notes: ''
+- cveID: CVE-2015-1701
+  vendorProject: Microsoft
+  product: Win32k
+  vulnerabilityName: Microsoft Win32k Privilege Escalation Vulnerability
+  dateAdded: '2022-03-03'
+  shortDescription: An unspecified vulnerability exists in the Win32k.sys kernel-mode
+    driver in Microsoft Windows Server that allows a local attacker to execute arbitrary
+    code with elevated privileges.
+  requiredAction: Apply updates per vendor instructions.
+  dueDate: '2022-03-24'
+  notes: ''
+- cveID: CVE-2015-1642
+  vendorProject: Microsoft
+  product: Office
+  vulnerabilityName: Microsoft Office Memory Corruption Vulnerability
+  dateAdded: '2022-03-03'
+  shortDescription: Microsoft Office contains a memory corruption vulnerability which
+    allows remote attackers to execute arbitrary code via a crafted document.
+  requiredAction: Apply updates per vendor instructions.
+  dueDate: '2022-03-24'
+  notes: ''
+- cveID: CVE-2014-4114
+  vendorProject: Microsoft
+  product: Windows
+  vulnerabilityName: Microsoft Windows Object Linking & Embedding (OLE) Remote Code
+    Execution Vulnerability
+  dateAdded: '2022-03-03'
+  shortDescription: A vulnerability exists in Windows Object Linking & Embedding (OLE)
+    that could allow remote code execution if a user opens a file that contains a
+    specially crafted OLE object.
+  requiredAction: Apply updates per vendor instructions.
+  dueDate: '2022-03-24'
+  notes: ''
+- cveID: CVE-2014-0496
+  vendorProject: Adobe
+  product: Reader and Acrobat
+  vulnerabilityName: Adobe Reader and Acrobat Use-After-Free Vulnerability
+  dateAdded: '2022-03-03'
+  shortDescription: Adobe Reader and Acrobat contain a use-after-free vulnerability
+    which can allow for code execution.
+  requiredAction: Apply updates per vendor instructions.
+  dueDate: '2022-03-24'
+  notes: ''
+- cveID: CVE-2013-5065
+  vendorProject: Microsoft
+  product: Windows
+  vulnerabilityName: Microsoft Windows Kernel Privilege Escalation Vulnerability
+  dateAdded: '2022-03-03'
+  shortDescription: Microsoft Windows NDProxy.sys in the kernel contains an improper
+    input validation vulnerability which can allow a local attacker to escalate privileges.
+  requiredAction: Apply updates per vendor instructions.
+  dueDate: '2022-03-24'
+  notes: ''
+- cveID: CVE-2013-3897
+  vendorProject: Microsoft
+  product: Internet Explorer
+  vulnerabilityName: Microsoft Internet Explorer Use-After-Free Vulnerability
+  dateAdded: '2022-03-03'
+  shortDescription: A use-after-free vulnerability exists within CDisplayPointer in
+    Microsoft Internet Explorer that allows an attacker to remotely execute arbitrary
+    code.
+  requiredAction: Apply updates per vendor instructions.
+  dueDate: '2022-03-24'
+  notes: ''
+- cveID: CVE-2013-3346
+  vendorProject: Adobe
+  product: Reader and Acrobat
+  vulnerabilityName: Adobe Reader and Acrobat Memory Corruption Vulnerability
+  dateAdded: '2022-03-03'
+  shortDescription: Adobe Reader and Acrobat contain a memory corruption vulnerability
+    which can allow attackers to execute arbitrary code or cause a denial of service.
+  requiredAction: Apply updates per vendor instructions.
+  dueDate: '2022-03-24'
+  notes: ''
+- cveID: CVE-2013-1675
+  vendorProject: Mozilla
+  product: Firefox
+  vulnerabilityName: Mozilla Firefox Information Disclosure Vulnerability
+  dateAdded: '2022-03-03'
+  shortDescription: Mozilla Firefox does not properly initialize data structures for
+    the nsDOMSVGZoomEvent::mPreviousScale and nsDOMSVGZoomEvent::mNewScale functions,
+    which allows remote attackers to obtain sensitive information from process memory
+    via a crafted web site.
+  requiredAction: Apply updates per vendor instructions.
+  dueDate: '2022-03-24'
+  notes: ''
+- cveID: CVE-2013-1347
+  vendorProject: Microsoft
+  product: Internet Explorer
+  vulnerabilityName: Microsoft Internet Explorer Remote Code Execution Vulnerability
+  dateAdded: '2022-03-03'
+  shortDescription: This vulnerability may corrupt memory in a way that could allow
+    an attacker to execute arbitrary code in the context of the current user within
+    Internet Explorer.
+  requiredAction: Apply updates per vendor instructions.
+  dueDate: '2022-03-24'
+  notes: ''
+- cveID: CVE-2013-0641
+  vendorProject: Adobe
+  product: Reader
+  vulnerabilityName: Adobe Reader Buffer Overflow Vulnerability
+  dateAdded: '2022-03-03'
+  shortDescription: A buffer overflow vulnerability exists in Adobe Reader which allows
+    an attacker to perform remote code execution.
+  requiredAction: Apply updates per vendor instructions.
+  dueDate: '2022-03-24'
+  notes: ''
+- cveID: CVE-2013-0640
+  vendorProject: Adobe
+  product: Reader and Acrobat
+  vulnerabilityName: Adobe Reader and Acrobat Memory Corruption Vulnerability
+  dateAdded: '2022-03-03'
+  shortDescription: An memory corruption vulnerability exists in the acroform.dll
+    in Adobe Reader that allows an attacker to perform remote code execution.
+  requiredAction: Apply updates per vendor instructions.
+  dueDate: '2022-03-24'
+  notes: ''
+- cveID: CVE-2013-0632
+  vendorProject: Adobe
+  product: ColdFusion
+  vulnerabilityName: Adobe ColdFusion Authentication Bypass Vulnerability
+  dateAdded: '2022-03-03'
+  shortDescription: An authentication bypass vulnerability exists in Adobe ColdFusion
+    which could result in an unauthorized user gaining administrative access.
+  requiredAction: Apply updates per vendor instructions.
+  dueDate: '2022-03-24'
+  notes: ''
+- cveID: CVE-2012-4681
+  vendorProject: Oracle
+  product: Java SE
+  vulnerabilityName: Oracle Java SE Runtime Environment (JRE) Arbitrary Code Execution
+    Vulnerability
+  dateAdded: '2022-03-03'
+  shortDescription: The Java Runtime Environment (JRE) component in Oracle Java SE
+    allow for remote code execution.
+  requiredAction: Apply updates per vendor instructions.
+  dueDate: '2022-03-24'
+  notes: ''
+- cveID: CVE-2012-1856
+  vendorProject: Microsoft
+  product: Office
+  vulnerabilityName: Microsoft Office MSCOMCTL.OCX Remote Code Execution Vulnerability
+  dateAdded: '2022-03-03'
+  shortDescription: The TabStrip ActiveX control in the Common Controls in MSCOMCTL.OCX
+    in Microsoft Office allows remote attackers to execute arbitrary code via a crafted
+    (1) document or (2) web page that triggers system-state corruption.
+  requiredAction: Apply updates per vendor instructions.
+  dueDate: '2022-03-24'
+  notes: ''
+- cveID: CVE-2012-1723
+  vendorProject: Oracle
+  product: Java SE
+  vulnerabilityName: Oracle Java SE Runtime Environment (JRE) Arbitrary Code Execution
+    Vulnerability
+  dateAdded: '2022-03-03'
+  shortDescription: Unspecified vulnerability in the Java Runtime Environment (JRE)
+    component in Oracle Java SE allows remote attackers to affect confidentiality,
+    integrity, and availability via unknown vectors related to Hotspot.
+  requiredAction: Apply updates per vendor instructions.
+  dueDate: '2022-03-24'
+  notes: ''
+- cveID: CVE-2012-1535
+  vendorProject: Adobe
+  product: Flash Player
+  vulnerabilityName: Adobe Flash Player Arbitrary Code Execution Vulnerability
+  dateAdded: '2022-03-03'
+  shortDescription: Unspecified vulnerability in Adobe Flash Player allows remote
+    attackers to execute arbitrary code or cause a denial of service via crafted SWF
+    content.
+  requiredAction: The impacted product is end-of-life and should be disconnected if
+    still in use.
+  dueDate: '2022-03-24'
+  notes: ''
+- cveID: CVE-2012-0507
+  vendorProject: Oracle
+  product: Java SE
+  vulnerabilityName: Oracle Java SE Runtime Environment (JRE) Arbitrary Code Execution
+    Vulnerability
+  dateAdded: '2022-03-03'
+  shortDescription: An incorrect type vulnerability exists in the Concurrency component
+    of Oracle's Java Runtime Environment allows an attacker to remotely execute arbitrary
+    code.
+  requiredAction: Apply updates per vendor instructions.
+  dueDate: '2022-03-24'
+  notes: ''
+- cveID: CVE-2011-3544
+  vendorProject: Oracle
+  product: Java SE JDK and JRE
+  vulnerabilityName: Oracle Java SE Runtime Environment (JRE) Arbitrary Code Execution
+    Vulnerability
+  dateAdded: '2022-03-03'
+  shortDescription: An access control vulnerability exists in the Applet Rhino Script
+    Engine component of Oracle's Java Runtime Environment allows an attacker to remotely
+    execute arbitrary code.
+  requiredAction: Apply updates per vendor instructions.
+  dueDate: '2022-03-24'
+  notes: ''
+- cveID: CVE-2011-1889
+  vendorProject: Microsoft
+  product: Forefront Threat Management Gateway (TMG)
+  vulnerabilityName: Microsoft Forefront TMG Remote Code Execution Vulnerability
+  dateAdded: '2022-03-03'
+  shortDescription: A remote code execution vulnerability exists in the Forefront
+    Threat Management Gateway (TMG) Firewall Client Winsock provider that could allow
+    code execution in the security context of the client application.
+  requiredAction: Apply updates per vendor instructions.
+  dueDate: '2022-03-24'
+  notes: ''
+- cveID: CVE-2011-0611
+  vendorProject: Adobe
+  product: Flash Player
+  vulnerabilityName: Adobe Flash Player Remote Code Execution Vulnerability
+  dateAdded: '2022-03-03'
+  shortDescription: Adobe Flash Player contains a vulnerability which allows remote
+    attackers to execute arbitrary code or cause a denial of service (application
+    crash) via crafted Flash content.
+  requiredAction: The impacted product is end-of-life and should be disconnected if
+    still in use.
+  dueDate: '2022-03-24'
+  notes: ''
+- cveID: CVE-2010-3333
+  vendorProject: Microsoft
+  product: Office
+  vulnerabilityName: Microsoft Office Stack-based Buffer Overflow Vulnerability
+  dateAdded: '2022-03-03'
+  shortDescription: A stack-based buffer overflow vulnerability exists in the parsing
+    of RTF data in Microsoft Office and earlier allows an attacker to perform remote
+    code execution.
+  requiredAction: Apply updates per vendor instructions.
+  dueDate: '2022-03-24'
+  notes: ''
+- cveID: CVE-2010-0232
+  vendorProject: Microsoft
+  product: Windows
+  vulnerabilityName: Microsoft Windows Kernel Exception Handler Vulnerability
+  dateAdded: '2022-03-03'
+  shortDescription: The kernel in Microsoft Windows, when access to 16-bit applications
+    is enabled on a 32-bit x86 platform, does not properly validate certain BIOS calls,
+    which allows local users to gain privileges.
+  requiredAction: Apply updates per vendor instructions.
+  dueDate: '2022-03-24'
+  notes: ''
+- cveID: CVE-2010-0188
+  vendorProject: Adobe
+  product: Reader and Acrobat
+  vulnerabilityName: Adobe Reader and Acrobat Arbitrary Code Execution Vulnerability
+  dateAdded: '2022-03-03'
+  shortDescription: Unspecified vulnerability in Adobe Reader and Acrobat allows attackers
+    to cause a denial of service or possibly execute arbitrary code.
+  requiredAction: Apply updates per vendor instructions.
+  dueDate: '2022-03-24'
+  notes: ''
+- cveID: CVE-2009-3129
+  vendorProject: Microsoft
+  product: Excel
+  vulnerabilityName: Microsoft Excel Featheader Record Memory Corruption Vulnerability
+  dateAdded: '2022-03-03'
+  shortDescription: Microsoft Office Excel allows remote attackers to execute arbitrary
+    code via a spreadsheet with a FEATHEADER record containing an invalid cbHdrData
+    size element that affects a pointer offset.
+  requiredAction: Apply updates per vendor instructions.
+  dueDate: '2022-03-24'
+  notes: ''
+- cveID: CVE-2009-1123
+  vendorProject: Microsoft
+  product: Windows
+  vulnerabilityName: Microsoft Windows Improper Input Validation Vulnerability
+  dateAdded: '2022-03-03'
+  shortDescription: The kernel in Microsoft Windows does not properly validate changes
+    to unspecified kernel objects, which allows local users to gain privileges via
+    a crafted application.
+  requiredAction: Apply updates per vendor instructions.
+  dueDate: '2022-03-24'
+  notes: ''
+- cveID: CVE-2008-3431
+  vendorProject: Oracle
+  product: VirtualBox
+  vulnerabilityName: Oracle VirtualBox Insufficient Input Validation Vulnerability
+  dateAdded: '2022-03-03'
+  shortDescription: An input validation vulnerability exists in the VBoxDrv.sys driver
+    of Sun xVM VirtualBox which allows attackers to locally execute arbitrary code.
+  requiredAction: Apply updates per vendor instructions.
+  dueDate: '2022-03-24'
+  notes: ''
+- cveID: CVE-2008-2992
+  vendorProject: Adobe
+  product: Acrobat and Reader
+  vulnerabilityName: Adobe Reader and Acrobat Input Validation Vulnerability
+  dateAdded: '2022-03-03'
+  shortDescription: Adobe Acrobat and Reader contain an input validation issue in
+    a JavaScript method that could potentially lead to remote code execution.
+  requiredAction: Apply updates per vendor instructions.
+  dueDate: '2022-03-24'
+  notes: ''
+- cveID: CVE-2004-0210
+  vendorProject: Microsoft
+  product: Windows
+  vulnerabilityName: Microsoft Windows Privilege Escalation Vulnerability
+  dateAdded: '2022-03-03'
+  shortDescription: A privilege elevation vulnerability exists in the POSIX subsystem.
+    This vulnerability could allow a logged on user to take complete control of the
+    system.
+  requiredAction: Apply updates per vendor instructions.
+  dueDate: '2022-03-24'
+  notes: ''
+- cveID: CVE-2002-0367
+  vendorProject: Microsoft
+  product: Windows
+  vulnerabilityName: Microsoft Windows Privilege Escalation Vulnerability
+  dateAdded: '2022-03-03'
+  shortDescription: smss.exe debugging subsystem in Microsoft Windows does not properly
+    authenticate programs that connect to other programs, which allows local users
+    to gain administrator or SYSTEM privileges.
+  requiredAction: Apply updates per vendor instructions.
+  dueDate: '2022-03-24'
+  notes: ''

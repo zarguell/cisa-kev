@@ -1,0 +1,32 @@
+- cveID: CVE-2021-37415
+  vendorProject: Zoho
+  product: ManageEngine ServiceDesk Plus (SDP)
+  vulnerabilityName: Zoho ManageEngine ServiceDesk Authentication Bypass Vulnerability
+  dateAdded: '2021-12-01'
+  shortDescription: Zoho ManageEngine ServiceDesk Plus before 11302 is vulnerable
+    to authentication bypass that allows a few REST-API URLs without authentication
+  requiredAction: Apply updates per vendor instructions.
+  dueDate: '2021-12-15'
+  notes: ''
+- cveID: CVE-2021-40438
+  vendorProject: Apache
+  product: Apache
+  vulnerabilityName: Apache HTTP Server-Side Request Forgery (SSRF)
+  dateAdded: '2021-12-01'
+  shortDescription: A crafted request uri-path can cause mod_proxy to forward the
+    request to an origin server choosen by the remote user. This issue affects Apache
+    HTTP Server 2.4.48 and earlier.
+  requiredAction: Apply updates per vendor instructions.
+  dueDate: '2021-12-15'
+  notes: ''
+- cveID: CVE-2021-44077
+  vendorProject: Zoho
+  product: ManageEngine ServiceDesk Plus (SDP) / SupportCenter Plus
+  vulnerabilityName: Zoho ManageEngine ServiceDesk Plus Remote Code Execution Vulnerability
+  dateAdded: '2021-12-01'
+  shortDescription: Zoho ManageEngine ServiceDesk Plus before 11306, ServiceDesk Plus
+    MSP before 10530, and SupportCenter Plus before 11014 are vulnerable to unauthenticated
+    remote code execution
+  requiredAction: Apply updates per vendor instructions.
+  dueDate: '2021-12-15'
+  notes: ''

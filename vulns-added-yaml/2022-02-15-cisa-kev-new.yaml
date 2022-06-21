@@ -1,0 +1,95 @@
+- cveID: CVE-2022-24086
+  vendorProject: Adobe
+  product: Commerce and Magento Open Source
+  vulnerabilityName: Adobe Commerce and Magento Open Source Improper Input Validation
+    Vulnerability
+  dateAdded: '2022-02-15'
+  shortDescription: Adobe Commerce and Magento Open Source contain an improper input
+    validation vulnerability which can allow for arbitrary code execution.
+  requiredAction: Apply updates per vendor instructions.
+  dueDate: '2022-03-01'
+  notes: ''
+- cveID: CVE-2022-0609
+  vendorProject: Google
+  product: Chrome
+  vulnerabilityName: Google Chrome Use-After-Free Vulnerability
+  dateAdded: '2022-02-15'
+  shortDescription: The vulnerability exists due to a use-after-free error within
+    the Animation component in Google Chrome.
+  requiredAction: Apply updates per vendor instructions.
+  dueDate: '2022-03-01'
+  notes: ''
+- cveID: CVE-2019-0752
+  vendorProject: Microsoft
+  product: Internet Explorer
+  vulnerabilityName: Microsoft Internet Explorer Type Confusion Vulnerability
+  dateAdded: '2022-02-15'
+  shortDescription: A remote code execution vulnerability exists in the way that the
+    scripting engine handles objects in memory in Internet Explorer
+  requiredAction: Apply updates per vendor instructions.
+  dueDate: '2022-08-15'
+  notes: ''
+- cveID: CVE-2018-8174
+  vendorProject: Microsoft
+  product: Windows
+  vulnerabilityName: Microsoft Windows VBScript Engine Out-of-Bounds Write Vulnerability
+  dateAdded: '2022-02-15'
+  shortDescription: A remote code execution vulnerability exists in the way that the
+    VBScript engine handles objects in memory, aka "Windows VBScript Engine Remote
+    Code Execution"
+  requiredAction: Apply updates per vendor instructions.
+  dueDate: '2022-08-15'
+  notes: ''
+- cveID: CVE-2018-20250
+  vendorProject: RARLAB
+  product: WinRAR
+  vulnerabilityName: WinRAR Absolute Path Traversal Vulnerability
+  dateAdded: '2022-02-15'
+  shortDescription: WinRAR Absolute Path Traversal vulnerability leads to Remote Code
+    Execution
+  requiredAction: Apply updates per vendor instructions.
+  dueDate: '2022-08-15'
+  notes: ''
+- cveID: CVE-2018-15982
+  vendorProject: Adobe
+  product: Flash Player
+  vulnerabilityName: Adobe Flash Player Use-After-Free Vulnerability
+  dateAdded: '2022-02-15'
+  shortDescription: Adobe Flash Player com.adobe.tvsdk.mediacore.metadata Use After
+    Free Vulnerability
+  requiredAction: The impacted product is end-of-life and should be disconnected if
+    still in use.
+  dueDate: '2022-08-15'
+  notes: ''
+- cveID: CVE-2017-9841
+  vendorProject: PHPUnit
+  product: PHPUnit
+  vulnerabilityName: PHPUnit Command Injection Vulnerability
+  dateAdded: '2022-02-15'
+  shortDescription: PHPUnit allows remote attackers to execute arbitrary PHP code
+    via HTTP POST data beginning with a "<?php " substring, as demonstrated by an
+    attack on a site with an exposed /vendor folder, i.e., external access to the
+    /vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php URI.
+  requiredAction: Apply updates per vendor instructions.
+  dueDate: '2022-08-15'
+  notes: ''
+- cveID: CVE-2014-1761
+  vendorProject: Microsoft
+  product: Word
+  vulnerabilityName: Microsoft Word Memory Corruption Vulnerability
+  dateAdded: '2022-02-15'
+  shortDescription: Microsoft Word contains a memory corruption vulnerability which
+    when exploited could allow for remote code execution.
+  requiredAction: Apply updates per vendor instructions.
+  dueDate: '2022-08-15'
+  notes: ''
+- cveID: CVE-2013-3906
+  vendorProject: Microsoft
+  product: Graphics Component
+  vulnerabilityName: Microsoft Graphics Component Memory Corruption Vulnerability
+  dateAdded: '2022-02-15'
+  shortDescription: Microsoft Graphics Component contains a memory corruption vulnerability
+    which can allow for remote code execution.
+  requiredAction: Apply updates per vendor instructions.
+  dueDate: '2022-08-15'
+  notes: ''

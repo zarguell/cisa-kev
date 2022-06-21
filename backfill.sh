@@ -15,6 +15,10 @@ while [ "$d" != 2022-06-23 ]; do
   cat cisa-kev-latest.json | jq --arg d "$d" '.vulnerabilities[] | select(.dueDate==$d)' | jq -s . - > vulns-due/$d-cisa-kev-due.json
   cat cisa-kev-latest.json | jq --arg d "$d" '.vulnerabilities[] |  select(.dateAdded==$d)' | jq -s . - > vulns-added/$d-cisa-kev-new.json
 
+#convert yaml
+  cat vulns-added/$d-cisa-kev-new.json | yq -y > vulns-added-yaml/$d-cisa-kev-new.yaml
+  cat vulns-due/$d-cisa-kev-due.json | yq -y > vulns-due-yaml/$d-cisa-kev-due.yaml
+
 done
 
 #clean empties
