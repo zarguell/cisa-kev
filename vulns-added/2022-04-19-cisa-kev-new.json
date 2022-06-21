@@ -1,33 +1,35 @@
-{
-  "cveID": "CVE-2018-6882",
-  "vendorProject": "Zimbra",
-  "product": "Collaboration Suite (ZCS)",
-  "vulnerabilityName": "Zimbra Collaboration Suite (ZCS) Cross-Site Scripting (XSS) Vulnerability",
-  "dateAdded": "2022-04-19",
-  "shortDescription": "Zimbra Collaboration Suite (ZCS) contains a cross-site scripting vulnerability that might allow remote attackers to inject arbitrary web script or HTML.",
-  "requiredAction": "Apply updates per vendor instructions.",
-  "dueDate": "2022-05-10",
-  "notes": ""
-}
-{
-  "cveID": "CVE-2019-3568",
-  "vendorProject": "Meta Platforms",
-  "product": "WhatsApp",
-  "vulnerabilityName": "WhatsApp VOIP Stack Buffer Overflow Vulnerability",
-  "dateAdded": "2022-04-19",
-  "shortDescription": "A buffer overflow vulnerability in WhatsApp VOIP stack allowed remote code execution via specially crafted series of RTCP packets sent to a target phone number.",
-  "requiredAction": "Apply updates per vendor instructions.",
-  "dueDate": "2022-05-10",
-  "notes": ""
-}
-{
-  "cveID": "CVE-2022-22718",
-  "vendorProject": "Microsoft",
-  "product": "Windows",
-  "vulnerabilityName": "Microsoft Windows Print Spooler Privilege Escalation Vulnerability",
-  "dateAdded": "2022-04-19",
-  "shortDescription": "Microsoft Windows Print Spooler contains an unspecified vulnerability which allow for privilege escalation.",
-  "requiredAction": "Apply updates per vendor instructions.",
-  "dueDate": "2022-05-10",
-  "notes": ""
-}
+[
+  {
+    "cveID": "CVE-2018-6882",
+    "vendorProject": "Zimbra",
+    "product": "Collaboration Suite (ZCS)",
+    "vulnerabilityName": "Zimbra Collaboration Suite (ZCS) Cross-Site Scripting (XSS) Vulnerability",
+    "dateAdded": "2022-04-19",
+    "shortDescription": "Zimbra Collaboration Suite (ZCS) contains a cross-site scripting vulnerability that might allow remote attackers to inject arbitrary web script or HTML.",
+    "requiredAction": "Apply updates per vendor instructions.",
+    "dueDate": "2022-05-10",
+    "notes": ""
+  },
+  {
+    "cveID": "CVE-2019-3568",
+    "vendorProject": "Meta Platforms",
+    "product": "WhatsApp",
+    "vulnerabilityName": "WhatsApp VOIP Stack Buffer Overflow Vulnerability",
+    "dateAdded": "2022-04-19",
+    "shortDescription": "A buffer overflow vulnerability in WhatsApp VOIP stack allowed remote code execution via specially crafted series of RTCP packets sent to a target phone number.",
+    "requiredAction": "Apply updates per vendor instructions.",
+    "dueDate": "2022-05-10",
+    "notes": ""
+  },
+  {
+    "cveID": "CVE-2022-22718",
+    "vendorProject": "Microsoft",
+    "product": "Windows",
+    "vulnerabilityName": "Microsoft Windows Print Spooler Privilege Escalation Vulnerability",
+    "dateAdded": "2022-04-19",
+    "shortDescription": "Microsoft Windows Print Spooler contains an unspecified vulnerability which allow for privilege escalation.",
+    "requiredAction": "Apply updates per vendor instructions.",
+    "dueDate": "2022-05-10",
+    "notes": ""
+  }
+]

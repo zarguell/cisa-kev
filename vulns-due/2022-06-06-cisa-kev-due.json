@@ -1,33 +1,35 @@
-{
-  "cveID": "CVE-2022-30525",
-  "vendorProject": "Zyxel",
-  "product": "Multiple Firewalls",
-  "vulnerabilityName": "Zyxel Multiple Firewalls OS Command Injection Vulnerability",
-  "dateAdded": "2022-05-16",
-  "shortDescription": "A command injection vulnerability in the CGI program of some Zyxel firewall versions could allow an attacker to modify specific files and then execute some OS commands on a vulnerable device.",
-  "requiredAction": "Apply updates per vendor instructions.",
-  "dueDate": "2022-06-06",
-  "notes": ""
-}
-{
-  "cveID": "CVE-2022-22947",
-  "vendorProject": "VMware",
-  "product": "Spring Cloud Gateway",
-  "vulnerabilityName": "VMware Spring Cloud Gateway Code Injection Vulnerability",
-  "dateAdded": "2022-05-16",
-  "shortDescription": "Spring Cloud Gateway applications are vulnerable to a code injection attack when the Gateway Actuator endpoint is enabled, exposed and unsecured.",
-  "requiredAction": "Apply updates per vendor instructions.",
-  "dueDate": "2022-06-06",
-  "notes": ""
-}
-{
-  "cveID": "CVE-2022-26134",
-  "vendorProject": "Atlassian",
-  "product": "Confluence Server/Data Center",
-  "vulnerabilityName": "Atlassian Confluence Server and Data Center Remote Code Execution Vulnerability",
-  "dateAdded": "2022-06-02",
-  "shortDescription": "Atlassian Confluence Server and Data Center contain a remote code execution vulnerability that allows for an unauthenticated attacker to perform remote code execution.",
-  "requiredAction": "Immediately block all internet traffic to and from affected products AND apply the update per vendor instructions [https://confluence.atlassian.com/doc/confluence-security-advisory-2022-06-02-1130377146.html] OR remove the affected products by the due date on the right. Note: Once the update is successfully deployed, agencies can reassess the internet blocking rules.",
-  "dueDate": "2022-06-06",
-  "notes": ""
-}
+[
+  {
+    "cveID": "CVE-2022-30525",
+    "vendorProject": "Zyxel",
+    "product": "Multiple Firewalls",
+    "vulnerabilityName": "Zyxel Multiple Firewalls OS Command Injection Vulnerability",
+    "dateAdded": "2022-05-16",
+    "shortDescription": "A command injection vulnerability in the CGI program of some Zyxel firewall versions could allow an attacker to modify specific files and then execute some OS commands on a vulnerable device.",
+    "requiredAction": "Apply updates per vendor instructions.",
+    "dueDate": "2022-06-06",
+    "notes": ""
+  },
+  {
+    "cveID": "CVE-2022-22947",
+    "vendorProject": "VMware",
+    "product": "Spring Cloud Gateway",
+    "vulnerabilityName": "VMware Spring Cloud Gateway Code Injection Vulnerability",
+    "dateAdded": "2022-05-16",
+    "shortDescription": "Spring Cloud Gateway applications are vulnerable to a code injection attack when the Gateway Actuator endpoint is enabled, exposed and unsecured.",
+    "requiredAction": "Apply updates per vendor instructions.",
+    "dueDate": "2022-06-06",
+    "notes": ""
+  },
+  {
+    "cveID": "CVE-2022-26134",
+    "vendorProject": "Atlassian",
+    "product": "Confluence Server/Data Center",
+    "vulnerabilityName": "Atlassian Confluence Server and Data Center Remote Code Execution Vulnerability",
+    "dateAdded": "2022-06-02",
+    "shortDescription": "Atlassian Confluence Server and Data Center contain a remote code execution vulnerability that allows for an unauthenticated attacker to perform remote code execution.",
+    "requiredAction": "Immediately block all internet traffic to and from affected products AND apply the update per vendor instructions [https://confluence.atlassian.com/doc/confluence-security-advisory-2022-06-02-1130377146.html] OR remove the affected products by the due date on the right. Note: Once the update is successfully deployed, agencies can reassess the internet blocking rules.",
+    "dueDate": "2022-06-06",
+    "notes": ""
+  }
+]

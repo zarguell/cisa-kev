@@ -1,99 +1,101 @@
-{
-  "cveID": "CVE-2021-32648",
-  "vendorProject": "October CMS",
-  "product": "October CMS",
-  "vulnerabilityName": "October CMS Improper Authentication",
-  "dateAdded": "2022-01-18",
-  "shortDescription": "In affected versions of the october/system package an attacker can request an account password reset and then gain access to the account using a specially crafted request.",
-  "requiredAction": "Apply updates per vendor instructions.",
-  "dueDate": "2022-02-01",
-  "notes": ""
-}
-{
-  "cveID": "CVE-2021-25296",
-  "vendorProject": "Nagios",
-  "product": "Nagios XI",
-  "vulnerabilityName": "Nagios XI OS Command Injection",
-  "dateAdded": "2022-01-18",
-  "shortDescription": "Nagios XI contains a vulnerability which can lead to OS command injection on the Nagios XI server.",
-  "requiredAction": "Apply updates per vendor instructions.",
-  "dueDate": "2022-02-01",
-  "notes": ""
-}
-{
-  "cveID": "CVE-2021-25297",
-  "vendorProject": "Nagios",
-  "product": "Nagios XI",
-  "vulnerabilityName": "Nagios XI OS Command Injection",
-  "dateAdded": "2022-01-18",
-  "shortDescription": "Nagios XI contains a vulnerability which can lead to OS command injection on the Nagios XI server.",
-  "requiredAction": "Apply updates per vendor instructions.",
-  "dueDate": "2022-02-01",
-  "notes": ""
-}
-{
-  "cveID": "CVE-2021-25298",
-  "vendorProject": "Nagios",
-  "product": "Nagios XI",
-  "vulnerabilityName": "Nagios XI OS Command Injection",
-  "dateAdded": "2022-01-18",
-  "shortDescription": "Nagios XI contains a vulnerability which can lead to OS command injection on the Nagios XI server.",
-  "requiredAction": "Apply updates per vendor instructions.",
-  "dueDate": "2022-02-01",
-  "notes": ""
-}
-{
-  "cveID": "CVE-2021-40870",
-  "vendorProject": "Aviatrix",
-  "product": "Aviatrix Controller",
-  "vulnerabilityName": "Aviatrix Controller Unrestricted Upload of File",
-  "dateAdded": "2022-01-18",
-  "shortDescription": "Unrestricted upload of a file with a dangerous type is possible, which allows an unauthenticated user to execute arbitrary code via directory traversal.",
-  "requiredAction": "Apply updates per vendor instructions.",
-  "dueDate": "2022-02-01",
-  "notes": ""
-}
-{
-  "cveID": "CVE-2021-33766",
-  "vendorProject": "Microsoft",
-  "product": "Exchange Server",
-  "vulnerabilityName": "Microsoft Exchange Server Information Disclosure",
-  "dateAdded": "2022-01-18",
-  "shortDescription": "Microsoft Exchange Server contains an information disclosure vulnerability which can allow an unauthenticated attacker to steal email traffic from target.",
-  "requiredAction": "Apply updates per vendor instructions.",
-  "dueDate": "2022-02-01",
-  "notes": ""
-}
-{
-  "cveID": "CVE-2021-21975",
-  "vendorProject": "VMware",
-  "product": "vRealize Operations Manager API",
-  "vulnerabilityName": "VMware Server Side Request Forgery in vRealize Operations Manager API",
-  "dateAdded": "2022-01-18",
-  "shortDescription": "Server Side Request Forgery (SSRF) in vRealize Operations Manager API prior to 8.4 may allow a malicious actor with network access to the vRealize Operations Manager API to perform a SSRF attack to steal administrative credentials.",
-  "requiredAction": "Apply updates per vendor instructions.",
-  "dueDate": "2022-02-01",
-  "notes": ""
-}
-{
-  "cveID": "CVE-2021-21315",
-  "vendorProject": "Npm package",
-  "product": "System Information Library for Node.JS",
-  "vulnerabilityName": "System Information Library for Node.JS Command Injection",
-  "dateAdded": "2022-01-18",
-  "shortDescription": "In this vulnerability, an attacker can send a malicious payload that will exploit the name parameter. After successful exploitation, attackers can execute remote.",
-  "requiredAction": "Apply updates per vendor instructions.",
-  "dueDate": "2022-02-01",
-  "notes": ""
-}
-{
-  "cveID": "CVE-2021-22991",
-  "vendorProject": "F5",
-  "product": "BIG-IP Traffic Management Microkernel",
-  "vulnerabilityName": "F5 BIG-IP Traffic Management Microkernel Buffer Overflow",
-  "dateAdded": "2022-01-18",
-  "shortDescription": "The Traffic Management Microkernel of BIG-IP ASM Risk Engine has a buffer overflow vulnerability, leading to a bypassing of URL-based access controls.",
-  "requiredAction": "Apply updates per vendor instructions.",
-  "dueDate": "2022-02-01",
-  "notes": ""
-}
+[
+  {
+    "cveID": "CVE-2021-32648",
+    "vendorProject": "October CMS",
+    "product": "October CMS",
+    "vulnerabilityName": "October CMS Improper Authentication",
+    "dateAdded": "2022-01-18",
+    "shortDescription": "In affected versions of the october/system package an attacker can request an account password reset and then gain access to the account using a specially crafted request.",
+    "requiredAction": "Apply updates per vendor instructions.",
+    "dueDate": "2022-02-01",
+    "notes": ""
+  },
+  {
+    "cveID": "CVE-2021-25296",
+    "vendorProject": "Nagios",
+    "product": "Nagios XI",
+    "vulnerabilityName": "Nagios XI OS Command Injection",
+    "dateAdded": "2022-01-18",
+    "shortDescription": "Nagios XI contains a vulnerability which can lead to OS command injection on the Nagios XI server.",
+    "requiredAction": "Apply updates per vendor instructions.",
+    "dueDate": "2022-02-01",
+    "notes": ""
+  },
+  {
+    "cveID": "CVE-2021-25297",
+    "vendorProject": "Nagios",
+    "product": "Nagios XI",
+    "vulnerabilityName": "Nagios XI OS Command Injection",
+    "dateAdded": "2022-01-18",
+    "shortDescription": "Nagios XI contains a vulnerability which can lead to OS command injection on the Nagios XI server.",
+    "requiredAction": "Apply updates per vendor instructions.",
+    "dueDate": "2022-02-01",
+    "notes": ""
+  },
+  {
+    "cveID": "CVE-2021-25298",
+    "vendorProject": "Nagios",
+    "product": "Nagios XI",
+    "vulnerabilityName": "Nagios XI OS Command Injection",
+    "dateAdded": "2022-01-18",
+    "shortDescription": "Nagios XI contains a vulnerability which can lead to OS command injection on the Nagios XI server.",
+    "requiredAction": "Apply updates per vendor instructions.",
+    "dueDate": "2022-02-01",
+    "notes": ""
+  },
+  {
+    "cveID": "CVE-2021-40870",
+    "vendorProject": "Aviatrix",
+    "product": "Aviatrix Controller",
+    "vulnerabilityName": "Aviatrix Controller Unrestricted Upload of File",
+    "dateAdded": "2022-01-18",
+    "shortDescription": "Unrestricted upload of a file with a dangerous type is possible, which allows an unauthenticated user to execute arbitrary code via directory traversal.",
+    "requiredAction": "Apply updates per vendor instructions.",
+    "dueDate": "2022-02-01",
+    "notes": ""
+  },
+  {
+    "cveID": "CVE-2021-33766",
+    "vendorProject": "Microsoft",
+    "product": "Exchange Server",
+    "vulnerabilityName": "Microsoft Exchange Server Information Disclosure",
+    "dateAdded": "2022-01-18",
+    "shortDescription": "Microsoft Exchange Server contains an information disclosure vulnerability which can allow an unauthenticated attacker to steal email traffic from target.",
+    "requiredAction": "Apply updates per vendor instructions.",
+    "dueDate": "2022-02-01",
+    "notes": ""
+  },
+  {
+    "cveID": "CVE-2021-21975",
+    "vendorProject": "VMware",
+    "product": "vRealize Operations Manager API",
+    "vulnerabilityName": "VMware Server Side Request Forgery in vRealize Operations Manager API",
+    "dateAdded": "2022-01-18",
+    "shortDescription": "Server Side Request Forgery (SSRF) in vRealize Operations Manager API prior to 8.4 may allow a malicious actor with network access to the vRealize Operations Manager API to perform a SSRF attack to steal administrative credentials.",
+    "requiredAction": "Apply updates per vendor instructions.",
+    "dueDate": "2022-02-01",
+    "notes": ""
+  },
+  {
+    "cveID": "CVE-2021-21315",
+    "vendorProject": "Npm package",
+    "product": "System Information Library for Node.JS",
+    "vulnerabilityName": "System Information Library for Node.JS Command Injection",
+    "dateAdded": "2022-01-18",
+    "shortDescription": "In this vulnerability, an attacker can send a malicious payload that will exploit the name parameter. After successful exploitation, attackers can execute remote.",
+    "requiredAction": "Apply updates per vendor instructions.",
+    "dueDate": "2022-02-01",
+    "notes": ""
+  },
+  {
+    "cveID": "CVE-2021-22991",
+    "vendorProject": "F5",
+    "product": "BIG-IP Traffic Management Microkernel",
+    "vulnerabilityName": "F5 BIG-IP Traffic Management Microkernel Buffer Overflow",
+    "dateAdded": "2022-01-18",
+    "shortDescription": "The Traffic Management Microkernel of BIG-IP ASM Risk Engine has a buffer overflow vulnerability, leading to a bypassing of URL-based access controls.",
+    "requiredAction": "Apply updates per vendor instructions.",
+    "dueDate": "2022-02-01",
+    "notes": ""
+  }
+]

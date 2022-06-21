@@ -1,165 +1,167 @@
-{
-  "cveID": "CVE-2021-36934",
-  "vendorProject": "Microsoft",
-  "product": "Windows",
-  "vulnerabilityName": "Microsoft Windows SAM Local Privilege Escalation Vulnerability",
-  "dateAdded": "2022-02-10",
-  "shortDescription": "If a Volume Shadow Copy (VSS) shadow copy of the system drive is available, users can read the SAM file which would allow any user to escalate privileges to SYSTEM level.",
-  "requiredAction": "Apply updates per vendor instructions.",
-  "dueDate": "2022-02-24",
-  "notes": ""
-}
-{
-  "cveID": "CVE-2020-0796",
-  "vendorProject": "Microsoft",
-  "product": "SMBv3",
-  "vulnerabilityName": "Microsoft SMBv3 Remote Code Execution Vulnerability",
-  "dateAdded": "2022-02-10",
-  "shortDescription": "A remote code execution vulnerability exists in the way that the Microsoft Server Message Block 3.1.1 (SMBv3) protocol handles certain requests. An attacker who successfully exploited the vulnerability could gain the ability to execute code on the target server or client.",
-  "requiredAction": "Apply updates per vendor instructions.",
-  "dueDate": "2022-08-10",
-  "notes": ""
-}
-{
-  "cveID": "CVE-2018-1000861",
-  "vendorProject": "Jenkins",
-  "product": "Jenkins Stapler Web Framework",
-  "vulnerabilityName": "Jenkins Stapler Web Framework Deserialization of Untrusted Data Vulnerability",
-  "dateAdded": "2022-02-10",
-  "shortDescription": "A code execution vulnerability exists in the Stapler web framework used by Jenkins",
-  "requiredAction": "Apply updates per vendor instructions.",
-  "dueDate": "2022-08-10",
-  "notes": ""
-}
-{
-  "cveID": "CVE-2017-9791",
-  "vendorProject": "Apache",
-  "product": "Struts 1",
-  "vulnerabilityName": "Apache Struts 1 Improper Input Validation Vulnerability",
-  "dateAdded": "2022-02-10",
-  "shortDescription": "The Struts 1 plugin in Apache Struts might allow remote code execution via a malicious field value passed in a raw message to the ActionMessage.",
-  "requiredAction": "Apply updates per vendor instructions.",
-  "dueDate": "2022-08-10",
-  "notes": ""
-}
-{
-  "cveID": "CVE-2017-8464",
-  "vendorProject": "Microsoft",
-  "product": "Windows",
-  "vulnerabilityName": "Microsoft Windows Shell (.lnk) Remote Code Execution Vulnerability",
-  "dateAdded": "2022-02-10",
-  "shortDescription": "Windows Shell in multiple versions of Microsoft Windows allows local users or remote attackers to execute arbitrary code via a crafted .LNK file",
-  "requiredAction": "Apply updates per vendor instructions.",
-  "dueDate": "2022-08-10",
-  "notes": ""
-}
-{
-  "cveID": "CVE-2017-10271",
-  "vendorProject": "Oracle",
-  "product": "WebLogic Server",
-  "vulnerabilityName": "Oracle Corporation WebLogic Server Remote Code Execution Vulnerability",
-  "dateAdded": "2022-02-10",
-  "shortDescription": "Oracle Corporation WebLogic Server contains a vulnerability that allows for remote code execution.",
-  "requiredAction": "Apply updates per vendor instructions.",
-  "dueDate": "2022-08-10",
-  "notes": ""
-}
-{
-  "cveID": "CVE-2017-0263",
-  "vendorProject": "Microsoft",
-  "product": "Win32k",
-  "vulnerabilityName": "Microsoft Win32k Privilege Escalation Vulnerability",
-  "dateAdded": "2022-02-10",
-  "shortDescription": "Microsoft Win32k contains a privilege escalation vulnerability due to the Windows kernel-mode driver failing to properly handle objects in memory.",
-  "requiredAction": "Apply updates per vendor instructions.",
-  "dueDate": "2022-08-10",
-  "notes": ""
-}
-{
-  "cveID": "CVE-2017-0262",
-  "vendorProject": "Microsoft",
-  "product": "Office",
-  "vulnerabilityName": "Microsoft Office Remote Code Execution Vulnerability",
-  "dateAdded": "2022-02-10",
-  "shortDescription": "A remote code execution vulnerability exists in Microsoft Office.",
-  "requiredAction": "Apply updates per vendor instructions.",
-  "dueDate": "2022-08-10",
-  "notes": ""
-}
-{
-  "cveID": "CVE-2017-0145",
-  "vendorProject": "Microsoft",
-  "product": "SMBv1",
-  "vulnerabilityName": "Microsoft SMBv1 Remote Code Execution Vulnerability",
-  "dateAdded": "2022-02-10",
-  "shortDescription": "The SMBv1 server in multiple Microsoft Windows versions allows remote attackers to execute arbitrary code via crafted packets.",
-  "requiredAction": "Apply updates per vendor instructions.",
-  "dueDate": "2022-08-10",
-  "notes": ""
-}
-{
-  "cveID": "CVE-2017-0144",
-  "vendorProject": "Microsoft",
-  "product": "SMBv1",
-  "vulnerabilityName": "Microsoft SMBv1 Remote Code Execution Vulnerability",
-  "dateAdded": "2022-02-10",
-  "shortDescription": "The SMBv1 server in multiple Microsoft Windows versions allows remote attackers to execute arbitrary code via crafted packets.",
-  "requiredAction": "Apply updates per vendor instructions.",
-  "dueDate": "2022-08-10",
-  "notes": ""
-}
-{
-  "cveID": "CVE-2016-3088",
-  "vendorProject": "Apache",
-  "product": "ActiveMQ",
-  "vulnerabilityName": "Apache ActiveMQ Improper Input Validation Vulnerability",
-  "dateAdded": "2022-02-10",
-  "shortDescription": "The Fileserver web application in Apache ActiveMQ allows remote attackers to upload and execute arbitrary files via an HTTP PUT followed by an HTTP MOVE request",
-  "requiredAction": "Apply updates per vendor instructions.",
-  "dueDate": "2022-08-10",
-  "notes": ""
-}
-{
-  "cveID": "CVE-2015-2051",
-  "vendorProject": "D-Link",
-  "product": "DIR-645 Router",
-  "vulnerabilityName": "D-Link DIR-645 Router Remote Code Execution Vulnerability",
-  "dateAdded": "2022-02-10",
-  "shortDescription": "D-Link DIR-645 Wired/Wireless Router allows remote attackers to execute arbitrary commands via a GetDeviceSettings action to the HNAP interface.",
-  "requiredAction": "The impacted product is end-of-life and should be disconnected if still in use.",
-  "dueDate": "2022-08-10",
-  "notes": ""
-}
-{
-  "cveID": "CVE-2015-1635",
-  "vendorProject": "Microsoft",
-  "product": "HTTP.sys",
-  "vulnerabilityName": "Microsoft HTTP.sys Remote Code Execution Vulnerability",
-  "dateAdded": "2022-02-10",
-  "shortDescription": "Microsoft HTTP protocol stack (HTTP.sys) contains a vulnerability which allows for remote code execution.",
-  "requiredAction": "Apply updates per vendor instructions.",
-  "dueDate": "2022-08-10",
-  "notes": ""
-}
-{
-  "cveID": "CVE-2015-1130",
-  "vendorProject": "Apple",
-  "product": "OS X",
-  "vulnerabilityName": "Apple OS X Authentication Bypass Vulnerability",
-  "dateAdded": "2022-02-10",
-  "shortDescription": "The XPC implementation in Admin Framework in Apple OS X before 10.10.3 allows local users to bypass authentication and obtain admin privileges.",
-  "requiredAction": "Apply updates per vendor instructions.",
-  "dueDate": "2022-08-10",
-  "notes": ""
-}
-{
-  "cveID": "CVE-2014-4404",
-  "vendorProject": "Apple",
-  "product": "OS X",
-  "vulnerabilityName": "Apple OS X Heap-Based Buffer Overflow Vulnerability",
-  "dateAdded": "2022-02-10",
-  "shortDescription": "Heap-based buffer overflow in IOHIDFamily in Apple OS X, which affects, iOS before 8 and Apple TV before 7, allows attackers to execute arbitrary code in a privileged context.",
-  "requiredAction": "Apply updates per vendor instructions.",
-  "dueDate": "2022-08-10",
-  "notes": ""
-}
+[
+  {
+    "cveID": "CVE-2021-36934",
+    "vendorProject": "Microsoft",
+    "product": "Windows",
+    "vulnerabilityName": "Microsoft Windows SAM Local Privilege Escalation Vulnerability",
+    "dateAdded": "2022-02-10",
+    "shortDescription": "If a Volume Shadow Copy (VSS) shadow copy of the system drive is available, users can read the SAM file which would allow any user to escalate privileges to SYSTEM level.",
+    "requiredAction": "Apply updates per vendor instructions.",
+    "dueDate": "2022-02-24",
+    "notes": ""
+  },
+  {
+    "cveID": "CVE-2020-0796",
+    "vendorProject": "Microsoft",
+    "product": "SMBv3",
+    "vulnerabilityName": "Microsoft SMBv3 Remote Code Execution Vulnerability",
+    "dateAdded": "2022-02-10",
+    "shortDescription": "A remote code execution vulnerability exists in the way that the Microsoft Server Message Block 3.1.1 (SMBv3) protocol handles certain requests. An attacker who successfully exploited the vulnerability could gain the ability to execute code on the target server or client.",
+    "requiredAction": "Apply updates per vendor instructions.",
+    "dueDate": "2022-08-10",
+    "notes": ""
+  },
+  {
+    "cveID": "CVE-2018-1000861",
+    "vendorProject": "Jenkins",
+    "product": "Jenkins Stapler Web Framework",
+    "vulnerabilityName": "Jenkins Stapler Web Framework Deserialization of Untrusted Data Vulnerability",
+    "dateAdded": "2022-02-10",
+    "shortDescription": "A code execution vulnerability exists in the Stapler web framework used by Jenkins",
+    "requiredAction": "Apply updates per vendor instructions.",
+    "dueDate": "2022-08-10",
+    "notes": ""
+  },
+  {
+    "cveID": "CVE-2017-9791",
+    "vendorProject": "Apache",
+    "product": "Struts 1",
+    "vulnerabilityName": "Apache Struts 1 Improper Input Validation Vulnerability",
+    "dateAdded": "2022-02-10",
+    "shortDescription": "The Struts 1 plugin in Apache Struts might allow remote code execution via a malicious field value passed in a raw message to the ActionMessage.",
+    "requiredAction": "Apply updates per vendor instructions.",
+    "dueDate": "2022-08-10",
+    "notes": ""
+  },
+  {
+    "cveID": "CVE-2017-8464",
+    "vendorProject": "Microsoft",
+    "product": "Windows",
+    "vulnerabilityName": "Microsoft Windows Shell (.lnk) Remote Code Execution Vulnerability",
+    "dateAdded": "2022-02-10",
+    "shortDescription": "Windows Shell in multiple versions of Microsoft Windows allows local users or remote attackers to execute arbitrary code via a crafted .LNK file",
+    "requiredAction": "Apply updates per vendor instructions.",
+    "dueDate": "2022-08-10",
+    "notes": ""
+  },
+  {
+    "cveID": "CVE-2017-10271",
+    "vendorProject": "Oracle",
+    "product": "WebLogic Server",
+    "vulnerabilityName": "Oracle Corporation WebLogic Server Remote Code Execution Vulnerability",
+    "dateAdded": "2022-02-10",
+    "shortDescription": "Oracle Corporation WebLogic Server contains a vulnerability that allows for remote code execution.",
+    "requiredAction": "Apply updates per vendor instructions.",
+    "dueDate": "2022-08-10",
+    "notes": ""
+  },
+  {
+    "cveID": "CVE-2017-0263",
+    "vendorProject": "Microsoft",
+    "product": "Win32k",
+    "vulnerabilityName": "Microsoft Win32k Privilege Escalation Vulnerability",
+    "dateAdded": "2022-02-10",
+    "shortDescription": "Microsoft Win32k contains a privilege escalation vulnerability due to the Windows kernel-mode driver failing to properly handle objects in memory.",
+    "requiredAction": "Apply updates per vendor instructions.",
+    "dueDate": "2022-08-10",
+    "notes": ""
+  },
+  {
+    "cveID": "CVE-2017-0262",
+    "vendorProject": "Microsoft",
+    "product": "Office",
+    "vulnerabilityName": "Microsoft Office Remote Code Execution Vulnerability",
+    "dateAdded": "2022-02-10",
+    "shortDescription": "A remote code execution vulnerability exists in Microsoft Office.",
+    "requiredAction": "Apply updates per vendor instructions.",
+    "dueDate": "2022-08-10",
+    "notes": ""
+  },
+  {
+    "cveID": "CVE-2017-0145",
+    "vendorProject": "Microsoft",
+    "product": "SMBv1",
+    "vulnerabilityName": "Microsoft SMBv1 Remote Code Execution Vulnerability",
+    "dateAdded": "2022-02-10",
+    "shortDescription": "The SMBv1 server in multiple Microsoft Windows versions allows remote attackers to execute arbitrary code via crafted packets.",
+    "requiredAction": "Apply updates per vendor instructions.",
+    "dueDate": "2022-08-10",
+    "notes": ""
+  },
+  {
+    "cveID": "CVE-2017-0144",
+    "vendorProject": "Microsoft",
+    "product": "SMBv1",
+    "vulnerabilityName": "Microsoft SMBv1 Remote Code Execution Vulnerability",
+    "dateAdded": "2022-02-10",
+    "shortDescription": "The SMBv1 server in multiple Microsoft Windows versions allows remote attackers to execute arbitrary code via crafted packets.",
+    "requiredAction": "Apply updates per vendor instructions.",
+    "dueDate": "2022-08-10",
+    "notes": ""
+  },
+  {
+    "cveID": "CVE-2016-3088",
+    "vendorProject": "Apache",
+    "product": "ActiveMQ",
+    "vulnerabilityName": "Apache ActiveMQ Improper Input Validation Vulnerability",
+    "dateAdded": "2022-02-10",
+    "shortDescription": "The Fileserver web application in Apache ActiveMQ allows remote attackers to upload and execute arbitrary files via an HTTP PUT followed by an HTTP MOVE request",
+    "requiredAction": "Apply updates per vendor instructions.",
+    "dueDate": "2022-08-10",
+    "notes": ""
+  },
+  {
+    "cveID": "CVE-2015-2051",
+    "vendorProject": "D-Link",
+    "product": "DIR-645 Router",
+    "vulnerabilityName": "D-Link DIR-645 Router Remote Code Execution Vulnerability",
+    "dateAdded": "2022-02-10",
+    "shortDescription": "D-Link DIR-645 Wired/Wireless Router allows remote attackers to execute arbitrary commands via a GetDeviceSettings action to the HNAP interface.",
+    "requiredAction": "The impacted product is end-of-life and should be disconnected if still in use.",
+    "dueDate": "2022-08-10",
+    "notes": ""
+  },
+  {
+    "cveID": "CVE-2015-1635",
+    "vendorProject": "Microsoft",
+    "product": "HTTP.sys",
+    "vulnerabilityName": "Microsoft HTTP.sys Remote Code Execution Vulnerability",
+    "dateAdded": "2022-02-10",
+    "shortDescription": "Microsoft HTTP protocol stack (HTTP.sys) contains a vulnerability which allows for remote code execution.",
+    "requiredAction": "Apply updates per vendor instructions.",
+    "dueDate": "2022-08-10",
+    "notes": ""
+  },
+  {
+    "cveID": "CVE-2015-1130",
+    "vendorProject": "Apple",
+    "product": "OS X",
+    "vulnerabilityName": "Apple OS X Authentication Bypass Vulnerability",
+    "dateAdded": "2022-02-10",
+    "shortDescription": "The XPC implementation in Admin Framework in Apple OS X before 10.10.3 allows local users to bypass authentication and obtain admin privileges.",
+    "requiredAction": "Apply updates per vendor instructions.",
+    "dueDate": "2022-08-10",
+    "notes": ""
+  },
+  {
+    "cveID": "CVE-2014-4404",
+    "vendorProject": "Apple",
+    "product": "OS X",
+    "vulnerabilityName": "Apple OS X Heap-Based Buffer Overflow Vulnerability",
+    "dateAdded": "2022-02-10",
+    "shortDescription": "Heap-based buffer overflow in IOHIDFamily in Apple OS X, which affects, iOS before 8 and Apple TV before 7, allows attackers to execute arbitrary code in a privileged context.",
+    "requiredAction": "Apply updates per vendor instructions.",
+    "dueDate": "2022-08-10",
+    "notes": ""
+  }
+]

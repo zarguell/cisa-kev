@@ -1,352 +1,354 @@
-{
-  "cveID": "CVE-2022-1096",
-  "vendorProject": "Google",
-  "product": "Chromium V8",
-  "vulnerabilityName": "Google Chromium V8 Type Confusion Vulnerability",
-  "dateAdded": "2022-03-28",
-  "shortDescription": "The vulnerability exists due to a type confusion error within the V8 component in Chromium, affecting all Chromium-based browsers.",
-  "requiredAction": "Apply updates per vendor instructions.",
-  "dueDate": "2022-04-18",
-  "notes": ""
-}
-{
-  "cveID": "CVE-2022-0543",
-  "vendorProject": "Redis",
-  "product": "Debian-specific Redis Servers",
-  "vulnerabilityName": "Debian-specific Redis Server Lua Sandbox Escape Vulnerability",
-  "dateAdded": "2022-03-28",
-  "shortDescription": "Redis is prone to a (Debian-specific) Lua sandbox escape, which could result in remote code execution.",
-  "requiredAction": "Apply updates per vendor instructions.",
-  "dueDate": "2022-04-18",
-  "notes": ""
-}
-{
-  "cveID": "CVE-2021-38646",
-  "vendorProject": "Microsoft",
-  "product": "Office",
-  "vulnerabilityName": "Microsoft Office Access Connectivity Engine Remote Code Execution Vulnerability",
-  "dateAdded": "2022-03-28",
-  "shortDescription": "Microsoft Office Access Connectivity Engine contains an unspecified vulnerability which can allow for remote code execution.",
-  "requiredAction": "Apply updates per vendor instructions.",
-  "dueDate": "2022-04-18",
-  "notes": ""
-}
-{
-  "cveID": "CVE-2021-34486",
-  "vendorProject": "Microsoft",
-  "product": "Windows",
-  "vulnerabilityName": "Microsoft Windows Event Tracing Privilege Escalation Vulnerability",
-  "dateAdded": "2022-03-28",
-  "shortDescription": "Microsoft Windows Event Tracing contains an unspecified vulnerability which can allow for privilege escalation.",
-  "requiredAction": "Apply updates per vendor instructions.",
-  "dueDate": "2022-04-18",
-  "notes": ""
-}
-{
-  "cveID": "CVE-2021-26085",
-  "vendorProject": "Atlassian",
-  "product": "Confluence Server",
-  "vulnerabilityName": "Atlassian Confluence Server Pre-Authorization Arbitrary File Read Vulnerability",
-  "dateAdded": "2022-03-28",
-  "shortDescription": "Affected versions of Atlassian Confluence Server allow remote attackers to view restricted resources via a pre-authorization arbitrary file read vulnerability in the /s/ endpoint.",
-  "requiredAction": "Apply updates per vendor instructions.",
-  "dueDate": "2022-04-18",
-  "notes": ""
-}
-{
-  "cveID": "CVE-2021-20028",
-  "vendorProject": "SonicWall",
-  "product": "Secure Remote Access (SRA)",
-  "vulnerabilityName": "SonicWall Secure Remote Access (SRA) SQL Injection Vulnerability",
-  "dateAdded": "2022-03-28",
-  "shortDescription": "SonicWall Secure Remote Access (SRA) products contain an improper neutralization of a SQL Command leading to SQL injection.",
-  "requiredAction": "The impacted product is end-of-life and should be disconnected if still in use.",
-  "dueDate": "2022-04-18",
-  "notes": ""
-}
-{
-  "cveID": "CVE-2019-7483",
-  "vendorProject": "SonicWall",
-  "product": "SMA100",
-  "vulnerabilityName": "SonicWall SMA100 Directory Traversal Vulnerability",
-  "dateAdded": "2022-03-28",
-  "shortDescription": "In SonicWall SMA100, an unauthenticated Directory Traversal vulnerability in the handleWAFRedirect CGI allows the user to test for the presence of a file on the server.",
-  "requiredAction": "Apply updates per vendor instructions.",
-  "dueDate": "2022-04-18",
-  "notes": ""
-}
-{
-  "cveID": "CVE-2018-8440",
-  "vendorProject": "Microsoft",
-  "product": "Windows",
-  "vulnerabilityName": "Microsoft Windows Privilege Escalation Vulnerability",
-  "dateAdded": "2022-03-28",
-  "shortDescription": "An elevation of privilege vulnerability exists when Windows improperly handles calls to Advanced Local Procedure Call (ALPC).",
-  "requiredAction": "Apply updates per vendor instructions.",
-  "dueDate": "2022-04-18",
-  "notes": ""
-}
-{
-  "cveID": "CVE-2018-8406",
-  "vendorProject": "Microsoft",
-  "product": "DirectX Graphics Kernel (DXGKRNL)",
-  "vulnerabilityName": "Microsoft DirectX Graphics Kernel Privilege Escalation Vulnerability",
-  "dateAdded": "2022-03-28",
-  "shortDescription": "An elevation of privilege vulnerability exists when the DirectX Graphics Kernel (DXGKRNL) driver improperly handles objects in memory.",
-  "requiredAction": "Apply updates per vendor instructions.",
-  "dueDate": "2022-04-18",
-  "notes": ""
-}
-{
-  "cveID": "CVE-2018-8405",
-  "vendorProject": "Microsoft",
-  "product": "DirectX Graphics Kernel (DXGKRNL)",
-  "vulnerabilityName": "Microsoft DirectX Graphics Kernel Privilege Escalation Vulnerability",
-  "dateAdded": "2022-03-28",
-  "shortDescription": "An elevation of privilege vulnerability exists when the DirectX Graphics Kernel (DXGKRNL) driver improperly handles objects in memory.",
-  "requiredAction": "Apply updates per vendor instructions.",
-  "dueDate": "2022-04-18",
-  "notes": ""
-}
-{
-  "cveID": "CVE-2017-0213",
-  "vendorProject": "Microsoft",
-  "product": "Windows",
-  "vulnerabilityName": "Microsoft Windows Privilege Escalation Vulnerability",
-  "dateAdded": "2022-03-28",
-  "shortDescription": "Microsoft Windows COM Aggregate Marshaler allows for privilege escalation when an attacker runs a specially crafted application.",
-  "requiredAction": "Apply updates per vendor instructions.",
-  "dueDate": "2022-04-18",
-  "notes": ""
-}
-{
-  "cveID": "CVE-2017-0059",
-  "vendorProject": "Microsoft",
-  "product": "Internet Explorer",
-  "vulnerabilityName": "Microsoft Internet Explorer Information Disclosure Vulnerability",
-  "dateAdded": "2022-03-28",
-  "shortDescription": "Microsoft Internet Explorer allow remote attackers to obtain sensitive information from process memory via a crafted web site.",
-  "requiredAction": "Apply updates per vendor instructions.",
-  "dueDate": "2022-04-18",
-  "notes": ""
-}
-{
-  "cveID": "CVE-2017-0037",
-  "vendorProject": "Microsoft",
-  "product": "Edge and Internet Explorer",
-  "vulnerabilityName": "Microsoft Edge and Internet Explorer Type Confusion Vulnerability",
-  "dateAdded": "2022-03-28",
-  "shortDescription": "Microsoft Edge and Internet Explorer have a type confusion vulnerability in mshtml.dll, which allows remote code execution.",
-  "requiredAction": "Apply updates per vendor instructions.",
-  "dueDate": "2022-04-18",
-  "notes": ""
-}
-{
-  "cveID": "CVE-2016-7201",
-  "vendorProject": "Microsoft",
-  "product": "Edge",
-  "vulnerabilityName": "Microsoft Edge Memory Corruption Vulnerability",
-  "dateAdded": "2022-03-28",
-  "shortDescription": "The Chakra JavaScript scripting engine in Microsoft Edge allows remote attackers to execute remote code or cause a denial of service (memory corruption) via a crafted web site.",
-  "requiredAction": "Apply updates per vendor instructions.",
-  "dueDate": "2022-04-18",
-  "notes": ""
-}
-{
-  "cveID": "CVE-2016-7200",
-  "vendorProject": "Microsoft",
-  "product": "Edge",
-  "vulnerabilityName": "Microsoft Edge Memory Corruption Vulnerability",
-  "dateAdded": "2022-03-28",
-  "shortDescription": "The Chakra JavaScript scripting engine in Microsoft Edge allows remote attackers to execute remote code or cause a denial of service (memory corruption) via a crafted web site.",
-  "requiredAction": "Apply updates per vendor instructions.",
-  "dueDate": "2022-04-18",
-  "notes": ""
-}
-{
-  "cveID": "CVE-2016-0189",
-  "vendorProject": "Microsoft",
-  "product": "Internet Explorer",
-  "vulnerabilityName": "Microsoft Internet Explorer Memory Corruption Vulnerability",
-  "dateAdded": "2022-03-28",
-  "shortDescription": "The Microsoft JScript nd VBScript engines, as used in Internet Explorer and other products, allow attackers to execute remote code or cause a denial of service (memory corruption) via a crafted web site.",
-  "requiredAction": "Apply updates per vendor instructions.",
-  "dueDate": "2022-04-18",
-  "notes": ""
-}
-{
-  "cveID": "CVE-2016-0151",
-  "vendorProject": "Microsoft",
-  "product": "Client-Server Run-time Subsystem (CSRSS)",
-  "vulnerabilityName": "Microsoft Windows CSRSS Security Feature Bypass Vulnerability",
-  "dateAdded": "2022-03-28",
-  "shortDescription": "The Client-Server Run-time Subsystem (CSRSS) in Microsoft mismanages process tokens, which allows local users to gain privileges via a crafted application.",
-  "requiredAction": "Apply updates per vendor instructions.",
-  "dueDate": "2022-04-18",
-  "notes": ""
-}
-{
-  "cveID": "CVE-2016-0040",
-  "vendorProject": "Microsoft",
-  "product": "Windows",
-  "vulnerabilityName": "Microsoft Windows Kernel Privilege Escalation Vulnerability",
-  "dateAdded": "2022-03-28",
-  "shortDescription": "The kernel in Microsoft Windows allows local users to gain privileges via a crafted application.",
-  "requiredAction": "Apply updates per vendor instructions.",
-  "dueDate": "2022-04-18",
-  "notes": ""
-}
-{
-  "cveID": "CVE-2015-2426",
-  "vendorProject": "Microsoft",
-  "product": "Windows",
-  "vulnerabilityName": "Microsoft Windows Adobe Type Manager Library Remote Code Execution Vulnerability",
-  "dateAdded": "2022-03-28",
-  "shortDescription": "A remote code execution vulnerability exists in Microsoft Windows when the Windows Adobe Type Manager Library improperly handles specially crafted OpenType fonts.",
-  "requiredAction": "Apply updates per vendor instructions.",
-  "dueDate": "2022-04-18",
-  "notes": ""
-}
-{
-  "cveID": "CVE-2015-2419",
-  "vendorProject": "Microsoft",
-  "product": "Internet Explorer",
-  "vulnerabilityName": "Microsoft Internet Explorer Memory Corruption Vulnerability",
-  "dateAdded": "2022-03-28",
-  "shortDescription": "JScript in Microsoft Internet Explorer allows remote attackers to execute remote code or cause a denial of service (memory corruption) via a crafted web site.",
-  "requiredAction": "Apply updates per vendor instructions.",
-  "dueDate": "2022-04-18",
-  "notes": ""
-}
-{
-  "cveID": "CVE-2015-1770",
-  "vendorProject": "Microsoft",
-  "product": "Office",
-  "vulnerabilityName": "Microsoft Office Uninitialized Memory Use Vulnerability",
-  "dateAdded": "2022-03-28",
-  "shortDescription": "Microsoft Office allows remote attackers to execute arbitrary code via a crafted Office document.",
-  "requiredAction": "Apply updates per vendor instructions.",
-  "dueDate": "2022-04-18",
-  "notes": ""
-}
-{
-  "cveID": "CVE-2013-3660",
-  "vendorProject": "Microsoft",
-  "product": "Win32k",
-  "vulnerabilityName": "Microsoft Win32k Privilege Escalation Vulnerability",
-  "dateAdded": "2022-03-28",
-  "shortDescription": "The EPATHOBJ::pprFlattenRec function in win32k.sys in the kernel-mode drivers in Microsoft does not properly initialize a pointer for the next object in a certain list, which allows local users to gain privileges.",
-  "requiredAction": "Apply updates per vendor instructions.",
-  "dueDate": "2022-04-18",
-  "notes": ""
-}
-{
-  "cveID": "CVE-2013-2729",
-  "vendorProject": "Adobe",
-  "product": "Reader and Acrobat",
-  "vulnerabilityName": "Adobe Reader and Acrobat Arbitrary Integer Overflow Vulnerability",
-  "dateAdded": "2022-03-28",
-  "shortDescription": "Integer overflow vulnerability in Adobe Reader and Acrobat allows attackers to execute remote code.",
-  "requiredAction": "Apply updates per vendor instructions.",
-  "dueDate": "2022-04-18",
-  "notes": ""
-}
-{
-  "cveID": "CVE-2013-2551",
-  "vendorProject": "Microsoft",
-  "product": "Internet Explorer",
-  "vulnerabilityName": "Microsoft Internet Explorer Use-After-Free Vulnerability",
-  "dateAdded": "2022-03-28",
-  "shortDescription": "Use-after-free vulnerability in Microsoft Internet Explorer allows remote attackers to execute remote code via a crafted web site that triggers access to a deleted object.",
-  "requiredAction": "Apply updates per vendor instructions.",
-  "dueDate": "2022-04-18",
-  "notes": ""
-}
-{
-  "cveID": "CVE-2013-2465",
-  "vendorProject": "Oracle",
-  "product": "Java SE",
-  "vulnerabilityName": "Oracle Java SE Unspecified Vulnerability",
-  "dateAdded": "2022-03-28",
-  "shortDescription": "Unspecified vulnerability in the Java Runtime Environment (JRE) component in Oracle Java SE allows remote attackers to affect confidentiality, integrity, and availability via unknown vectors related to 2D",
-  "requiredAction": "Apply updates per vendor instructions.",
-  "dueDate": "2022-04-18",
-  "notes": ""
-}
-{
-  "cveID": "CVE-2013-1690",
-  "vendorProject": "Mozilla",
-  "product": "Firefox and Thunderbird",
-  "vulnerabilityName": "Mozilla Firefox and Thunderbird Denial-of-Service Vulnerability",
-  "dateAdded": "2022-03-28",
-  "shortDescription": "Mozilla Firefox and Thunderbird do not properly handle onreadystatechange events in conjunction with page reloading, which allows remote attackers to cause a denial-of-service or possibly execute arbitrary code via a crafted web site.",
-  "requiredAction": "Apply updates per vendor instructions.",
-  "dueDate": "2022-04-18",
-  "notes": ""
-}
-{
-  "cveID": "CVE-2012-5076",
-  "vendorProject": "Oracle",
-  "product": "Java SE",
-  "vulnerabilityName": "Oracle Java SE Sandbox Bypass Vulnerability",
-  "dateAdded": "2022-03-28",
-  "shortDescription": "The default Java security properties configuration did not restrict access to the com.sun.org.glassfish.external and com.sun.org.glassfish.gmbal packages. An untrusted Java application or applet could use these flaws to bypass Java sandbox restrictions.",
-  "requiredAction": "Apply updates per vendor instructions.",
-  "dueDate": "2022-04-18",
-  "notes": ""
-}
-{
-  "cveID": "CVE-2012-2539",
-  "vendorProject": "Microsoft",
-  "product": "Word",
-  "vulnerabilityName": "Microsoft Word Remote Code Execution Vulnerability",
-  "dateAdded": "2022-03-28",
-  "shortDescription": "Microsoft Word allows attackers to execute remote code or cause a denial-of-service via crafted RTF data.",
-  "requiredAction": "Apply updates per vendor instructions.",
-  "dueDate": "2022-04-18",
-  "notes": ""
-}
-{
-  "cveID": "CVE-2012-2034",
-  "vendorProject": "Adobe",
-  "product": "Flash Player",
-  "vulnerabilityName": "Adobe Flash Player Memory Corruption Vulnerability",
-  "dateAdded": "2022-03-28",
-  "shortDescription": "Adobe Flash Player contains a memory corruption vulnerability which allows for remote code execution or denial-of-service.",
-  "requiredAction": "The impacted product is end-of-life and should be disconnected if still in use.",
-  "dueDate": "2022-04-18",
-  "notes": ""
-}
-{
-  "cveID": "CVE-2012-0518",
-  "vendorProject": "Oracle",
-  "product": "Fusion Middleware",
-  "vulnerabilityName": "Oracle Fusion Middleware Unspecified Vulnerability",
-  "dateAdded": "2022-03-28",
-  "shortDescription": "Unspecified vulnerability in the Oracle Application Server Single Sign-On component in Oracle Fusion Middleware allows remote attackers to affect integrity via unknown vectors",
-  "requiredAction": "Apply updates per vendor instructions.",
-  "dueDate": "2022-04-18",
-  "notes": ""
-}
-{
-  "cveID": "CVE-2011-2005",
-  "vendorProject": "Microsoft",
-  "product": "Ancillary Function Driver (afd.sys)",
-  "vulnerabilityName": "Microsoft Ancillary Function Driver (afd.sys) Improper Input Validation Vulnerability",
-  "dateAdded": "2022-03-28",
-  "shortDescription": "afd.sys in the Ancillary Function Driver in Microsoft Windows does not properly validate user-mode input passed to kernel mode, which allows local users to gain privileges via a crafted application.",
-  "requiredAction": "Apply updates per vendor instructions.",
-  "dueDate": "2022-04-18",
-  "notes": ""
-}
-{
-  "cveID": "CVE-2010-4398",
-  "vendorProject": "Microsoft",
-  "product": "Windows",
-  "vulnerabilityName": "Microsoft Windows Kernel Stack-Based Buffer Overflow Vulnerability",
-  "dateAdded": "2022-03-28",
-  "shortDescription": "Stack-based buffer overflow in the RtlQueryRegistryValues function in win32k.sys in Microsoft Windows allows local users to gain privileges, and bypass the User Account Control (UAC) feature.",
-  "requiredAction": "Apply updates per vendor instructions.",
-  "dueDate": "2022-04-21",
-  "notes": ""
-}
+[
+  {
+    "cveID": "CVE-2022-1096",
+    "vendorProject": "Google",
+    "product": "Chromium V8",
+    "vulnerabilityName": "Google Chromium V8 Type Confusion Vulnerability",
+    "dateAdded": "2022-03-28",
+    "shortDescription": "The vulnerability exists due to a type confusion error within the V8 component in Chromium, affecting all Chromium-based browsers.",
+    "requiredAction": "Apply updates per vendor instructions.",
+    "dueDate": "2022-04-18",
+    "notes": ""
+  },
+  {
+    "cveID": "CVE-2022-0543",
+    "vendorProject": "Redis",
+    "product": "Debian-specific Redis Servers",
+    "vulnerabilityName": "Debian-specific Redis Server Lua Sandbox Escape Vulnerability",
+    "dateAdded": "2022-03-28",
+    "shortDescription": "Redis is prone to a (Debian-specific) Lua sandbox escape, which could result in remote code execution.",
+    "requiredAction": "Apply updates per vendor instructions.",
+    "dueDate": "2022-04-18",
+    "notes": ""
+  },
+  {
+    "cveID": "CVE-2021-38646",
+    "vendorProject": "Microsoft",
+    "product": "Office",
+    "vulnerabilityName": "Microsoft Office Access Connectivity Engine Remote Code Execution Vulnerability",
+    "dateAdded": "2022-03-28",
+    "shortDescription": "Microsoft Office Access Connectivity Engine contains an unspecified vulnerability which can allow for remote code execution.",
+    "requiredAction": "Apply updates per vendor instructions.",
+    "dueDate": "2022-04-18",
+    "notes": ""
+  },
+  {
+    "cveID": "CVE-2021-34486",
+    "vendorProject": "Microsoft",
+    "product": "Windows",
+    "vulnerabilityName": "Microsoft Windows Event Tracing Privilege Escalation Vulnerability",
+    "dateAdded": "2022-03-28",
+    "shortDescription": "Microsoft Windows Event Tracing contains an unspecified vulnerability which can allow for privilege escalation.",
+    "requiredAction": "Apply updates per vendor instructions.",
+    "dueDate": "2022-04-18",
+    "notes": ""
+  },
+  {
+    "cveID": "CVE-2021-26085",
+    "vendorProject": "Atlassian",
+    "product": "Confluence Server",
+    "vulnerabilityName": "Atlassian Confluence Server Pre-Authorization Arbitrary File Read Vulnerability",
+    "dateAdded": "2022-03-28",
+    "shortDescription": "Affected versions of Atlassian Confluence Server allow remote attackers to view restricted resources via a pre-authorization arbitrary file read vulnerability in the /s/ endpoint.",
+    "requiredAction": "Apply updates per vendor instructions.",
+    "dueDate": "2022-04-18",
+    "notes": ""
+  },
+  {
+    "cveID": "CVE-2021-20028",
+    "vendorProject": "SonicWall",
+    "product": "Secure Remote Access (SRA)",
+    "vulnerabilityName": "SonicWall Secure Remote Access (SRA) SQL Injection Vulnerability",
+    "dateAdded": "2022-03-28",
+    "shortDescription": "SonicWall Secure Remote Access (SRA) products contain an improper neutralization of a SQL Command leading to SQL injection.",
+    "requiredAction": "The impacted product is end-of-life and should be disconnected if still in use.",
+    "dueDate": "2022-04-18",
+    "notes": ""
+  },
+  {
+    "cveID": "CVE-2019-7483",
+    "vendorProject": "SonicWall",
+    "product": "SMA100",
+    "vulnerabilityName": "SonicWall SMA100 Directory Traversal Vulnerability",
+    "dateAdded": "2022-03-28",
+    "shortDescription": "In SonicWall SMA100, an unauthenticated Directory Traversal vulnerability in the handleWAFRedirect CGI allows the user to test for the presence of a file on the server.",
+    "requiredAction": "Apply updates per vendor instructions.",
+    "dueDate": "2022-04-18",
+    "notes": ""
+  },
+  {
+    "cveID": "CVE-2018-8440",
+    "vendorProject": "Microsoft",
+    "product": "Windows",
+    "vulnerabilityName": "Microsoft Windows Privilege Escalation Vulnerability",
+    "dateAdded": "2022-03-28",
+    "shortDescription": "An elevation of privilege vulnerability exists when Windows improperly handles calls to Advanced Local Procedure Call (ALPC).",
+    "requiredAction": "Apply updates per vendor instructions.",
+    "dueDate": "2022-04-18",
+    "notes": ""
+  },
+  {
+    "cveID": "CVE-2018-8406",
+    "vendorProject": "Microsoft",
+    "product": "DirectX Graphics Kernel (DXGKRNL)",
+    "vulnerabilityName": "Microsoft DirectX Graphics Kernel Privilege Escalation Vulnerability",
+    "dateAdded": "2022-03-28",
+    "shortDescription": "An elevation of privilege vulnerability exists when the DirectX Graphics Kernel (DXGKRNL) driver improperly handles objects in memory.",
+    "requiredAction": "Apply updates per vendor instructions.",
+    "dueDate": "2022-04-18",
+    "notes": ""
+  },
+  {
+    "cveID": "CVE-2018-8405",
+    "vendorProject": "Microsoft",
+    "product": "DirectX Graphics Kernel (DXGKRNL)",
+    "vulnerabilityName": "Microsoft DirectX Graphics Kernel Privilege Escalation Vulnerability",
+    "dateAdded": "2022-03-28",
+    "shortDescription": "An elevation of privilege vulnerability exists when the DirectX Graphics Kernel (DXGKRNL) driver improperly handles objects in memory.",
+    "requiredAction": "Apply updates per vendor instructions.",
+    "dueDate": "2022-04-18",
+    "notes": ""
+  },
+  {
+    "cveID": "CVE-2017-0213",
+    "vendorProject": "Microsoft",
+    "product": "Windows",
+    "vulnerabilityName": "Microsoft Windows Privilege Escalation Vulnerability",
+    "dateAdded": "2022-03-28",
+    "shortDescription": "Microsoft Windows COM Aggregate Marshaler allows for privilege escalation when an attacker runs a specially crafted application.",
+    "requiredAction": "Apply updates per vendor instructions.",
+    "dueDate": "2022-04-18",
+    "notes": ""
+  },
+  {
+    "cveID": "CVE-2017-0059",
+    "vendorProject": "Microsoft",
+    "product": "Internet Explorer",
+    "vulnerabilityName": "Microsoft Internet Explorer Information Disclosure Vulnerability",
+    "dateAdded": "2022-03-28",
+    "shortDescription": "Microsoft Internet Explorer allow remote attackers to obtain sensitive information from process memory via a crafted web site.",
+    "requiredAction": "Apply updates per vendor instructions.",
+    "dueDate": "2022-04-18",
+    "notes": ""
+  },
+  {
+    "cveID": "CVE-2017-0037",
+    "vendorProject": "Microsoft",
+    "product": "Edge and Internet Explorer",
+    "vulnerabilityName": "Microsoft Edge and Internet Explorer Type Confusion Vulnerability",
+    "dateAdded": "2022-03-28",
+    "shortDescription": "Microsoft Edge and Internet Explorer have a type confusion vulnerability in mshtml.dll, which allows remote code execution.",
+    "requiredAction": "Apply updates per vendor instructions.",
+    "dueDate": "2022-04-18",
+    "notes": ""
+  },
+  {
+    "cveID": "CVE-2016-7201",
+    "vendorProject": "Microsoft",
+    "product": "Edge",
+    "vulnerabilityName": "Microsoft Edge Memory Corruption Vulnerability",
+    "dateAdded": "2022-03-28",
+    "shortDescription": "The Chakra JavaScript scripting engine in Microsoft Edge allows remote attackers to execute remote code or cause a denial of service (memory corruption) via a crafted web site.",
+    "requiredAction": "Apply updates per vendor instructions.",
+    "dueDate": "2022-04-18",
+    "notes": ""
+  },
+  {
+    "cveID": "CVE-2016-7200",
+    "vendorProject": "Microsoft",
+    "product": "Edge",
+    "vulnerabilityName": "Microsoft Edge Memory Corruption Vulnerability",
+    "dateAdded": "2022-03-28",
+    "shortDescription": "The Chakra JavaScript scripting engine in Microsoft Edge allows remote attackers to execute remote code or cause a denial of service (memory corruption) via a crafted web site.",
+    "requiredAction": "Apply updates per vendor instructions.",
+    "dueDate": "2022-04-18",
+    "notes": ""
+  },
+  {
+    "cveID": "CVE-2016-0189",
+    "vendorProject": "Microsoft",
+    "product": "Internet Explorer",
+    "vulnerabilityName": "Microsoft Internet Explorer Memory Corruption Vulnerability",
+    "dateAdded": "2022-03-28",
+    "shortDescription": "The Microsoft JScript nd VBScript engines, as used in Internet Explorer and other products, allow attackers to execute remote code or cause a denial of service (memory corruption) via a crafted web site.",
+    "requiredAction": "Apply updates per vendor instructions.",
+    "dueDate": "2022-04-18",
+    "notes": ""
+  },
+  {
+    "cveID": "CVE-2016-0151",
+    "vendorProject": "Microsoft",
+    "product": "Client-Server Run-time Subsystem (CSRSS)",
+    "vulnerabilityName": "Microsoft Windows CSRSS Security Feature Bypass Vulnerability",
+    "dateAdded": "2022-03-28",
+    "shortDescription": "The Client-Server Run-time Subsystem (CSRSS) in Microsoft mismanages process tokens, which allows local users to gain privileges via a crafted application.",
+    "requiredAction": "Apply updates per vendor instructions.",
+    "dueDate": "2022-04-18",
+    "notes": ""
+  },
+  {
+    "cveID": "CVE-2016-0040",
+    "vendorProject": "Microsoft",
+    "product": "Windows",
+    "vulnerabilityName": "Microsoft Windows Kernel Privilege Escalation Vulnerability",
+    "dateAdded": "2022-03-28",
+    "shortDescription": "The kernel in Microsoft Windows allows local users to gain privileges via a crafted application.",
+    "requiredAction": "Apply updates per vendor instructions.",
+    "dueDate": "2022-04-18",
+    "notes": ""
+  },
+  {
+    "cveID": "CVE-2015-2426",
+    "vendorProject": "Microsoft",
+    "product": "Windows",
+    "vulnerabilityName": "Microsoft Windows Adobe Type Manager Library Remote Code Execution Vulnerability",
+    "dateAdded": "2022-03-28",
+    "shortDescription": "A remote code execution vulnerability exists in Microsoft Windows when the Windows Adobe Type Manager Library improperly handles specially crafted OpenType fonts.",
+    "requiredAction": "Apply updates per vendor instructions.",
+    "dueDate": "2022-04-18",
+    "notes": ""
+  },
+  {
+    "cveID": "CVE-2015-2419",
+    "vendorProject": "Microsoft",
+    "product": "Internet Explorer",
+    "vulnerabilityName": "Microsoft Internet Explorer Memory Corruption Vulnerability",
+    "dateAdded": "2022-03-28",
+    "shortDescription": "JScript in Microsoft Internet Explorer allows remote attackers to execute remote code or cause a denial of service (memory corruption) via a crafted web site.",
+    "requiredAction": "Apply updates per vendor instructions.",
+    "dueDate": "2022-04-18",
+    "notes": ""
+  },
+  {
+    "cveID": "CVE-2015-1770",
+    "vendorProject": "Microsoft",
+    "product": "Office",
+    "vulnerabilityName": "Microsoft Office Uninitialized Memory Use Vulnerability",
+    "dateAdded": "2022-03-28",
+    "shortDescription": "Microsoft Office allows remote attackers to execute arbitrary code via a crafted Office document.",
+    "requiredAction": "Apply updates per vendor instructions.",
+    "dueDate": "2022-04-18",
+    "notes": ""
+  },
+  {
+    "cveID": "CVE-2013-3660",
+    "vendorProject": "Microsoft",
+    "product": "Win32k",
+    "vulnerabilityName": "Microsoft Win32k Privilege Escalation Vulnerability",
+    "dateAdded": "2022-03-28",
+    "shortDescription": "The EPATHOBJ::pprFlattenRec function in win32k.sys in the kernel-mode drivers in Microsoft does not properly initialize a pointer for the next object in a certain list, which allows local users to gain privileges.",
+    "requiredAction": "Apply updates per vendor instructions.",
+    "dueDate": "2022-04-18",
+    "notes": ""
+  },
+  {
+    "cveID": "CVE-2013-2729",
+    "vendorProject": "Adobe",
+    "product": "Reader and Acrobat",
+    "vulnerabilityName": "Adobe Reader and Acrobat Arbitrary Integer Overflow Vulnerability",
+    "dateAdded": "2022-03-28",
+    "shortDescription": "Integer overflow vulnerability in Adobe Reader and Acrobat allows attackers to execute remote code.",
+    "requiredAction": "Apply updates per vendor instructions.",
+    "dueDate": "2022-04-18",
+    "notes": ""
+  },
+  {
+    "cveID": "CVE-2013-2551",
+    "vendorProject": "Microsoft",
+    "product": "Internet Explorer",
+    "vulnerabilityName": "Microsoft Internet Explorer Use-After-Free Vulnerability",
+    "dateAdded": "2022-03-28",
+    "shortDescription": "Use-after-free vulnerability in Microsoft Internet Explorer allows remote attackers to execute remote code via a crafted web site that triggers access to a deleted object.",
+    "requiredAction": "Apply updates per vendor instructions.",
+    "dueDate": "2022-04-18",
+    "notes": ""
+  },
+  {
+    "cveID": "CVE-2013-2465",
+    "vendorProject": "Oracle",
+    "product": "Java SE",
+    "vulnerabilityName": "Oracle Java SE Unspecified Vulnerability",
+    "dateAdded": "2022-03-28",
+    "shortDescription": "Unspecified vulnerability in the Java Runtime Environment (JRE) component in Oracle Java SE allows remote attackers to affect confidentiality, integrity, and availability via unknown vectors related to 2D",
+    "requiredAction": "Apply updates per vendor instructions.",
+    "dueDate": "2022-04-18",
+    "notes": ""
+  },
+  {
+    "cveID": "CVE-2013-1690",
+    "vendorProject": "Mozilla",
+    "product": "Firefox and Thunderbird",
+    "vulnerabilityName": "Mozilla Firefox and Thunderbird Denial-of-Service Vulnerability",
+    "dateAdded": "2022-03-28",
+    "shortDescription": "Mozilla Firefox and Thunderbird do not properly handle onreadystatechange events in conjunction with page reloading, which allows remote attackers to cause a denial-of-service or possibly execute arbitrary code via a crafted web site.",
+    "requiredAction": "Apply updates per vendor instructions.",
+    "dueDate": "2022-04-18",
+    "notes": ""
+  },
+  {
+    "cveID": "CVE-2012-5076",
+    "vendorProject": "Oracle",
+    "product": "Java SE",
+    "vulnerabilityName": "Oracle Java SE Sandbox Bypass Vulnerability",
+    "dateAdded": "2022-03-28",
+    "shortDescription": "The default Java security properties configuration did not restrict access to the com.sun.org.glassfish.external and com.sun.org.glassfish.gmbal packages. An untrusted Java application or applet could use these flaws to bypass Java sandbox restrictions.",
+    "requiredAction": "Apply updates per vendor instructions.",
+    "dueDate": "2022-04-18",
+    "notes": ""
+  },
+  {
+    "cveID": "CVE-2012-2539",
+    "vendorProject": "Microsoft",
+    "product": "Word",
+    "vulnerabilityName": "Microsoft Word Remote Code Execution Vulnerability",
+    "dateAdded": "2022-03-28",
+    "shortDescription": "Microsoft Word allows attackers to execute remote code or cause a denial-of-service via crafted RTF data.",
+    "requiredAction": "Apply updates per vendor instructions.",
+    "dueDate": "2022-04-18",
+    "notes": ""
+  },
+  {
+    "cveID": "CVE-2012-2034",
+    "vendorProject": "Adobe",
+    "product": "Flash Player",
+    "vulnerabilityName": "Adobe Flash Player Memory Corruption Vulnerability",
+    "dateAdded": "2022-03-28",
+    "shortDescription": "Adobe Flash Player contains a memory corruption vulnerability which allows for remote code execution or denial-of-service.",
+    "requiredAction": "The impacted product is end-of-life and should be disconnected if still in use.",
+    "dueDate": "2022-04-18",
+    "notes": ""
+  },
+  {
+    "cveID": "CVE-2012-0518",
+    "vendorProject": "Oracle",
+    "product": "Fusion Middleware",
+    "vulnerabilityName": "Oracle Fusion Middleware Unspecified Vulnerability",
+    "dateAdded": "2022-03-28",
+    "shortDescription": "Unspecified vulnerability in the Oracle Application Server Single Sign-On component in Oracle Fusion Middleware allows remote attackers to affect integrity via unknown vectors",
+    "requiredAction": "Apply updates per vendor instructions.",
+    "dueDate": "2022-04-18",
+    "notes": ""
+  },
+  {
+    "cveID": "CVE-2011-2005",
+    "vendorProject": "Microsoft",
+    "product": "Ancillary Function Driver (afd.sys)",
+    "vulnerabilityName": "Microsoft Ancillary Function Driver (afd.sys) Improper Input Validation Vulnerability",
+    "dateAdded": "2022-03-28",
+    "shortDescription": "afd.sys in the Ancillary Function Driver in Microsoft Windows does not properly validate user-mode input passed to kernel mode, which allows local users to gain privileges via a crafted application.",
+    "requiredAction": "Apply updates per vendor instructions.",
+    "dueDate": "2022-04-18",
+    "notes": ""
+  },
+  {
+    "cveID": "CVE-2010-4398",
+    "vendorProject": "Microsoft",
+    "product": "Windows",
+    "vulnerabilityName": "Microsoft Windows Kernel Stack-Based Buffer Overflow Vulnerability",
+    "dateAdded": "2022-03-28",
+    "shortDescription": "Stack-based buffer overflow in the RtlQueryRegistryValues function in win32k.sys in Microsoft Windows allows local users to gain privileges, and bypass the User Account Control (UAC) feature.",
+    "requiredAction": "Apply updates per vendor instructions.",
+    "dueDate": "2022-04-21",
+    "notes": ""
+  }
+]

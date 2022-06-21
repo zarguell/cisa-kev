@@ -1,121 +1,123 @@
-{
-  "cveID": "CVE-2022-26486",
-  "vendorProject": "Mozilla",
-  "product": "Firefox",
-  "vulnerabilityName": "Mozilla Firefox Use-After-Free Vulnerability",
-  "dateAdded": "2022-03-07",
-  "shortDescription": "Mozilla Firefox contains a use-after-free vulnerability in WebGPU IPC Framework which can be exploited to perform arbitrary code execution.",
-  "requiredAction": "Apply updates per vendor instructions.",
-  "dueDate": "2022-03-21",
-  "notes": ""
-}
-{
-  "cveID": "CVE-2022-26485",
-  "vendorProject": "Mozilla",
-  "product": "Firefox",
-  "vulnerabilityName": "Mozilla Firefox Use-After-Free Vulnerability",
-  "dateAdded": "2022-03-07",
-  "shortDescription": "Mozilla Firefox contains a use-after-free vulnerability in XSLT parameter processing which can be exploited to perform arbitrary code execution.",
-  "requiredAction": "Apply updates per vendor instructions.",
-  "dueDate": "2022-03-21",
-  "notes": ""
-}
-{
-  "cveID": "CVE-2021-21973",
-  "vendorProject": "VMware",
-  "product": "vCenter Server and Cloud Foundation",
-  "vulnerabilityName": "VMware vCenter Server and Cloud Foundation Server Side Request Forgery (SSRF) Vulnerability",
-  "dateAdded": "2022-03-07",
-  "shortDescription": "VMware vCenter Server and Cloud Foundation Server contain a SSRF vulnerability due to improper validation of URLs in a vCenter Server plugin. This allows for information disclosure.",
-  "requiredAction": "Apply updates per vendor instructions.",
-  "dueDate": "2022-03-21",
-  "notes": ""
-}
-{
-  "cveID": "CVE-2020-8218",
-  "vendorProject": "Pulse Secure",
-  "product": "Pulse Connect Secure",
-  "vulnerabilityName": "Pulse Connect Secure Code Injection Vulnerability",
-  "dateAdded": "2022-03-07",
-  "shortDescription": "A code injection vulnerability exists in Pulse Connect Secure that allows an attacker to crafted a URI to perform an arbitrary code execution via the admin web interface.",
-  "requiredAction": "Apply updates per vendor instructions.",
-  "dueDate": "2022-09-07",
-  "notes": ""
-}
-{
-  "cveID": "CVE-2019-11581",
-  "vendorProject": "Atlassian",
-  "product": "Jira Server and Data Center",
-  "vulnerabilityName": "Atlassian Jira Server and Data Center Server-Side Template Injection Vulnerability",
-  "dateAdded": "2022-03-07",
-  "shortDescription": "Atlassian Jira Server and Data Center contain a server-side template injection vulnerability which can allow for remote code execution.",
-  "requiredAction": "Apply updates per vendor instructions.",
-  "dueDate": "2022-09-07",
-  "notes": ""
-}
-{
-  "cveID": "CVE-2017-6077",
-  "vendorProject": "NETGEAR",
-  "product": "Wireless Router DGN2200",
-  "vulnerabilityName": "NETGEAR DGN2200 Remote Code Execution Vulnerability",
-  "dateAdded": "2022-03-07",
-  "shortDescription": "NETGEAR DGN2200 wireless routers contain a vulnerability which allows for remote code execution.",
-  "requiredAction": "Apply updates per vendor instructions.",
-  "dueDate": "2022-09-07",
-  "notes": ""
-}
-{
-  "cveID": "CVE-2016-6277",
-  "vendorProject": "NETGEAR",
-  "product": "Multiple Routers",
-  "vulnerabilityName": "NETGEAR Multiple Routers Remote Code Execution Vulnerability",
-  "dateAdded": "2022-03-07",
-  "shortDescription": "NETGEAR confirmed multiple routers allow unauthenticated web pages to pass form input directly to the command-line interface, permitting remote code execution.",
-  "requiredAction": "Apply updates per vendor instructions.",
-  "dueDate": "2022-09-07",
-  "notes": ""
-}
-{
-  "cveID": "CVE-2013-0631",
-  "vendorProject": "Adobe",
-  "product": "ColdFusion",
-  "vulnerabilityName": "Adobe ColdFusion Information Disclosure Vulnerability",
-  "dateAdded": "2022-03-07",
-  "shortDescription": "Adobe Coldfusion contains an unspecified vulnerability, which could result in information disclosure from a compromised server.",
-  "requiredAction": "Apply updates per vendor instructions.",
-  "dueDate": "2022-09-07",
-  "notes": ""
-}
-{
-  "cveID": "CVE-2013-0629",
-  "vendorProject": "Adobe",
-  "product": "ColdFusion",
-  "vulnerabilityName": "Adobe ColdFusion Directory Traversal Vulnerability",
-  "dateAdded": "2022-03-07",
-  "shortDescription": "Adobe Coldfusion contains a directory traversal vulnerability, which could permit an unauthorized user access to restricted directories.",
-  "requiredAction": "Apply updates per vendor instructions.",
-  "dueDate": "2022-09-07",
-  "notes": ""
-}
-{
-  "cveID": "CVE-2013-0625",
-  "vendorProject": "Adobe",
-  "product": "ColdFusion",
-  "vulnerabilityName": "Adobe ColdFusion Authentication Bypass Vulnerability",
-  "dateAdded": "2022-03-07",
-  "shortDescription": "Adobe Coldfusion contains an authentication bypass vulnerability, which could result in an unauthorized user gaining administrative access.",
-  "requiredAction": "Apply updates per vendor instructions.",
-  "dueDate": "2022-09-07",
-  "notes": ""
-}
-{
-  "cveID": "CVE-2009-3960",
-  "vendorProject": "Adobe",
-  "product": "BlazeDS",
-  "vulnerabilityName": "Adobe BlazeDS Information Disclosure Vulnerability",
-  "dateAdded": "2022-03-07",
-  "shortDescription": "Adobe BlazeDS, which is utilized in LifeCycle and Coldfusion, contains a vulnerability which allows for information disclosure.",
-  "requiredAction": "Apply updates per vendor instructions.",
-  "dueDate": "2022-09-07",
-  "notes": ""
-}
+[
+  {
+    "cveID": "CVE-2022-26486",
+    "vendorProject": "Mozilla",
+    "product": "Firefox",
+    "vulnerabilityName": "Mozilla Firefox Use-After-Free Vulnerability",
+    "dateAdded": "2022-03-07",
+    "shortDescription": "Mozilla Firefox contains a use-after-free vulnerability in WebGPU IPC Framework which can be exploited to perform arbitrary code execution.",
+    "requiredAction": "Apply updates per vendor instructions.",
+    "dueDate": "2022-03-21",
+    "notes": ""
+  },
+  {
+    "cveID": "CVE-2022-26485",
+    "vendorProject": "Mozilla",
+    "product": "Firefox",
+    "vulnerabilityName": "Mozilla Firefox Use-After-Free Vulnerability",
+    "dateAdded": "2022-03-07",
+    "shortDescription": "Mozilla Firefox contains a use-after-free vulnerability in XSLT parameter processing which can be exploited to perform arbitrary code execution.",
+    "requiredAction": "Apply updates per vendor instructions.",
+    "dueDate": "2022-03-21",
+    "notes": ""
+  },
+  {
+    "cveID": "CVE-2021-21973",
+    "vendorProject": "VMware",
+    "product": "vCenter Server and Cloud Foundation",
+    "vulnerabilityName": "VMware vCenter Server and Cloud Foundation Server Side Request Forgery (SSRF) Vulnerability",
+    "dateAdded": "2022-03-07",
+    "shortDescription": "VMware vCenter Server and Cloud Foundation Server contain a SSRF vulnerability due to improper validation of URLs in a vCenter Server plugin. This allows for information disclosure.",
+    "requiredAction": "Apply updates per vendor instructions.",
+    "dueDate": "2022-03-21",
+    "notes": ""
+  },
+  {
+    "cveID": "CVE-2020-8218",
+    "vendorProject": "Pulse Secure",
+    "product": "Pulse Connect Secure",
+    "vulnerabilityName": "Pulse Connect Secure Code Injection Vulnerability",
+    "dateAdded": "2022-03-07",
+    "shortDescription": "A code injection vulnerability exists in Pulse Connect Secure that allows an attacker to crafted a URI to perform an arbitrary code execution via the admin web interface.",
+    "requiredAction": "Apply updates per vendor instructions.",
+    "dueDate": "2022-09-07",
+    "notes": ""
+  },
+  {
+    "cveID": "CVE-2019-11581",
+    "vendorProject": "Atlassian",
+    "product": "Jira Server and Data Center",
+    "vulnerabilityName": "Atlassian Jira Server and Data Center Server-Side Template Injection Vulnerability",
+    "dateAdded": "2022-03-07",
+    "shortDescription": "Atlassian Jira Server and Data Center contain a server-side template injection vulnerability which can allow for remote code execution.",
+    "requiredAction": "Apply updates per vendor instructions.",
+    "dueDate": "2022-09-07",
+    "notes": ""
+  },
+  {
+    "cveID": "CVE-2017-6077",
+    "vendorProject": "NETGEAR",
+    "product": "Wireless Router DGN2200",
+    "vulnerabilityName": "NETGEAR DGN2200 Remote Code Execution Vulnerability",
+    "dateAdded": "2022-03-07",
+    "shortDescription": "NETGEAR DGN2200 wireless routers contain a vulnerability which allows for remote code execution.",
+    "requiredAction": "Apply updates per vendor instructions.",
+    "dueDate": "2022-09-07",
+    "notes": ""
+  },
+  {
+    "cveID": "CVE-2016-6277",
+    "vendorProject": "NETGEAR",
+    "product": "Multiple Routers",
+    "vulnerabilityName": "NETGEAR Multiple Routers Remote Code Execution Vulnerability",
+    "dateAdded": "2022-03-07",
+    "shortDescription": "NETGEAR confirmed multiple routers allow unauthenticated web pages to pass form input directly to the command-line interface, permitting remote code execution.",
+    "requiredAction": "Apply updates per vendor instructions.",
+    "dueDate": "2022-09-07",
+    "notes": ""
+  },
+  {
+    "cveID": "CVE-2013-0631",
+    "vendorProject": "Adobe",
+    "product": "ColdFusion",
+    "vulnerabilityName": "Adobe ColdFusion Information Disclosure Vulnerability",
+    "dateAdded": "2022-03-07",
+    "shortDescription": "Adobe Coldfusion contains an unspecified vulnerability, which could result in information disclosure from a compromised server.",
+    "requiredAction": "Apply updates per vendor instructions.",
+    "dueDate": "2022-09-07",
+    "notes": ""
+  },
+  {
+    "cveID": "CVE-2013-0629",
+    "vendorProject": "Adobe",
+    "product": "ColdFusion",
+    "vulnerabilityName": "Adobe ColdFusion Directory Traversal Vulnerability",
+    "dateAdded": "2022-03-07",
+    "shortDescription": "Adobe Coldfusion contains a directory traversal vulnerability, which could permit an unauthorized user access to restricted directories.",
+    "requiredAction": "Apply updates per vendor instructions.",
+    "dueDate": "2022-09-07",
+    "notes": ""
+  },
+  {
+    "cveID": "CVE-2013-0625",
+    "vendorProject": "Adobe",
+    "product": "ColdFusion",
+    "vulnerabilityName": "Adobe ColdFusion Authentication Bypass Vulnerability",
+    "dateAdded": "2022-03-07",
+    "shortDescription": "Adobe Coldfusion contains an authentication bypass vulnerability, which could result in an unauthorized user gaining administrative access.",
+    "requiredAction": "Apply updates per vendor instructions.",
+    "dueDate": "2022-09-07",
+    "notes": ""
+  },
+  {
+    "cveID": "CVE-2009-3960",
+    "vendorProject": "Adobe",
+    "product": "BlazeDS",
+    "vulnerabilityName": "Adobe BlazeDS Information Disclosure Vulnerability",
+    "dateAdded": "2022-03-07",
+    "shortDescription": "Adobe BlazeDS, which is utilized in LifeCycle and Coldfusion, contains a vulnerability which allows for information disclosure.",
+    "requiredAction": "Apply updates per vendor instructions.",
+    "dueDate": "2022-09-07",
+    "notes": ""
+  }
+]
