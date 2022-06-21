@@ -15,11 +15,24 @@ jobs:
       with:
         fetch-depth: 0
 
+    - name: Set up Python
+      uses: actions/setup-python@v3
+      with:
+        python-version: '3.10'
+        architecture: x64
+    
+    - name: Install Python dependencies
+      uses: py-actions/py-dependency-install@v3
+      with:
+        path: "requirements.txt"
+
     - name: Scrape CISA KEV For Added Vulns
       run: |-
         curl --silent --output cisa-kev-latest.json https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json
+        cat cisa-kev-latest.json | yq -y > cisa-kev-latest.yaml
         d=$(date -I)
         cat cisa-kev-latest.json| jq --arg d "$d" '.vulnerabilities[] |  select(.dateAdded==$d)' | jq -s . - > vulns-added/$d-cisa-kev-new.json
+        cat vulns-added/$d-cisa-kev-new.json | yq -y > vulns-added-yaml/$d-cisa-kev-new.json
         find ./vulns-* -type f -size -4c -delete
 
     - name: Commit and push if it changed

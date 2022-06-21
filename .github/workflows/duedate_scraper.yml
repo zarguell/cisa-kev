@@ -15,11 +15,24 @@ jobs:
       with:
         fetch-depth: 0
 
+    - name: Set up Python
+      uses: actions/setup-python@v3
+      with:
+        python-version: '3.10'
+        architecture: x64
+    
+    - name: Install Python dependencies
+      uses: py-actions/py-dependency-install@v3
+      with:
+        path: "requirements.txt"
+
     - name: Check CISA KEV for Vulns Due Today
       run: |-
         curl --silent --output cisa-kev-latest.json https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json
+        cat cisa-kev-latest.json | yq -y > cisa-kev-latest.yaml
         d=$(date -I)
         cat cisa-kev-latest.json | jq --arg d "$d" '.vulnerabilities[] | select(.dueDate==$d)' | jq -s . - > vulns-due/$d-cisa-kev-due.json
+        cat vulns-due/$d-cisa-kev-due.json | yq -y > vulns-due-yaml/$d-cisa-kev-due.json
         find ./vulns-* -type f -size -4c -delete
 
     - name: Commit and push if it changed
