@@ -16,7 +16,7 @@ jobs:
         fetch-depth: 0
 
     - name: Check CISA KEV for Vulns Due Today
-      run: curl -s 'https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json' | jq -r '.vulnerabilities[] | select(.dueDate=="$(date -I)")' > vulns-due/$(date -I)-cisa-kev-due.json
+      run: curl -s 'https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json' | jq -r --arg d "$(date -I)" '.vulnerabilities[] | select(.dueDate==$d)' > vulns-due/$d-cisa-kev-due.json
       
     - name: Commit and push if it changed
       run: |-

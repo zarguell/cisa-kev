@@ -1,0 +1,165 @@
+{
+  "cveID": "CVE-2021-22017",
+  "vendorProject": "VMware",
+  "product": "vCenter Server",
+  "vulnerabilityName": "VMware vCenter Server Improper Access Control",
+  "dateAdded": "2022-01-10",
+  "shortDescription": "Rhttproxy as used in vCenter Server contains a vulnerability due to improper implementation of URI normalization.",
+  "requiredAction": "Apply updates per vendor instructions.",
+  "dueDate": "2022-01-24",
+  "notes": ""
+}
+{
+  "cveID": "CVE-2021-36260",
+  "vendorProject": "Hikvision",
+  "product": "Security cameras web server",
+  "vulnerabilityName": "Hikvision Improper Input Validation",
+  "dateAdded": "2022-01-10",
+  "shortDescription": "A command injection vulnerability in the web server of some Hikvision product. Due to the insufficient input validation.",
+  "requiredAction": "Apply updates per vendor instructions.",
+  "dueDate": "2022-01-24",
+  "notes": ""
+}
+{
+  "cveID": "CVE-2020-6572",
+  "vendorProject": "Google",
+  "product": "Chrome",
+  "vulnerabilityName": "Google Chrome Prior to 81.0.4044.92 Use-After-Free Vulnerability",
+  "dateAdded": "2022-01-10",
+  "shortDescription": "Use-after-free vulnerability in Media in Google Chrome prior to 81.0.4044.92 allowed a Remote attacker to execute arbitrary code via a crafted HTML page.",
+  "requiredAction": "Apply updates per vendor instructions.",
+  "dueDate": "2022-07-10",
+  "notes": ""
+}
+{
+  "cveID": "CVE-2019-1458",
+  "vendorProject": "Microsoft",
+  "product": "Win32k",
+  "vulnerabilityName": "Microsoft Win32k Privilege Escalation Vulnerability",
+  "dateAdded": "2022-01-10",
+  "shortDescription": "A privilege escalation vulnerability exists in Windows when the Win32k component fails to properly handle objects in memory, aka 'Win32k EoP.",
+  "requiredAction": "Apply updates per vendor instructions.",
+  "dueDate": "2022-07-10",
+  "notes": ""
+}
+{
+  "cveID": "CVE-2013-3900",
+  "vendorProject": "Microsoft",
+  "product": "WinVerifyTrust function",
+  "vulnerabilityName": "Microsoft WinVerifyTrust function Remote Code Execution",
+  "dateAdded": "2022-01-10",
+  "shortDescription": "A remote code execution vulnerability exists in the way that the WinVerifyTrust function handles Windows Authenticode signature verification for PE files.",
+  "requiredAction": "Apply updates per vendor instructions.",
+  "dueDate": "2022-07-10",
+  "notes": ""
+}
+{
+  "cveID": "CVE-2019-2725",
+  "vendorProject": "Oracle",
+  "product": "WebLogic Server",
+  "vulnerabilityName": "Oracle WebLogic Server, Injection",
+  "dateAdded": "2022-01-10",
+  "shortDescription": "Injection vulnerability in the Oracle WebLogic Server component of Oracle Fusion Middleware (subcomponent: Web Services).",
+  "requiredAction": "Apply updates per vendor instructions.",
+  "dueDate": "2022-07-10",
+  "notes": ""
+}
+{
+  "cveID": "CVE-2019-9670",
+  "vendorProject": "Synacor",
+  "product": "Zimbra Collaboration Suite",
+  "vulnerabilityName": "Synacor Zimbra Collaboration Suite Improper Restriction of XML External Entity Reference",
+  "dateAdded": "2022-01-10",
+  "shortDescription": "Improper Restriction of XML External Entity Reference vulnerability affecting Synacor Zimbra Collaboration Suite.",
+  "requiredAction": "Apply updates per vendor instructions.",
+  "dueDate": "2022-07-10",
+  "notes": ""
+}
+{
+  "cveID": "CVE-2018-13382",
+  "vendorProject": "Fortinet",
+  "product": "FortiOS and FortiProxy",
+  "vulnerabilityName": "Fortinet FortiOS and FortiProxy Improper Authorization",
+  "dateAdded": "2022-01-10",
+  "shortDescription": "An Improper Authorization vulnerability in Fortinet FortiOS and FortiProxy under SSL VPN web portal allows an unauthenticated attacker to modify the password.",
+  "requiredAction": "Apply updates per vendor instructions.",
+  "dueDate": "2022-07-10",
+  "notes": ""
+}
+{
+  "cveID": "CVE-2018-13383",
+  "vendorProject": "Fortinet",
+  "product": "FortiOS and FortiProxy",
+  "vulnerabilityName": "Fortinet FortiOS and FortiProxy Out-of-bounds Write",
+  "dateAdded": "2022-01-10",
+  "shortDescription": "A heap buffer overflow in Fortinet FortiOS and FortiProxy may cause the SSL VPN web service termination for logged in users.",
+  "requiredAction": "Apply updates per vendor instructions.",
+  "dueDate": "2022-07-10",
+  "notes": ""
+}
+{
+  "cveID": "CVE-2019-1579",
+  "vendorProject": "Palo Alto Networks",
+  "product": "PAN-OS",
+  "vulnerabilityName": "Palo Alto Networks PAN-OS Remote Code Execution Vulnerability",
+  "dateAdded": "2022-01-10",
+  "shortDescription": "Remote Code Execution in PAN-OS with GlobalProtect Portal or GlobalProtect Gateway Interface enabled.",
+  "requiredAction": "Apply updates per vendor instructions.",
+  "dueDate": "2022-07-10",
+  "notes": ""
+}
+{
+  "cveID": "CVE-2019-10149",
+  "vendorProject": "Exim",
+  "product": "Mail Transfer Agent (MTA)",
+  "vulnerabilityName": "Exim Mail Transfer Agent (MTA) Improper Input Validation",
+  "dateAdded": "2022-01-10",
+  "shortDescription": "Improper validation of recipient address in deliver_message() function in /src/deliver.c may lead to remote command execution.",
+  "requiredAction": "Apply updates per vendor instructions.",
+  "dueDate": "2022-07-10",
+  "notes": ""
+}
+{
+  "cveID": "CVE-2015-7450",
+  "vendorProject": "IBM",
+  "product": "WebSphere Application Server and Server Hypervisor Edition",
+  "vulnerabilityName": "IBM WebSphere Application Server and Server Hypervisor Edition Code Injection.",
+  "dateAdded": "2022-01-10",
+  "shortDescription": "Serialized-object interfaces in certain IBM analytics, business solutions, cognitive, IT infrastructure, and mobile and social products allow remote attackers to execute arbitrary commands",
+  "requiredAction": "Apply updates per vendor instructions.",
+  "dueDate": "2022-07-10",
+  "notes": ""
+}
+{
+  "cveID": "CVE-2017-1000486",
+  "vendorProject": "Primetek",
+  "product": "Primefaces Application",
+  "vulnerabilityName": "Primetek Primefaces Remote Code Execution Vulnerability",
+  "dateAdded": "2022-01-10",
+  "shortDescription": "Primetek Primefaces is vulnerable to a weak encryption flaw resulting in remote code execution",
+  "requiredAction": "Apply updates per vendor instructions.",
+  "dueDate": "2022-07-10",
+  "notes": ""
+}
+{
+  "cveID": "CVE-2019-7609",
+  "vendorProject": "Elastic",
+  "product": "Kibana",
+  "vulnerabilityName": "Kibana Arbitrary Code Execution",
+  "dateAdded": "2022-01-10",
+  "shortDescription": "Kibana contain an arbitrary code execution flaw in the Timelion visualizer.",
+  "requiredAction": "Apply updates per vendor instructions.",
+  "dueDate": "2022-07-10",
+  "notes": ""
+}
+{
+  "cveID": "CVE-2021-27860",
+  "vendorProject": "FatPipe",
+  "product": "WARP, IPVPN, and MPVPN software",
+  "vulnerabilityName": "FatPipe WARP, IPVPN, and MPVPN Configuration Upload exploit",
+  "dateAdded": "2022-01-10",
+  "shortDescription": "A vulnerability in the web management interface of FatPipe WARP, IPVPN, and MPVPN software allows a remote, unauthenticated attacker to upload a file to any location on the filesystem.",
+  "requiredAction": "Apply updates per vendor instructions.",
+  "dueDate": "2022-01-24",
+  "notes": ""
+}

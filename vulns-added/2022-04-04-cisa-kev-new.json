@@ -1,0 +1,44 @@
+{
+  "cveID": "CVE-2022-22965",
+  "vendorProject": "VMware",
+  "product": "Spring Framework",
+  "vulnerabilityName": "Spring Framework JDK 9+ Remote Code Execution Vulnerability",
+  "dateAdded": "2022-04-04",
+  "shortDescription": "Spring MVC or Spring WebFlux application running on JDK 9+ may be vulnerable to remote code execution (RCE) via data binding.",
+  "requiredAction": "Apply updates per vendor instructions.",
+  "dueDate": "2022-04-25",
+  "notes": ""
+}
+{
+  "cveID": "CVE-2022-22675",
+  "vendorProject": "Apple",
+  "product": "macOS",
+  "vulnerabilityName": "Apple macOS Out-of-Bounds Write Vulnerability",
+  "dateAdded": "2022-04-04",
+  "shortDescription": "macOS Monterey contains an out-of-bounds write vulnerability that could allow an application to execute arbitrary code with kernel privileges.",
+  "requiredAction": "Apply updates per vendor instructions.",
+  "dueDate": "2022-04-25",
+  "notes": ""
+}
+{
+  "cveID": "CVE-2022-22674",
+  "vendorProject": "Apple",
+  "product": "macOS",
+  "vulnerabilityName": "Apple macOS Out-of-Bounds Read Vulnerability",
+  "dateAdded": "2022-04-04",
+  "shortDescription": "macOS Monterey contains an out-of-bounds read vulnerability that could allow an application to read kernel memory.",
+  "requiredAction": "Apply updates per vendor instructions.",
+  "dueDate": "2022-04-25",
+  "notes": ""
+}
+{
+  "cveID": "CVE-2021-45382",
+  "vendorProject": "D-Link",
+  "product": "Multiple Routers",
+  "vulnerabilityName": "D-Link Multiple Routers Remote Code Execution Vulnerability",
+  "dateAdded": "2022-04-04",
+  "shortDescription": "A remote code execution vulnerability exists in all series H/W revisions routers via the DDNS function in ncc2 binary file.",
+  "requiredAction": "The impacted product is end-of-life and should be disconnected if still in use.",
+  "dueDate": "2022-04-25",
+  "notes": ""
+}

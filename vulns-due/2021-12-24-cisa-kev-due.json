@@ -1,0 +1,44 @@
+{
+  "cveID": "CVE-2021-44515",
+  "vendorProject": "Zoho",
+  "product": "Desktop Central",
+  "vulnerabilityName": "Zoho Desktop Central Authentication Bypass Vulnerability",
+  "dateAdded": "2021-12-10",
+  "shortDescription": "Zoho Desktop Central contains an authentication bypass vulnerability that could allow an attacker to execute arbitrary code in the Desktop Central MSP server.",
+  "requiredAction": "Apply updates per vendor instructions.",
+  "dueDate": "2021-12-24",
+  "notes": ""
+}
+{
+  "cveID": "CVE-2021-35394",
+  "vendorProject": "Realtek",
+  "product": "Jungle Software Development Kit (SDK)",
+  "vulnerabilityName": "Realtek Jungle SDK Remote Code Execution Vulnerability",
+  "dateAdded": "2021-12-10",
+  "shortDescription": "RealTek Jungle SDK contains multiple memory corruption vulnerabilities which can allow an attacker to perform remote code execution.",
+  "requiredAction": "Apply updates per vendor instructions.",
+  "dueDate": "2021-12-24",
+  "notes": ""
+}
+{
+  "cveID": "CVE-2021-44168",
+  "vendorProject": "Fortinet",
+  "product": "FortiOS",
+  "vulnerabilityName": "Fortinet FortiOS Arbitrary File Download",
+  "dateAdded": "2021-12-10",
+  "shortDescription": "Fortinet FortiOS \"execute restore src-vis\" downloads code without integrity checking, allowing an attacker to arbitrarily download files.",
+  "requiredAction": "Apply updates per vendor instructions.",
+  "dueDate": "2021-12-24",
+  "notes": ""
+}
+{
+  "cveID": "CVE-2021-44228",
+  "vendorProject": "Apache",
+  "product": "Log4j2",
+  "vulnerabilityName": "Apache Log4j2 Remote Code Execution Vulnerability",
+  "dateAdded": "2021-12-10",
+  "shortDescription": "Apache Log4j2 contains a vulnerability where JNDI features do not protect against attacker-controlled JNDI-related endpoints, allowing for remote code execution.",
+  "requiredAction": "For all affected software assets for which updates exist, the only acceptable remediation actions are: 1) Apply updates; OR 2) remove affected assets from agency networks. Temporary mitigations using one of the measures provided at https://www.cisa.gov/uscert/ed-22-02-apache-log4j-recommended-mitigation-measures are only acceptable until updates are available.",
+  "dueDate": "2021-12-24",
+  "notes": ""
+}

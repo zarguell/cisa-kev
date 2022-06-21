@@ -1,0 +1,165 @@
+{
+  "cveID": "CVE-2020-5135",
+  "vendorProject": "SonicWall",
+  "product": "SonicOS",
+  "vulnerabilityName": "SonicWall SonicOS Buffer Overflow Vulnerability",
+  "dateAdded": "2022-03-15",
+  "shortDescription": "A buffer overflow vulnerability in SonicOS allows a remote attacker to cause Denial of Service (DoS) and potentially execute arbitrary code by sending a malicious request to the firewall.",
+  "requiredAction": "Apply updates per vendor instructions.",
+  "dueDate": "2022-04-05",
+  "notes": ""
+}
+{
+  "cveID": "CVE-2019-1405",
+  "vendorProject": "Microsoft",
+  "product": "Windows",
+  "vulnerabilityName": "Microsoft Windows Universal Plug and Play (UPnP) Service Privilege Escalation Vulnerability",
+  "dateAdded": "2022-03-15",
+  "shortDescription": "A privilege escalation vulnerability exists when the Windows UPnP service improperly allows COM object creation.",
+  "requiredAction": "Apply updates per vendor instructions.",
+  "dueDate": "2022-04-05",
+  "notes": ""
+}
+{
+  "cveID": "CVE-2019-1322",
+  "vendorProject": "Microsoft",
+  "product": "Windows",
+  "vulnerabilityName": "Microsoft Windows Privilege Escalation Vulnerability",
+  "dateAdded": "2022-03-15",
+  "shortDescription": "A privilege escalation vulnerability exists when Windows improperly handles authentication requests. An attacker who successfully exploited this vulnerability could run processes in an elevated context.",
+  "requiredAction": "Apply updates per vendor instructions.",
+  "dueDate": "2022-04-05",
+  "notes": ""
+}
+{
+  "cveID": "CVE-2019-1315",
+  "vendorProject": "Microsoft",
+  "product": "Windows",
+  "vulnerabilityName": "Microsoft Windows Error Reporting Manager Privilege Escalation Vulnerability",
+  "dateAdded": "2022-03-15",
+  "shortDescription": "A privilege escalation vulnerability exists when Windows Error Reporting manager improperly handles hard links. An attacker who successfully exploited this vulnerability could overwrite a targeted file leading to an elevated status.",
+  "requiredAction": "Apply updates per vendor instructions.",
+  "dueDate": "2022-04-05",
+  "notes": ""
+}
+{
+  "cveID": "CVE-2019-1253",
+  "vendorProject": "Microsoft",
+  "product": "Windows",
+  "vulnerabilityName": "Microsoft Windows AppX Deployment Server Privilege Escalation Vulnerability",
+  "dateAdded": "2022-03-15",
+  "shortDescription": "A privilege escalation vulnerability exists when the Windows AppX Deployment Server improperly handles junctions.",
+  "requiredAction": "Apply updates per vendor instructions.",
+  "dueDate": "2022-04-05",
+  "notes": ""
+}
+{
+  "cveID": "CVE-2019-1132",
+  "vendorProject": "Microsoft",
+  "product": "Win32k",
+  "vulnerabilityName": "Microsoft Win32k Privilege Escalation Vulnerability",
+  "dateAdded": "2022-03-15",
+  "shortDescription": "A privilege escalation vulnerability exists in Windows when the Win32k component fails to properly handle objects in memory.",
+  "requiredAction": "Apply updates per vendor instructions.",
+  "dueDate": "2022-04-05",
+  "notes": ""
+}
+{
+  "cveID": "CVE-2019-1129",
+  "vendorProject": "Microsoft",
+  "product": "Windows",
+  "vulnerabilityName": "Microsoft Windows AppX Deployment Service (AppXSVC) Privilege Escalation Vulnerability",
+  "dateAdded": "2022-03-15",
+  "shortDescription": "A privilege escalation vulnerability exists when Windows AppXSVC improperly handles hard links. An attacker who successfully exploited this vulnerability could run processes in an elevated context.",
+  "requiredAction": "Apply updates per vendor instructions.",
+  "dueDate": "2022-04-05",
+  "notes": ""
+}
+{
+  "cveID": "CVE-2019-1069",
+  "vendorProject": "Microsoft",
+  "product": "Task Scheduler",
+  "vulnerabilityName": "Microsoft Task Scheduler Privilege Escalation Vulnerability",
+  "dateAdded": "2022-03-15",
+  "shortDescription": "A privilege escalation vulnerability exists in the way the Task Scheduler Service validates certain file operations.",
+  "requiredAction": "Apply updates per vendor instructions.",
+  "dueDate": "2022-04-05",
+  "notes": ""
+}
+{
+  "cveID": "CVE-2019-1064",
+  "vendorProject": "Microsoft",
+  "product": "Windows",
+  "vulnerabilityName": "Microsoft Windows AppX Deployment Service (AppXSVC) Privilege Escalation Vulnerability",
+  "dateAdded": "2022-03-15",
+  "shortDescription": "A privilege escalation vulnerability exists when Windows AppXSVC improperly handles hard links. An attacker who successfully exploited this vulnerability could run processes in an elevated context.",
+  "requiredAction": "Apply updates per vendor instructions.",
+  "dueDate": "2022-04-05",
+  "notes": ""
+}
+{
+  "cveID": "CVE-2019-0841",
+  "vendorProject": "Microsoft",
+  "product": "Windows",
+  "vulnerabilityName": "Microsoft Windows AppX Deployment Service (AppXSVC) Privilege Escalation Vulnerability",
+  "dateAdded": "2022-03-15",
+  "shortDescription": "A privilege escalation vulnerability exists when Windows AppXSVC improperly handles hard links. An attacker who successfully exploited this vulnerability could run processes in an elevated context.",
+  "requiredAction": "Apply updates per vendor instructions.",
+  "dueDate": "2022-04-05",
+  "notes": ""
+}
+{
+  "cveID": "CVE-2019-0543",
+  "vendorProject": "Microsoft",
+  "product": "Windows",
+  "vulnerabilityName": "Microsoft Windows Privilege Escalation Vulnerability",
+  "dateAdded": "2022-03-15",
+  "shortDescription": "A privilege escalation vulnerability exists when Windows improperly handles authentication requests. An attacker who successfully exploited this vulnerability could run processes in an elevated context.",
+  "requiredAction": "Apply updates per vendor instructions.",
+  "dueDate": "2022-04-05",
+  "notes": ""
+}
+{
+  "cveID": "CVE-2018-8120",
+  "vendorProject": "Microsoft",
+  "product": "Win32k",
+  "vulnerabilityName": "Microsoft Win32k Privilege Escalation Vulnerability",
+  "dateAdded": "2022-03-15",
+  "shortDescription": "A privilege escalation vulnerability exists in Windows when the Win32k component fails to properly handle objects in memory.",
+  "requiredAction": "Apply updates per vendor instructions.",
+  "dueDate": "2022-04-05",
+  "notes": ""
+}
+{
+  "cveID": "CVE-2017-0101",
+  "vendorProject": "Microsoft",
+  "product": "Windows",
+  "vulnerabilityName": "Microsoft Windows Transaction Manager Privilege Escalation Vulnerability",
+  "dateAdded": "2022-03-15",
+  "shortDescription": "A privilege escalation vulnerability exists when the Windows Transaction Manager improperly handles objects in memory.",
+  "requiredAction": "Apply updates per vendor instructions.",
+  "dueDate": "2022-04-05",
+  "notes": ""
+}
+{
+  "cveID": "CVE-2016-3309",
+  "vendorProject": "Microsoft",
+  "product": "Windows",
+  "vulnerabilityName": "Microsoft Windows Kernel Privilege Escalation Vulnerability",
+  "dateAdded": "2022-03-15",
+  "shortDescription": "A privilege escalation vulnerability exists when the Windows kernel fails to properly handle objects in memory. An attacker who successfully exploited this vulnerability could run arbitrary code in kernel mode.",
+  "requiredAction": "Apply updates per vendor instructions.",
+  "dueDate": "2022-04-05",
+  "notes": ""
+}
+{
+  "cveID": "CVE-2015-2546",
+  "vendorProject": "Microsoft",
+  "product": "Win32k",
+  "vulnerabilityName": "Microsoft Win32k Memory Corruption Vulnerability",
+  "dateAdded": "2022-03-15",
+  "shortDescription": "The kernel-mode driver in Microsoft Windows OS and Server allows local users to gain privileges via a crafted application.",
+  "requiredAction": "Apply updates per vendor instructions.",
+  "dueDate": "2022-04-05",
+  "notes": ""
+}

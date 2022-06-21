@@ -1,0 +1,297 @@
+{
+  "cveID": "CVE-2022-20708",
+  "vendorProject": "Cisco",
+  "product": "Small Business RV160, RV260, RV340, and RV345 Series Routers",
+  "vulnerabilityName": "Cisco Small Business RV Series Routers Stack-based Buffer Overflow Vulnerability",
+  "dateAdded": "2022-03-03",
+  "shortDescription": "A vulnerability in Cisco Small Business RV160, RV260, RV340, and RV345 Series Routers could allow an attacker to do any of the following: Execute arbitrary code elevate privileges, execute arbitrary commands, bypass authentication and authorization protections, fetch and run unsigned software, or cause a denial of service (DoS).",
+  "requiredAction": "Apply updates per vendor instructions.",
+  "dueDate": "2022-03-17",
+  "notes": ""
+}
+{
+  "cveID": "CVE-2022-20703",
+  "vendorProject": "Cisco",
+  "product": "Small Business RV160, RV260, RV340, and RV345 Series Routers",
+  "vulnerabilityName": "Cisco Small Business RV Series Routers Stack-based Buffer Overflow Vulnerability",
+  "dateAdded": "2022-03-03",
+  "shortDescription": "A vulnerability in Cisco Small Business RV160, RV260, RV340, and RV345 Series Routers could allow an attacker to do any of the following: Execute arbitrary code elevate privileges, execute arbitrary commands, bypass authentication and authorization protections, fetch and run unsigned software, or cause a denial of service (DoS).",
+  "requiredAction": "Apply updates per vendor instructions.",
+  "dueDate": "2022-03-17",
+  "notes": ""
+}
+{
+  "cveID": "CVE-2022-20701",
+  "vendorProject": "Cisco",
+  "product": "Small Business RV160, RV260, RV340, and RV345 Series Routers",
+  "vulnerabilityName": "Cisco Small Business RV Series Routers Stack-based Buffer Overflow Vulnerability",
+  "dateAdded": "2022-03-03",
+  "shortDescription": "A vulnerability in Cisco Small Business RV160, RV260, RV340, and RV345 Series Routers could allow an attacker to do any of the following: Execute arbitrary code elevate privileges, execute arbitrary commands, bypass authentication and authorization protections, fetch and run unsigned software, or cause a denial of service (DoS).",
+  "requiredAction": "Apply updates per vendor instructions.",
+  "dueDate": "2022-03-17",
+  "notes": ""
+}
+{
+  "cveID": "CVE-2022-20700",
+  "vendorProject": "Cisco",
+  "product": "Small Business RV160, RV260, RV340, and RV345 Series Routers",
+  "vulnerabilityName": "Cisco Small Business RV Series Routers Stack-based Buffer Overflow Vulnerability",
+  "dateAdded": "2022-03-03",
+  "shortDescription": "A vulnerability in Cisco Small Business RV160, RV260, RV340, and RV345 Series Routers could allow an attacker to do any of the following: Execute arbitrary code elevate privileges, execute arbitrary commands, bypass authentication and authorization protections, fetch and run unsigned software, or cause a denial of service (DoS).",
+  "requiredAction": "Apply updates per vendor instructions.",
+  "dueDate": "2022-03-17",
+  "notes": ""
+}
+{
+  "cveID": "CVE-2022-20699",
+  "vendorProject": "Cisco",
+  "product": "Small Business RV160, RV260, RV340, and RV345 Series Routers",
+  "vulnerabilityName": "Cisco Small Business RV Series Routers Stack-based Buffer Overflow Vulnerability",
+  "dateAdded": "2022-03-03",
+  "shortDescription": "A vulnerability in Cisco Small Business RV160, RV260, RV340, and RV345 Series Routers could allow an attacker to do any of the following: Execute arbitrary code elevate privileges, execute arbitrary commands, bypass authentication and authorization protections, fetch and run unsigned software, or cause a denial of service (DoS).",
+  "requiredAction": "Apply updates per vendor instructions.",
+  "dueDate": "2022-03-17",
+  "notes": ""
+}
+{
+  "cveID": "CVE-2021-41379",
+  "vendorProject": "Microsoft",
+  "product": "Windows",
+  "vulnerabilityName": "Microsoft Windows Installer Privilege Escalation Vulnerability",
+  "dateAdded": "2022-03-03",
+  "shortDescription": "Microsoft Windows Installer contains an unspecified vulnerability which allows for privilege escalation.",
+  "requiredAction": "Apply updates per vendor instructions.",
+  "dueDate": "2022-03-17",
+  "notes": ""
+}
+{
+  "cveID": "CVE-2020-1938",
+  "vendorProject": "Apache",
+  "product": "Tomcat",
+  "vulnerabilityName": "Apache Tomcat Improper Privilege Management Vulnerability",
+  "dateAdded": "2022-03-03",
+  "shortDescription": "Apache Tomcat treats Apache JServ Protocol (AJP) connections as having higher trust than, for example, a similar HTTP connection. If such connections are available to an attacker, they can be exploited.",
+  "requiredAction": "Apply updates per vendor instructions.",
+  "dueDate": "2022-03-17",
+  "notes": ""
+}
+{
+  "cveID": "CVE-2020-11899",
+  "vendorProject": "Treck TCP/IP stack",
+  "product": "IPv6",
+  "vulnerabilityName": "Treck TCP/IP stack Out-of-Bounds Read Vulnerability",
+  "dateAdded": "2022-03-03",
+  "shortDescription": "The Treck TCP/IP stack contains an IPv6 out-of-bounds read vulnerability.",
+  "requiredAction": "Apply updates per vendor instructions.",
+  "dueDate": "2022-03-17",
+  "notes": ""
+}
+{
+  "cveID": "CVE-2019-16928",
+  "vendorProject": "Exim",
+  "product": "Exim Internet Mailer",
+  "vulnerabilityName": "Exim Out-of-bounds Write Vulnerability",
+  "dateAdded": "2022-03-03",
+  "shortDescription": "Exim contains an out-of-bounds write vulnerability which can allow for remote code execution.",
+  "requiredAction": "Apply updates per vendor instructions.",
+  "dueDate": "2022-03-17",
+  "notes": ""
+}
+{
+  "cveID": "CVE-2019-1652",
+  "vendorProject": "Cisco",
+  "product": "Small Business RV320 and RV325 Dual Gigabit WAN VPN Routers",
+  "vulnerabilityName": "Cisco Small Business Routers Improper Input Validation Vulnerability",
+  "dateAdded": "2022-03-03",
+  "shortDescription": "A vulnerability in the web-based management interface of Cisco Small Business RV320 and RV325 Dual Gigabit WAN VPN Routers could allow an authenticated, remote attacker with administrative privileges on an affected device to execute arbitrary commands.",
+  "requiredAction": "Apply updates per vendor instructions.",
+  "dueDate": "2022-03-17",
+  "notes": ""
+}
+{
+  "cveID": "CVE-2019-1297",
+  "vendorProject": "Microsoft",
+  "product": "Excel",
+  "vulnerabilityName": "Microsoft Excel Remote Code Execution Vulnerability",
+  "dateAdded": "2022-03-03",
+  "shortDescription": "A remote code execution vulnerability exists in Microsoft Excel when the software fails to properly handle objects in memory.",
+  "requiredAction": "Apply updates per vendor instructions.",
+  "dueDate": "2022-03-17",
+  "notes": ""
+}
+{
+  "cveID": "CVE-2018-8581",
+  "vendorProject": "Microsoft",
+  "product": "Exchange Server",
+  "vulnerabilityName": "Microsoft Exchange Server Privilege Escalation Vulnerability",
+  "dateAdded": "2022-03-03",
+  "shortDescription": "A privilege escalation vulnerability exists in Microsoft Exchange Server. An attacker who successfully exploited this vulnerability could attempt to impersonate any other user of the Exchange server.",
+  "requiredAction": "Apply updates per vendor instructions.",
+  "dueDate": "2022-03-17",
+  "notes": ""
+}
+{
+  "cveID": "CVE-2018-8298",
+  "vendorProject": "ChakraCore",
+  "product": "ChakraCore scripting engine",
+  "vulnerabilityName": "ChakraCore Scripting Engine Type Confusion Vulnerability",
+  "dateAdded": "2022-03-03",
+  "shortDescription": "The ChakraCore scripting engine contains a type confusion vulnerability which can allow for remote code execution.",
+  "requiredAction": "Apply updates per vendor instructions.",
+  "dueDate": "2022-03-17",
+  "notes": ""
+}
+{
+  "cveID": "CVE-2018-0180",
+  "vendorProject": "Cisco",
+  "product": "IOS Software",
+  "vulnerabilityName": "Cisco IOS Software Denial-of-Service Vulnerability",
+  "dateAdded": "2022-03-03",
+  "shortDescription": "A vulnerability in the Login Enhancements (Login Block) feature of Cisco IOS Software could allow an unauthenticated, remote attacker to trigger a reload of an affected system, resulting in a denial of service (DoS) condition.",
+  "requiredAction": "Apply updates per vendor instructions.",
+  "dueDate": "2022-03-17",
+  "notes": ""
+}
+{
+  "cveID": "CVE-2018-0179",
+  "vendorProject": "Cisco",
+  "product": "IOS Software",
+  "vulnerabilityName": "Cisco IOS Software Denial-of-Service Vulnerability",
+  "dateAdded": "2022-03-03",
+  "shortDescription": "A vulnerability in the Login Enhancements (Login Block) feature of Cisco IOS Software could allow an unauthenticated, remote attacker to trigger a reload of an affected system, resulting in a denial of service (DoS) condition.",
+  "requiredAction": "Apply updates per vendor instructions.",
+  "dueDate": "2022-03-17",
+  "notes": ""
+}
+{
+  "cveID": "CVE-2018-0175",
+  "vendorProject": "Cisco",
+  "product": "IOS, XR, and XE Software",
+  "vulnerabilityName": "Cisco IOS, XR, and XE Software Buffer Overflow Vulnerability",
+  "dateAdded": "2022-03-03",
+  "shortDescription": "Format string vulnerability in the Link Layer Discovery Protocol (LLDP) subsystem of Cisco IOS Software, Cisco IOS XE Software, and Cisco IOS XR Software could allow an unauthenticated, adjacent attacker to cause a denial of service (DoS) condition or execute arbitrary code with elevated privileges on an affected device.",
+  "requiredAction": "Apply updates per vendor instructions.",
+  "dueDate": "2022-03-17",
+  "notes": ""
+}
+{
+  "cveID": "CVE-2018-0174",
+  "vendorProject": "Cisco",
+  "product": "IOS XE Software",
+  "vulnerabilityName": "Cisco IOS Software and Cisco IOS XE Software Improper Input Validation Vulnerability",
+  "dateAdded": "2022-03-03",
+  "shortDescription": "A vulnerability in the DHCP option 82 encapsulation functionality of Cisco IOS Software and Cisco IOS XE Software could allow for denial-of-service.",
+  "requiredAction": "Apply updates per vendor instructions.",
+  "dueDate": "2022-03-17",
+  "notes": ""
+}
+{
+  "cveID": "CVE-2018-0173",
+  "vendorProject": "Cisco",
+  "product": "IOS and IOS XE Software",
+  "vulnerabilityName": "Cisco IOS and IOS XE Software Improper Input Validation Vulnerability",
+  "dateAdded": "2022-03-03",
+  "shortDescription": "A vulnerability in the Cisco IOS Software and Cisco IOS XE Software function that restores encapsulated option 82 information in DHCP Version 4 (DHCPv4) packets can allow for denial-of-service.",
+  "requiredAction": "Apply updates per vendor instructions.",
+  "dueDate": "2022-03-17",
+  "notes": ""
+}
+{
+  "cveID": "CVE-2018-0172",
+  "vendorProject": "Cisco",
+  "product": "IOS and IOS XE Software",
+  "vulnerabilityName": "Cisco IOS and IOS XE Software Improper Input Validation Vulnerability",
+  "dateAdded": "2022-03-03",
+  "shortDescription": "A vulnerability in the DHCP option 82 encapsulation functionality of Cisco IOS Software and Cisco IOS XE Software could allow for denial-of-service.",
+  "requiredAction": "Apply updates per vendor instructions.",
+  "dueDate": "2022-03-17",
+  "notes": ""
+}
+{
+  "cveID": "CVE-2018-0167",
+  "vendorProject": "Cisco",
+  "product": "IOS, XR, and XE Software",
+  "vulnerabilityName": "Cisco IOS, XR, and XE Software Buffer Overflow Vulnerability",
+  "dateAdded": "2022-03-03",
+  "shortDescription": "There is a buffer overflow vulnerability in the Link Layer Discovery Protocol (LLDP) subsystem of Cisco IOS Software, Cisco IOS XE Software, and Cisco IOS XR Software which could allow an unauthenticated, adjacent attacker to cause a denial of service (DoS) condition or execute arbitrary code.",
+  "requiredAction": "Apply updates per vendor instructions.",
+  "dueDate": "2022-03-17",
+  "notes": ""
+}
+{
+  "cveID": "CVE-2018-0161",
+  "vendorProject": "Cisco",
+  "product": "IOS Software",
+  "vulnerabilityName": "Cisco IOS Software Resource Management Errors Vulnerability",
+  "dateAdded": "2022-03-03",
+  "shortDescription": "A vulnerability in the Simple Network Management Protocol (SNMP) subsystem of Cisco IOS Software running on certain models of Cisco Catalyst Switches could allow an authenticated, remote attacker to cause a denial-of-service (DoS) condition.",
+  "requiredAction": "Apply updates per vendor instructions.",
+  "dueDate": "2022-03-17",
+  "notes": ""
+}
+{
+  "cveID": "CVE-2018-0159",
+  "vendorProject": "CIsco",
+  "product": "IOS Software and Cisco IOS XE Software",
+  "vulnerabilityName": "Cisco IOS and XE Software Internet Key Exchange Version 1 Denial-of-Service Vulnerability",
+  "dateAdded": "2022-03-03",
+  "shortDescription": "A vulnerability in the implementation of Internet Key Exchange Version 1 (IKEv1) functionality in Cisco IOS Software and Cisco IOS XE Software could allow an unauthenticated, remote attacker to cause an affected device to reload, resulting in a denial-of-service (DoS) condition.",
+  "requiredAction": "Apply updates per vendor instructions.",
+  "dueDate": "2022-03-17",
+  "notes": ""
+}
+{
+  "cveID": "CVE-2018-0158",
+  "vendorProject": "Cisco",
+  "product": "IOS Software and Cisco IOS XE Software",
+  "vulnerabilityName": "Cisco IOS and XE Software Internet Key Exchange Memory Leak Vulnerability",
+  "dateAdded": "2022-03-03",
+  "shortDescription": "A vulnerability in the implementation of Internet Key Exchange Version 1 (IKEv1) functionality in Cisco IOS Software and Cisco IOS XE Software could allow an unauthenticated, remote attacker to cause an affected device to reload, resulting in a denial-of-service (DoS) condition.",
+  "requiredAction": "Apply updates per vendor instructions.",
+  "dueDate": "2022-03-17",
+  "notes": ""
+}
+{
+  "cveID": "CVE-2018-0156",
+  "vendorProject": "Cisco",
+  "product": "IOS Software and Cisco IOS XE Software",
+  "vulnerabilityName": "Cisco IOS Software and Cisco IOS XE Software Smart Install Denial-of-Service Vulnerability",
+  "dateAdded": "2022-03-03",
+  "shortDescription": "A vulnerability in the Smart Install feature of Cisco IOS Software and Cisco IOS XE Software could allow an unauthenticated, remote attacker to trigger a reload of an affected device, resulting in a denial-of-service (DoS) condition.",
+  "requiredAction": "Apply updates per vendor instructions.",
+  "dueDate": "2022-03-17",
+  "notes": ""
+}
+{
+  "cveID": "CVE-2018-0155",
+  "vendorProject": "Cisco",
+  "product": "Catalyst 4500 Series Switches and Cisco Catalyst 4500-X Series Switches",
+  "vulnerabilityName": "Cisco Catalyst Bidirectional Forwarding Detection Denial-of-Service Vulnerability",
+  "dateAdded": "2022-03-03",
+  "shortDescription": "A vulnerability in the Bidirectional Forwarding Detection (BFD) offload implementation of Cisco Catalyst 4500 Series Switches and Cisco Catalyst 4500-X Series Switches could allow an unauthenticated, remote attacker to cause a crash of the iosd process, causing a denial-of-service (DoS) condition.",
+  "requiredAction": "Apply updates per vendor instructions.",
+  "dueDate": "2022-03-17",
+  "notes": ""
+}
+{
+  "cveID": "CVE-2018-0154",
+  "vendorProject": "Cisco",
+  "product": "IOS Software",
+  "vulnerabilityName": "Cisco IOS Software Integrated Services Module for VPN Denial-of-Service Vulnerability",
+  "dateAdded": "2022-03-03",
+  "shortDescription": "A vulnerability in the crypto engine of the Cisco Integrated Services Module for VPN (ISM-VPN) running Cisco IOS Software could allow an unauthenticated, remote attacker to cause a denial-of-service (DoS) condition.",
+  "requiredAction": "Apply updates per vendor instructions.",
+  "dueDate": "2022-03-17",
+  "notes": ""
+}
+{
+  "cveID": "CVE-2018-0151",
+  "vendorProject": "Cisco",
+  "product": "IOS and IOS XE Software",
+  "vulnerabilityName": "Cisco IOS Software and Cisco IOS XE Software Quality of Service Remote Code Execution Vulnerability",
+  "dateAdded": "2022-03-03",
+  "shortDescription": "A vulnerability in the quality of service (QoS) subsystem of Cisco IOS Software and Cisco IOS XE Software could allow an unauthenticated, remote attacker to cause a denial of service (DoS) condition or execute arbitrary code with elevated privileges.",
+  "requiredAction": "Apply updates per vendor instructions.",
+  "dueDate": "2022-03-17",
+  "notes": ""
+}

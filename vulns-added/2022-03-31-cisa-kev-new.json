@@ -1,0 +1,77 @@
+{
+  "cveID": "CVE-2022-26871",
+  "vendorProject": "Trend Micro",
+  "product": "Apex Central",
+  "vulnerabilityName": "Trend Micro Apex Central Arbitrary File Upload Vulnerability",
+  "dateAdded": "2022-03-31",
+  "shortDescription": "An arbitrary file upload vulnerability in Trend Micro Apex Central could allow for remote code execution.",
+  "requiredAction": "Apply updates per vendor instructions.",
+  "dueDate": "2022-04-21",
+  "notes": ""
+}
+{
+  "cveID": "CVE-2022-1040",
+  "vendorProject": "Sophos",
+  "product": "Firewall",
+  "vulnerabilityName": "Sophos Firewall Authentication Bypass Vulnerability",
+  "dateAdded": "2022-03-31",
+  "shortDescription": "An authentication bypass vulnerability in User Portal and Webadmin of Sophos Firewall allows for remote code execution.",
+  "requiredAction": "Apply updates per vendor instructions.",
+  "dueDate": "2022-04-21",
+  "notes": ""
+}
+{
+  "cveID": "CVE-2021-34484",
+  "vendorProject": "Microsoft",
+  "product": "Windows",
+  "vulnerabilityName": "Microsoft Windows User Profile Service Privilege Escalation Vulnerability",
+  "dateAdded": "2022-03-31",
+  "shortDescription": "Microsoft Windows User Profile Service contains an unspecified vulnerability which allows for privilege escalation.",
+  "requiredAction": "Apply updates per vendor instructions.",
+  "dueDate": "2022-04-21",
+  "notes": ""
+}
+{
+  "cveID": "CVE-2021-28799",
+  "vendorProject": "QNAP",
+  "product": "Network Attached Storage (NAS)",
+  "vulnerabilityName": "QNAP NAS Improper Authorization Vulnerability",
+  "dateAdded": "2022-03-31",
+  "shortDescription": "QNAP NAS running HBS 3 contains an improper authorization vulnerability which can allow remote attackers to log in to a device.",
+  "requiredAction": "Apply updates per vendor instructions.",
+  "dueDate": "2022-04-21",
+  "notes": ""
+}
+{
+  "cveID": "CVE-2021-21551",
+  "vendorProject": "Dell",
+  "product": "dbutil Driver",
+  "vulnerabilityName": "Dell dbutil Driver Insufficient Access Control Vulnerability",
+  "dateAdded": "2022-03-31",
+  "shortDescription": "Dell dbutil driver contains an insufficient access control vulnerability which may lead to escalation of privileges, denial-of-service, or information disclosure.",
+  "requiredAction": "Apply updates per vendor instructions.",
+  "dueDate": "2022-04-21",
+  "notes": ""
+}
+{
+  "cveID": "CVE-2018-10562",
+  "vendorProject": "Dasan",
+  "product": "Gigabit Passive Optical Network (GPON) Routers",
+  "vulnerabilityName": "Dasan GPON Routers Command Injection Vulnerability",
+  "dateAdded": "2022-03-31",
+  "shortDescription": "Dasan GPON Routers contain an authentication bypass vulnerability. When combined with CVE-2018-10561, exploitation can allow an attacker to perform remote code execution.",
+  "requiredAction": "The impacted product is end-of-life and should be disconnected if still in use.",
+  "dueDate": "2022-04-21",
+  "notes": ""
+}
+{
+  "cveID": "CVE-2018-10561",
+  "vendorProject": "Dasan",
+  "product": "Gigabit Passive Optical Network (GPON) Routers",
+  "vulnerabilityName": "Dasan GPON Routers Authentication Bypass Vulnerability",
+  "dateAdded": "2022-03-31",
+  "shortDescription": "Dasan GPON Routers contain an authentication bypass vulnerability. When combined with CVE-2018-10562, exploitation can allow an attacker to perform remote code execution.",
+  "requiredAction": "The impacted product is end-of-life and should be disconnected if still in use.",
+  "dueDate": "2022-04-21",
+  "notes": ""
+}

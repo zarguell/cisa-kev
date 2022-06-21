@@ -1,0 +1,88 @@
+{
+  "cveID": "CVE-2022-22587",
+  "vendorProject": "Apple",
+  "product": "iOS and macOS",
+  "vulnerabilityName": "Apple Memory Corruption Vulnerability",
+  "dateAdded": "2022-01-28",
+  "shortDescription": "Apple IOMobileFrameBuffer contains a memory corruption vulnerability which can allow a malicious application to execute arbitrary code with kernel privileges.",
+  "requiredAction": "Apply updates per vendor instructions.",
+  "dueDate": "2022-02-11",
+  "notes": ""
+}
+{
+  "cveID": "CVE-2021-20038",
+  "vendorProject": "SonicWall",
+  "product": "SMA 100 Appliances",
+  "vulnerabilityName": "SonicWall SMA 100 Appliances Stack-Based Buffer Overflow Vulnerability",
+  "dateAdded": "2022-01-28",
+  "shortDescription": "SonicWall SMA 100 devies are vulnerable to an unauthenticated stack-based buffer overflow vulnerability where exploitation can result in code execution.",
+  "requiredAction": "Apply updates per vendor instructions.",
+  "dueDate": "2022-02-11",
+  "notes": ""
+}
+{
+  "cveID": "CVE-2020-5722",
+  "vendorProject": "Grandstream",
+  "product": "UCM6200",
+  "vulnerabilityName": "Grandstream Networks UCM6200 Series SQL Injection Vulnerability",
+  "dateAdded": "2022-01-28",
+  "shortDescription": "Grandstream UCM6200 series is vulnerable to an unauthenticated remote SQL injection via crafted HTTP request. Exploitation can allow for code execution as root.",
+  "requiredAction": "Apply updates per vendor instructions.",
+  "dueDate": "2022-07-28",
+  "notes": ""
+}
+{
+  "cveID": "CVE-2020-0787",
+  "vendorProject": "Microsoft",
+  "product": "Windows",
+  "vulnerabilityName": "Microsoft Windows Background Intelligent Transfer Service (BITS) Improper Privilege Management Vulnerability",
+  "dateAdded": "2022-01-28",
+  "shortDescription": "Microsoft Windows BITS is vulnerable to to a privilege elevation vulnerability if it improperly handles symbolic links. An actor can exploit this vulnerability to execute arbitrary code with system-level privileges.",
+  "requiredAction": "Apply updates per vendor instructions.",
+  "dueDate": "2022-07-28",
+  "notes": ""
+}
+{
+  "cveID": "CVE-2017-5689",
+  "vendorProject": "Intel",
+  "product": "Active Management Technology (AMT), Small Business Technology (SBT), and Standard Manageability",
+  "vulnerabilityName": "Intel Active Management Technology (AMT), Small Business Technology (SBT), and Standard Manageability Privilege Escalation Vulnerability",
+  "dateAdded": "2022-01-28",
+  "shortDescription": "Intel products contain a vulnerability which can allow attackers to perform privilege escalation.",
+  "requiredAction": "Apply updates per vendor instructions.",
+  "dueDate": "2022-07-28",
+  "notes": ""
+}
+{
+  "cveID": "CVE-2014-1776",
+  "vendorProject": "Microsoft",
+  "product": "Internet Explorer",
+  "vulnerabilityName": "Microsoft Internet Explorer Use-After-Free Vulnerability",
+  "dateAdded": "2022-01-28",
+  "shortDescription": "Microsoft Internet Explorer 6 - 11 contains a use-after-free vulnerability which can allow for arbitrary code execution or denial of service.",
+  "requiredAction": "Apply updates per vendor instructions.",
+  "dueDate": "2022-07-28",
+  "notes": ""
+}
+{
+  "cveID": "CVE-2014-6271",
+  "vendorProject": "GNU",
+  "product": "Bourne-Again Shell (Bash)",
+  "vulnerabilityName": "GNU Bourne-Again Shell (Bash) Arbitrary Code Execution Vulnerability",
+  "dateAdded": "2022-01-28",
+  "shortDescription": "GNU Bash through 4.3 processes trailing strings after function definitions in the values of environment variables, which allows remote attackers to execute code.",
+  "requiredAction": "Apply updates per vendor instructions.",
+  "dueDate": "2022-07-28",
+  "notes": ""
+}
+{
+  "cveID": "CVE-2014-7169",
+  "vendorProject": "GNU",
+  "product": "Bourne-Again Shell (Bash)",
+  "vulnerabilityName": "GNU Bourne-Again Shell (Bash) Arbitrary Code Execution Vulnerability",
+  "dateAdded": "2022-01-28",
+  "shortDescription": "GNU Bash through 4.3 processes trailing strings after function definitions in the values of environment variables, which allows remote attackers to execute code. This CVE correctly remediates the vulnerability in CVE-2014-6271.",
+  "requiredAction": "Apply updates per vendor instructions.",
+  "dueDate": "2022-07-28",
+  "notes": ""
+}
