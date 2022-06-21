@@ -16,10 +16,7 @@ jobs:
         fetch-depth: 0
 
     - name: Check CISA KEV for Vulns Due Today
-      run: curl --silent https://www.cisa.gov/sites/default/files/csv/known_exploited_vulnerabilities.csv | grep -e "Apply updates per vendor instructions.,""$(date -I)" -e "cveID,vendorProject" > vulns-due/$(date -I)-cisa-kev-due.csv
-
-    - name: Clean scrape if only contains header
-      run: find vulns-due/ -size 97c |  xargs --no-run-if-empty rm
+      run: curl -s 'https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json' | jq -r '.vulnerabilities[] | select(.dueDate=="$(date -I)")' > vulns-due/$(date -I)-cisa-kev-due.json
       
     - name: Commit and push if it changed
       run: |-

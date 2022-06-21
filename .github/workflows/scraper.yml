@@ -16,13 +16,10 @@ jobs:
         fetch-depth: 0
 
     - name: Scrape Entire CISA KEV to latest File
-      run: curl --silent --output cisa-kev-latest.csv https://www.cisa.gov/sites/default/files/csv/known_exploited_vulnerabilities.csv
+      run: curl --silent --output cisa-kev-latest.json https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json
 
     - name: Scrape CISA KEV For Updates Only
-      run: curl --silent https://www.cisa.gov/sites/default/files/csv/known_exploited_vulnerabilities.csv | grep -e $(date -I), -e "cveID,vendorProject" > vulns-added/$(date -I)-cisa-kev-new.csv
-
-    - name: Clean scrape if only contains header
-      run: find vulns-added/ -size 97c | xargs --no-run-if-empty rm
+      run: curl -s 'https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json' | jq -r '.vulnerabilities[] | select(.dateAdded=="$(date -I)")' > vulns-added/$(date -I)-cisa-kev-new.json
 
     - name: Commit and push if it changed
       run: |-
