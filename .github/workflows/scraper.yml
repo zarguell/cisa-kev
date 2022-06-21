@@ -32,7 +32,7 @@ jobs:
         cat cisa-kev-latest.json | yq -y > cisa-kev-latest.yaml
         d=$(date -I)
         cat cisa-kev-latest.json| jq --arg d "$d" '.vulnerabilities[] |  select(.dateAdded==$d)' | jq -s . - > vulns-added/$d-cisa-kev-new.json
-        cat vulns-added/$d-cisa-kev-new.json | yq -y > vulns-added-yaml/$d-cisa-kev-new.json
+        cat vulns-added/$d-cisa-kev-new.json | yq -y > vulns-added-yaml/$d-cisa-kev-new.yaml
         find ./vulns-* -type f -size -4c -delete
 
     - name: Commit and push if it changed
