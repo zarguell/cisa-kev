@@ -1,0 +1,32 @@
+- cveID: CVE-2021-38163
+  vendorProject: SAP
+  product: NetWeaver
+  vulnerabilityName: SAP NetWeaver Unrestricted File Upload Vulnerability
+  dateAdded: '2022-06-09'
+  shortDescription: SAP NetWeaver contains a vulnerability that allows unrestricted
+    file upload.
+  requiredAction: Apply updates per vendor instructions.
+  dueDate: '2022-06-30'
+  notes: ''
+- cveID: CVE-2016-2386
+  vendorProject: SAP
+  product: NetWeaver
+  vulnerabilityName: SAP NetWeaver SQL Injection Vulnerability
+  dateAdded: '2022-06-09'
+  shortDescription: SQL injection vulnerability in the UDDI server in SAP NetWeaver
+    J2EE Engine 7.40 allows remote attackers to execute arbitrary SQL commands via
+    unspecified vectors.
+  requiredAction: Apply updates per vendor instructions.
+  dueDate: '2022-06-30'
+  notes: ''
+- cveID: CVE-2016-2388
+  vendorProject: SAP
+  product: NetWeaver
+  vulnerabilityName: SAP NetWeaver Information Disclosure Vulnerability
+  dateAdded: '2022-06-09'
+  shortDescription: The Universal Worklist Configuration in SAP NetWeaver AS JAVA
+    7.4 allows remote attackers to obtain sensitive user information via a crafted
+    HTTP request.
+  requiredAction: Apply updates per vendor instructions.
+  dueDate: '2022-06-30'
+  notes: ''
