@@ -1,0 +1,31 @@
+- cveID: CVE-2006-1547
+  vendorProject: Apache
+  product: Struts 1
+  vulnerabilityName: Apache Struts 1 ActionForm Denial-of-Service Vulnerability
+  dateAdded: 2022-01-21
+  shortDescription: ActionForm in Apache Struts versions before 1.2.9 with BeanUtils
+    1.7 contains a vulnerability which allows for denial-of-service.
+  requiredAction: Apply updates per vendor instructions.
+  dueDate: 2022-07-21
+  notes: ''
+- cveID: CVE-2012-0391
+  vendorProject: Apache
+  product: Struts 2
+  vulnerabilityName: Apache Struts 2 Improper Input Validation Vulnerability
+  dateAdded: 2022-01-21
+  shortDescription: The ExceptionDelegator component in Apache Struts 2 before 2.2.3.1
+    contains an improper input validation vulnerability which allows for remote code
+    execution.
+  requiredAction: Apply updates per vendor instructions.
+  dueDate: 2022-07-21
+  notes: ''
+- cveID: CVE-2018-8453
+  vendorProject: Microsoft
+  product: Win32k
+  vulnerabilityName: Microsoft Win32k Privilege Escalation Vulnerability
+  dateAdded: 2022-01-21
+  shortDescription: Microsoft Windows Win32k contains a vulnerability which allows
+    an attacker to escalate privileges.
+  requiredAction: Apply updates per vendor instructions.
+  dueDate: 2022-07-21
+  notes: ''
