@@ -1,7 +1,7 @@
 title: CISA Catalog of Known Exploited Vulnerabilities
-catalogVersion: 2022.07.29
-dateReleased: '2022-07-29T09:43:19.1882Z'
-count: 789
+catalogVersion: 2022.08.04
+dateReleased: '2022-08-04T14:48:10.1010Z'
+count: 790
 vulnerabilities:
   - cveID: CVE-2021-27104
     vendorProject: Accellion
@@ -8715,7 +8715,7 @@ vulnerabilities:
     notes: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2022-22047
   - cveID: CVE-2022-26138
     vendorProject: Atlassian
-    product: Confluence
+    product: 'Confluence '
     vulnerabilityName: Atlassian Questions For Confluence App Hard-coded Credentials
       Vulnerability
     dateAdded: '2022-07-29'
@@ -8726,3 +8726,14 @@ vulnerabilities:
     requiredAction: Apply updates per vendor instructions.
     dueDate: '2022-08-19'
     notes: https://confluence.atlassian.com/doc/questions-for-confluence-security-advisory-2022-07-20-1142446709.html
+  - cveID: CVE-2022-27924
+    vendorProject: Zimbra
+    product: Collaboration
+    vulnerabilityName: Zimbra Collaboration (ZCS) Command Injection Vulnerability
+    dateAdded: '2022-08-04'
+    shortDescription: Zimbra Collaboration (ZCS) allows an attacker to inject memcache
+      commands into a targeted instance which causes an overwrite of arbitrary cached
+      entries.
+    requiredAction: Apply updates per vendor instructions.
+    dueDate: '2022-08-25'
+    notes: https://wiki.zimbra.com/wiki/Zimbra_Releases/9.0.0/P24.1#Security_Fixes
