@@ -1,0 +1,41 @@
+- cveID: CVE-2017-8570
+  vendorProject: Microsoft
+  product: Office
+  vulnerabilityName: Microsoft Office Remote Code Execution Vulnerability
+  dateAdded: '2022-02-25'
+  shortDescription: A remote code execution vulnerability exists in Microsoft Office
+    software when it fails to properly handle objects in memory.
+  requiredAction: Apply updates per vendor instructions.
+  dueDate: '2022-08-25'
+  notes: ''
+- cveID: CVE-2017-0222
+  vendorProject: Microsoft
+  product: Internet Explorer
+  vulnerabilityName: Microsoft Internet Explorer Remote Code Execution Vulnerability
+  dateAdded: '2022-02-25'
+  shortDescription: A remote code execution vulnerability exists when Internet Explorer
+    improperly accesses objects in memory.
+  requiredAction: Apply updates per vendor instructions.
+  dueDate: '2022-08-25'
+  notes: ''
+- cveID: CVE-2014-6352
+  vendorProject: Microsoft
+  product: Windows
+  vulnerabilityName: Microsoft Windows Code Injection Vulnerability
+  dateAdded: '2022-02-25'
+  shortDescription: Microsoft Windows allow remote attackers to execute arbitrary
+    code via a crafted OLE object.
+  requiredAction: Apply updates per vendor instructions.
+  dueDate: '2022-08-25'
+  notes: ''
+- cveID: CVE-2022-27924
+  vendorProject: Zimbra
+  product: Collaboration
+  vulnerabilityName: Zimbra Collaboration (ZCS) Command Injection Vulnerability
+  dateAdded: '2022-08-04'
+  shortDescription: Zimbra Collaboration (ZCS) allows an attacker to inject memcache
+    commands into a targeted instance which causes an overwrite of arbitrary cached
+    entries.
+  requiredAction: Apply updates per vendor instructions.
+  dueDate: '2022-08-25'
+  notes: https://wiki.zimbra.com/wiki/Zimbra_Releases/9.0.0/P24.1#Security_Fixes
