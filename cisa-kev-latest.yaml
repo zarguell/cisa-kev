@@ -1,7 +1,7 @@
 title: CISA Catalog of Known Exploited Vulnerabilities
-catalogVersion: 2022.10.11
-dateReleased: '2022-10-11T17:23:34.4730Z'
-count: 839
+catalogVersion: 2022.10.20
+dateReleased: '2022-10-20T13:34:12.2793Z'
+count: 841
 vulnerabilities:
   - cveID: CVE-2021-27104
     vendorProject: Accellion
@@ -3586,12 +3586,12 @@ vulnerabilities:
     notes: ''
   - cveID: CVE-2019-9670
     vendorProject: Synacor
-    product: Zimbra Collaboration Suite
-    vulnerabilityName: Synacor Zimbra Collaboration Suite Improper Restriction of
+    product: Zimbra Collaboration (ZCS)
+    vulnerabilityName: Synacor Zimbra Collaboration (ZCS) Improper Restriction of
       XML External Entity Reference
     dateAdded: '2022-01-10'
     shortDescription: Improper Restriction of XML External Entity Reference vulnerability
-      affecting Synacor Zimbra Collaboration Suite.
+      affecting Synacor Zimbra Collaboration (ZCS).
     requiredAction: Apply updates per vendor instructions.
     dueDate: '2022-07-10'
     notes: ''
@@ -8726,7 +8726,7 @@ vulnerabilities:
     notes: https://confluence.atlassian.com/doc/questions-for-confluence-security-advisory-2022-07-20-1142446709.html
   - cveID: CVE-2022-27924
     vendorProject: Zimbra
-    product: Collaboration
+    product: Collaboration (ZCS)
     vulnerabilityName: Zimbra Collaboration (ZCS) Command Injection Vulnerability
     dateAdded: '2022-08-04'
     shortDescription: Zimbra Collaboration (ZCS) allows an attacker to inject memcache
@@ -8760,7 +8760,7 @@ vulnerabilities:
       update information: https://www.rarlab.com/rar/rarlinux-x32-612.tar.gz'
   - cveID: CVE-2022-27925
     vendorProject: Zimbra
-    product: Collaboration
+    product: Collaboration (ZCS)
     vulnerabilityName: Zimbra Collaboration (ZCS) Arbitrary File Upload Vulnerability
     dateAdded: '2022-08-11'
     shortDescription: Zimbra Collaboration (ZCS) contains flaw in the mboximport functionality,
@@ -8772,7 +8772,7 @@ vulnerabilities:
     notes: https://blog.zimbra.com/2022/08/authentication-bypass-in-mailboximportservlet-vulnerability/
   - cveID: CVE-2022-37042
     vendorProject: Zimbra
-    product: Collaboration
+    product: Collaboration (ZCS)
     vulnerabilityName: Zimbra Collaboration (ZCS) Authentication Bypass Vulnerability
     dateAdded: '2022-08-11'
     shortDescription: Zimbra Collaboration (ZCS) contains an authentication bypass
@@ -9301,3 +9301,24 @@ vulnerabilities:
     requiredAction: Apply updates per vendor instructions.
     dueDate: '2022-11-01'
     notes: https://msrc.microsoft.com/update-guide/en-US/vulnerability/CVE-2022-41033
+  - cveID: CVE-2022-41352
+    vendorProject: Zimbra
+    product: Collaboration (ZCS)
+    vulnerabilityName: Zimbra Collaboration (ZCS) Arbitrary File Upload Vulnerability
+    dateAdded: '2022-10-20'
+    shortDescription: Zimbra Collaboration (ZCS) allows an attacker to upload arbitrary
+      files using cpio package to gain incorrect access to any other user accounts.
+    requiredAction: Apply updates per vendor instructions.
+    dueDate: '2022-11-10'
+    notes: https://wiki.zimbra.com/wiki/Security_Center
+  - cveID: CVE-2021-3493
+    vendorProject: Linux
+    product: Kernel
+    vulnerabilityName: Linux Kernel Privilege Escalation Vulnerability
+    dateAdded: '2022-10-20'
+    shortDescription: The overlayfs stacking file system in Linux kernel does not
+      properly validate the application of file capabilities against user namespaces,
+      which could lead to privilege escalation.
+    requiredAction: Apply updates per vendor instructions.
+    dueDate: '2022-11-10'
+    notes: https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=7c03e2cda4a584cadc398e8f6641ca9988a39d52
