@@ -1,6 +1,6 @@
 title: CISA Catalog of Known Exploited Vulnerabilities
-catalogVersion: 2022.12.29
-dateReleased: '2022-12-29T15:25:12.2418Z'
+catalogVersion: 2023.01.09
+dateReleased: '2023-01-09T15:56:40.3004Z'
 count: 868
 vulnerabilities:
   - cveID: CVE-2021-27104
@@ -1811,7 +1811,8 @@ vulnerabilities:
     shortDescription: Windows Print Spooler Remote Code Execution Vulnerability
     requiredAction: Apply updates per vendor instructions.
     dueDate: '2021-07-20'
-    notes: ''
+    notes: Reference CISA's ED 21-04 (https://www.cisa.gov/emergency-directive-21-04)
+      for further guidance and requirements.
   - cveID: CVE-2021-31207
     vendorProject: Microsoft
     product: Microsoft Exchange Server
@@ -1865,7 +1866,8 @@ vulnerabilities:
       Name System servers when they fail to properly handle requests.
     requiredAction: Apply updates per vendor instructions.
     dueDate: '2020-07-24'
-    notes: ''
+    notes: Reference CISA's ED 20-03 (https://www.cisa.gov/emergency-directive-20-03)
+      for further guidance and requirements.
   - cveID: CVE-2021-26411
     vendorProject: Microsoft
     product: Microsoft Edge, Internet Explorer
@@ -2126,7 +2128,8 @@ vulnerabilities:
       Vulnerability'.
     requiredAction: Apply updates per vendor instructions.
     dueDate: '2020-09-21'
-    notes: ''
+    notes: Reference CISA's ED 20-03 (https://www.cisa.gov/emergency-directive-20-03)
+      for further guidance and requirements.
   - cveID: CVE-2021-26855
     vendorProject: Microsoft
     product: Microsoft Exchange Server
@@ -2137,7 +2140,8 @@ vulnerabilities:
       CVE-2021-27065, CVE-2021-27078.
     requiredAction: Apply updates per vendor instructions.
     dueDate: '2021-04-16'
-    notes: ''
+    notes: Reference CISA's ED 21-02 (https://www.cisa.gov/emergency-directive-21-02)
+      for further guidance and requirements.
   - cveID: CVE-2021-26858
     vendorProject: Microsoft
     product: Microsoft Exchange Server
@@ -2148,7 +2152,8 @@ vulnerabilities:
       CVE-2021-27065, CVE-2021-27078.
     requiredAction: Apply updates per vendor instructions.
     dueDate: '2021-04-16'
-    notes: ''
+    notes: Reference CISA's ED 21-02 (https://www.cisa.gov/emergency-directive-21-02)
+      for further guidance and requirements.
   - cveID: CVE-2021-27065
     vendorProject: Microsoft
     product: Microsoft Exchange Server
@@ -2159,7 +2164,8 @@ vulnerabilities:
       CVE-2021-26858, CVE-2021-27078.
     requiredAction: Apply updates per vendor instructions.
     dueDate: '2021-04-16'
-    notes: ''
+    notes: Reference CISA's ED 21-02 (https://www.cisa.gov/emergency-directive-21-02)
+      for further guidance and requirements.
   - cveID: CVE-2020-1054
     vendorProject: Microsoft
     product: Win32k
@@ -2200,7 +2206,8 @@ vulnerabilities:
       legitimate source, aka 'Windows CryptoAPI Spoofing Vulnerability'.
     requiredAction: Apply updates per vendor instructions.
     dueDate: '2020-01-29'
-    notes: ''
+    notes: Reference CISA's ED 20-02 (https://www.cisa.gov/emergency-directive-20-02)
+      for further guidance and requirements.
   - cveID: CVE-2019-0604
     vendorProject: Microsoft
     product: SharePoint
@@ -2245,7 +2252,8 @@ vulnerabilities:
       CVE-2021-27065, CVE-2021-27078.
     requiredAction: Apply updates per vendor instructions.
     dueDate: '2021-04-16'
-    notes: ''
+    notes: Reference CISA's ED 21-02 (https://www.cisa.gov/emergency-directive-21-02)
+      for further guidance and requirements.
   - cveID: CVE-2020-1147
     vendorProject: Microsoft
     product: Microsoft .NET Framework, Microsoft SharePoint, Visual Studio
@@ -2481,7 +2489,8 @@ vulnerabilities:
       arbitrary code execution on the Pulse Connect Secure gateway.
     requiredAction: Apply updates per vendor instructions.
     dueDate: '2021-04-23'
-    notes: ''
+    notes: Reference CISA's ED 21-03 (https://www.cisa.gov/emergency-directive-21-03)
+      for further guidance and requirements.
   - cveID: CVE-2020-8243
     vendorProject: Pulse Secure
     product: Pulse Connect Secure
@@ -2492,7 +2501,8 @@ vulnerabilities:
       to perform an arbitrary code execution.
     requiredAction: Apply updates per vendor instructions.
     dueDate: '2021-04-23'
-    notes: ''
+    notes: Reference CISA's ED 21-03 (https://www.cisa.gov/emergency-directive-21-03)
+      for further guidance and requirements.
   - cveID: CVE-2021-22900
     vendorProject: Pulse Secure
     product: Pulse Connect Secure
@@ -2504,7 +2514,8 @@ vulnerabilities:
       web interface.
     requiredAction: Apply updates per vendor instructions.
     dueDate: '2021-04-23'
-    notes: ''
+    notes: Reference CISA's ED 21-03 (https://www.cisa.gov/emergency-directive-21-03)
+      for further guidance and requirements.
   - cveID: CVE-2021-22894
     vendorProject: Pulse Secure
     product: Pulse Connect Secure
@@ -2516,7 +2527,8 @@ vulnerabilities:
       code as the root user via maliciously crafted meeting room.
     requiredAction: Apply updates per vendor instructions.
     dueDate: '2021-04-23'
-    notes: ''
+    notes: Reference CISA's ED 21-03 (https://www.cisa.gov/emergency-directive-21-03)
+      for further guidance and requirements.
   - cveID: CVE-2020-8260
     vendorProject: Pulse Secure
     product: Pulse Connect Secure
@@ -2527,7 +2539,8 @@ vulnerabilities:
       execution using uncontrolled gzip extraction.
     requiredAction: Apply updates per vendor instructions.
     dueDate: '2021-04-23'
-    notes: ''
+    notes: Reference CISA's ED 21-03 (https://www.cisa.gov/emergency-directive-21-03)
+      for further guidance and requirements.
   - cveID: CVE-2021-22899
     vendorProject: Pulse Secure
     product: Pulse Connect Secure
@@ -2537,18 +2550,20 @@ vulnerabilities:
       execution via Windows Resource Profiles Feature.
     requiredAction: Apply updates per vendor instructions.
     dueDate: '2021-04-23'
-    notes: ''
+    notes: Reference CISA's ED 21-03 (https://www.cisa.gov/emergency-directive-21-03)
+      for further guidance and requirements.
   - cveID: CVE-2019-11510
     vendorProject: Pulse Secure
     product: Pulse Connect Secure
-    vulnerabilityName: Pulse Connect Secure VPN arbitrary file reading vulnerability
-      (COVID-19-CTI list)
+    vulnerabilityName: Pulse Connect Secure VPN Arbitrary File Reading Vulnerability
+      (COVID-19-CTI List)
     dateAdded: '2021-11-03'
     shortDescription: An unauthenticated remote attacker can send a specially crafted
       URI to perform an arbitrary file reading vulnerability.
     requiredAction: Apply updates per vendor instructions.
     dueDate: '2021-04-23'
-    notes: ''
+    notes: Reference CISA's ED 21-03 (https://www.cisa.gov/emergency-directive-21-03)
+      for further guidance and requirements.
   - cveID: CVE-2019-11539
     vendorProject: Pulse Secure
     product: Pulse Connect Secure, Policy Secure
@@ -9610,7 +9625,7 @@ vulnerabilities:
     notes: https://support.apple.com/en-us/HT213516
   - cveID: CVE-2018-5430
     vendorProject: TIBCO
-    product: JasperReports Server
+    product: JasperReports
     vulnerabilityName: TIBCO JasperReports Server Information Disclosure Vulnerability
     dateAdded: '2022-12-29'
     shortDescription: TIBCO JasperReports Server contain a vulnerability which may
@@ -9621,7 +9636,7 @@ vulnerabilities:
     notes: https://www.tibco.com/support/advisories/2018/04/tibco-security-advisory-april-17-2018-tibco-jasperreports-2018-5430
   - cveID: CVE-2018-18809
     vendorProject: TIBCO
-    product: JasperReports Library
+    product: JasperReports
     vulnerabilityName: TIBCO JasperReports Library Directory Traversal Vulnerability
     dateAdded: '2022-12-29'
     shortDescription: TIBCO JasperReports Library contains a directory-traversal vulnerability
