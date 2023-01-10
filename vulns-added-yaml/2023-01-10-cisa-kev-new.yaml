@@ -1,0 +1,22 @@
+- cveID: CVE-2022-41080
+  vendorProject: Microsoft
+  product: Exchange Server
+  vulnerabilityName: Microsoft Exchange Server Privilege Escalation Vulnerability
+  dateAdded: '2023-01-10'
+  shortDescription: Microsoft Exchange Server contains an unspecified vulnerability
+    that allows for privilege escalation. This vulnerability is chainable with CVE-2022-41082,
+    which allows for remote code execution.
+  requiredAction: Apply updates per vendor instructions.
+  dueDate: '2023-01-31'
+  notes: https://msrc.microsoft.com/update-guide/en-US/vulnerability/CVE-2022-41080
+- cveID: CVE-2023-21674
+  vendorProject: Microsoft
+  product: Windows
+  vulnerabilityName: Microsoft Windows Advanced Local Procedure Call (ALPC) Privilege
+    Escalation Vulnerability
+  dateAdded: '2023-01-10'
+  shortDescription: Microsoft Windows Advanced Local Procedure Call (ALPC) contains
+    an unspecified vulnerability that allows for privilege escalation.
+  requiredAction: Apply updates per vendor instructions.
+  dueDate: '2023-01-31'
+  notes: https://msrc.microsoft.com/update-guide/en-US/vulnerability/CVE-2023-21674
