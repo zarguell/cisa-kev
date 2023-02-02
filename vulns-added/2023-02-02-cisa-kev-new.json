@@ -1,0 +1,24 @@
+[
+  {
+    "cveID": "CVE-2022-21587",
+    "vendorProject": "Oracle",
+    "product": "E-Business Suite",
+    "vulnerabilityName": "Oracle E-Business Suite Unspecified Vulnerability",
+    "dateAdded": "2023-02-02",
+    "shortDescription": "Oracle E-Business Suite contains an unspecified vulnerability that allows an unauthenticated attacker with network access via HTTP to compromise Oracle Web Applications Desktop Integrator.",
+    "requiredAction": "Apply updates per vendor instructions.",
+    "dueDate": "2023-02-23",
+    "notes": "https://www.oracle.com/security-alerts/cpuoct2022.html"
+  },
+  {
+    "cveID": "CVE-2023-22952",
+    "vendorProject": "SugarCRM",
+    "product": "Multiple Products",
+    "vulnerabilityName": "Multiple SugarCRM Products Remote Code Execution Vulnerability",
+    "dateAdded": "2023-02-02",
+    "shortDescription": "Multiple SugarCRM products contain a remote code execution vulnerability in the EmailTemplates. Using a specially crafted request, custom PHP code can be injected through the EmailTemplates.",
+    "requiredAction": "Apply updates per vendor instructions.",
+    "dueDate": "2023-02-23",
+    "notes": "https://support.sugarcrm.com/Resources/Security/sugarcrm-sa-2023-001/"
+  }
+]
