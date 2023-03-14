@@ -1,0 +1,35 @@
+[
+  {
+    "cveID": "CVE-2023-23397",
+    "vendorProject": "Microsoft",
+    "product": "Office",
+    "vulnerabilityName": "Microsoft Office Outlook Privilege Escalation Vulnerability",
+    "dateAdded": "2023-03-14",
+    "shortDescription": "Microsoft Office Outlook contains a privilege escalation vulnerability that allows for a NTLM Relay attack against another service to authenticate as the user.",
+    "requiredAction": "Apply updates per vendor instructions.",
+    "dueDate": "2023-04-04",
+    "notes": "https://msrc.microsoft.com/update-guide/en-US/vulnerability/CVE-2023-23397"
+  },
+  {
+    "cveID": "CVE-2023-24880",
+    "vendorProject": "Microsoft",
+    "product": "Windows",
+    "vulnerabilityName": "Microsoft Windows SmartScreen Security Feature Bypass Vulnerability",
+    "dateAdded": "2023-03-14",
+    "shortDescription": "Microsoft Windows SmartScreen contains a security feature bypass vulnerability that could allow an attacker to evade Mark of the Web (MOTW) defenses via a specially crafted malicious file.",
+    "requiredAction": "Apply updates per vendor instructions.",
+    "dueDate": "2023-04-04",
+    "notes": "https://msrc.microsoft.com/update-guide/en-US/vulnerability/CVE-2023-24880"
+  },
+  {
+    "cveID": "CVE-2022-41328",
+    "vendorProject": "Fortinet",
+    "product": "FortiOS",
+    "vulnerabilityName": "Fortinet FortiOS Path Traversal Vulnerability",
+    "dateAdded": "2023-03-14",
+    "shortDescription": "Fortinet FortiOS contains a path traversal vulnerability that may allow a local privileged attacker to read and write files via crafted CLI commands.",
+    "requiredAction": "Apply updates per vendor instructions.",
+    "dueDate": "2023-04-04",
+    "notes": "https://www.fortiguard.com/psirt/FG-IR-22-369"
+  }
+]
