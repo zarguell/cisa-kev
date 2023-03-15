@@ -1,7 +1,7 @@
 title: CISA Catalog of Known Exploited Vulnerabilities
-catalogVersion: 2023.03.14
-dateReleased: '2023-03-14T15:10:28.8567Z'
-count: 895
+catalogVersion: 2023.03.15
+dateReleased: '2023-03-15T16:36:14.2321Z'
+count: 896
 vulnerabilities:
   - cveID: CVE-2021-27104
     vendorProject: Accellion
@@ -9919,7 +9919,8 @@ vulnerabilities:
       as the user.
     requiredAction: Apply updates per vendor instructions.
     dueDate: '2023-04-04'
-    notes: https://msrc.microsoft.com/update-guide/en-US/vulnerability/CVE-2023-23397
+    notes: https://msrc.microsoft.com/update-guide/en-US/vulnerability/CVE-2023-23397,
+      https://msrc.microsoft.com/blog/2023/03/microsoft-mitigates-outlook-elevation-of-privilege-vulnerability/
   - cveID: CVE-2023-24880
     vendorProject: Microsoft
     product: Windows
@@ -9942,3 +9943,13 @@ vulnerabilities:
     requiredAction: Apply updates per vendor instructions.
     dueDate: '2023-04-04'
     notes: https://www.fortiguard.com/psirt/FG-IR-22-369
+  - cveID: CVE-2023-26360
+    vendorProject: Adobe
+    product: ColdFusion
+    vulnerabilityName: Adobe ColdFusion Improper Access Control Vulnerability
+    dateAdded: '2023-03-15'
+    shortDescription: Adobe ColdFusion contains an improper access control vulnerability
+      that allows for remote code execution.
+    requiredAction: Apply updates per vendor instructions.
+    dueDate: '2023-04-05'
+    notes: https://helpx.adobe.com/security/products/coldfusion/apsb23-25.html
