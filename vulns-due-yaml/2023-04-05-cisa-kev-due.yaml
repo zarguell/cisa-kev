@@ -1,0 +1,10 @@
+- cveID: CVE-2023-26360
+  vendorProject: Adobe
+  product: ColdFusion
+  vulnerabilityName: Adobe ColdFusion Improper Access Control Vulnerability
+  dateAdded: '2023-03-15'
+  shortDescription: Adobe ColdFusion contains an improper access control vulnerability
+    that allows for remote code execution.
+  requiredAction: Apply updates per vendor instructions.
+  dueDate: '2023-04-05'
+  notes: https://helpx.adobe.com/security/products/coldfusion/apsb23-25.html
