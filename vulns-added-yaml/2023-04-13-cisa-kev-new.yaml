@@ -1,0 +1,22 @@
+- cveID: CVE-2023-20963
+  vendorProject: Android
+  product: Framework
+  vulnerabilityName: Android Framework Privilege Escalation Vulnerability
+  dateAdded: '2023-04-13'
+  shortDescription: Android Framework contains an unspecified vulnerability that allows
+    for privilege escalation after updating an app to a higher Target SDK with no
+    additional execution privileges needed.
+  requiredAction: Apply updates per vendor instructions.
+  dueDate: '2023-05-04'
+  notes: https://source.android.com/docs/security/bulletin/2023-03-01
+- cveID: CVE-2023-29492
+  vendorProject: Novi Survey
+  product: Novi Survey
+  vulnerabilityName: Novi Survey Insecure Deserialization Vulnerability
+  dateAdded: '2023-04-13'
+  shortDescription: Novi Survey contains an insecure deserialization vulnerability
+    that allows remote attackers to execute code on the server in the context of the
+    service account.
+  requiredAction: Apply updates per vendor instructions.
+  dueDate: '2023-05-04'
+  notes: https://novisurvey.net/blog/novi-survey-security-advisory-apr-2023.aspx
