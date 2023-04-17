@@ -1,0 +1,20 @@
+- cveID: CVE-2019-8526
+  vendorProject: Apple
+  product: macOS
+  vulnerabilityName: Apple macOS Use-After-Free Vulnerability
+  dateAdded: '2023-04-17'
+  shortDescription: Apple macOS contains a use-after-free vulnerability that could
+    allow for privilege escalation.
+  requiredAction: Apply updates per vendor instructions.
+  dueDate: '2023-05-08'
+  notes: https://support.apple.com/en-us/HT209600
+- cveID: CVE-2023-2033
+  vendorProject: Google
+  product: Chromium V8 Engine
+  vulnerabilityName: Google Chromium V8 Engine Type Confusion Vulnerability
+  dateAdded: '2023-04-17'
+  shortDescription: Google Chromium V8 contains a type confusion vulnerability. Specific
+    impacts from exploitation are not available at this time.
+  requiredAction: Apply updates per vendor instructions.
+  dueDate: '2023-05-08'
+  notes: https://chromereleases.googleblog.com/2023/04/stable-channel-update-for-desktop_14.html
