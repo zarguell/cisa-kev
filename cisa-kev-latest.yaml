@@ -1,7 +1,7 @@
 title: CISA Catalog of Known Exploited Vulnerabilities
-catalogVersion: 2023.06.30
-dateReleased: '2023-06-30T11:38:30.4805Z'
-count: 965
+catalogVersion: 2023.07.07
+dateReleased: '2023-07-07T08:53:49.6184Z'
+count: 966
 vulnerabilities:
   - cveID: CVE-2021-27104
     vendorProject: Accellion
@@ -162,7 +162,7 @@ vulnerabilities:
     dateAdded: '2021-11-03'
     shortDescription: Apache HTTP Server contains a path traversal vulnerability which
       allows an attacker to perform remote code execution if files outside directories
-      configured by Alias-like directives are not under default �require all denied�
+      configured by Alias-like directives are not under default ?require all denied?
       or if CGI scripts are enabled. This CVE ID resolves an incomplete patch for
       CVE-2021-41773.
     requiredAction: Apply updates per vendor instructions.
@@ -175,7 +175,7 @@ vulnerabilities:
     dateAdded: '2021-11-03'
     shortDescription: Apache HTTP Server contains a path traversal vulnerability which
       allows an attacker to perform remote code execution if files outside directories
-      configured by Alias-like directives are not under default �require all denied�
+      configured by Alias-like directives are not under default ?require all denied?
       or if CGI scripts are enabled. The original patch issued under this CVE ID is
       insufficient, please review remediation information under CVE-2021-42013.
     requiredAction: Apply updates per vendor instructions.
@@ -246,7 +246,7 @@ vulnerabilities:
       code execution under two circumstances. One, where the alwaysSelectFullNamespace
       option is true and the value isn't set for a result defined in underlying configurations
       and in same time, its upper package configuration have no or wildcard namespace.  Or,
-      using URL tag which doesn�t have value and action set and in same time, its
+      using URL tag which doesn?t have value and action set and in same time, its
       upper package configuration have no or wildcard namespace.
     requiredAction: Apply updates per vendor instructions.
     dueDate: '2022-05-03'
@@ -637,7 +637,7 @@ vulnerabilities:
     dateAdded: '2021-11-03'
     shortDescription: Cisco HyperFlex HX Installer Virtual Machine contains an insufficient
       input validation vulnerability which could allow an attacker to execute commands
-      on an affected device as the�root�user.
+      on an affected device as the?root?user.
     requiredAction: Apply updates per vendor instructions.
     dueDate: '2021-11-17'
     notes: ''
@@ -709,7 +709,7 @@ vulnerabilities:
     dateAdded: '2021-11-03'
     shortDescription: Cisco IP Phones contain an improper input validation vulnerability
       for HTTP requests. Exploitation could allow an attacker to execute code remotely
-      with�root�privileges or cause a denial-of-service condition.
+      with?root?privileges or cause a denial-of-service condition.
     requiredAction: Apply updates per vendor instructions.
     dueDate: '2022-05-03'
     notes: ''
@@ -1302,7 +1302,7 @@ vulnerabilities:
     dateAdded: '2021-11-03'
     shortDescription: IBM Data Risk Manager contains an unspecified vulnerability
       which could allow a remote, authenticated attacker to execute commands on the
-      system.�
+      system.?
     requiredAction: Apply updates per vendor instructions.
     dueDate: '2022-05-03'
     notes: ''
@@ -1918,7 +1918,7 @@ vulnerabilities:
     shortDescription: Microsoft Windows contains an unspecified vulnerability due
       to the way ws2ifsl.sys (Winsock) handles objects in memory, allowing for privilege
       escalation. Successful exploitation allows an attacker to execute code with
-      elevated privileges.�
+      elevated privileges.?
     requiredAction: Apply updates per vendor instructions.
     dueDate: '2022-05-03'
     notes: ''
@@ -2605,7 +2605,7 @@ vulnerabilities:
     product: AP-Router SDK
     vulnerabilityName: Realtek AP-Router SDK Buffer Overflow Vulnerability
     dateAdded: '2021-11-03'
-    shortDescription: Realtek AP-Router SDK HTTP web server �boa� contains a buffer
+    shortDescription: Realtek AP-Router SDK HTTP web server ?boa? contains a buffer
       overflow vulnerability due to unsafe copies of some overly long parameters submitted
       in the form that lead to denial-of-service.
     requiredAction: Apply updates per vendor instructions.
@@ -10659,7 +10659,7 @@ vulnerabilities:
       remote attacker to execute system commands as root by sending a specially crafted
       HTTP SUBSCRIBE request to the UPnP service when connecting to the local network.
     requiredAction: Apply updates per vendor instructions or discontinue use of the
-      product if updates are unavailable
+      product if updates are unavailable.
     dueDate: '2023-07-20'
     notes: https://supportannouncement.us.dlink.com/announcement/publication.aspx?name=SAP10147
   - cveID: CVE-2019-20500
@@ -10672,7 +10672,7 @@ vulnerabilities:
       interface, using shell metacharacters in the admin.cgi?action=config_save configBackup
       or downloadServerip parameter.
     requiredAction: Apply updates per vendor instructions or discontinue use of the
-      product if updates are unavailable
+      product if updates are unavailable.
     dueDate: '2023-07-20'
     notes: https://supportannouncement.us.dlink.com/announcement/publication.aspx?name=SAP10113
   - cveID: CVE-2021-25487
@@ -10746,3 +10746,15 @@ vulnerabilities:
       product if updates are unavailable
     dueDate: '2023-07-20'
     notes: https://security.samsungmobile.com/securityUpdate.smsb?year=2021&month=3
+  - cveID: CVE-2021-29256
+    vendorProject: Arm
+    product: Mali Graphics Processing Unit (GPU)
+    vulnerabilityName: Arm Mali GPU Kernel Driver Use-After-Free Vulnerability
+    dateAdded: '2023-07-07'
+    shortDescription: Arm Mali GPU Kernel Driver contains a use-after-free vulnerability
+      that may allow a non-privileged user to gain root privilege and/or disclose
+      information.
+    requiredAction: Apply updates per vendor instructions or discontinue use of the
+      product if updates are unavailable.
+    dueDate: '2023-07-28'
+    notes: https://developer.arm.com/Arm%20Security%20Center/Mali%20GPU%20Driver%20Vulnerabilities
