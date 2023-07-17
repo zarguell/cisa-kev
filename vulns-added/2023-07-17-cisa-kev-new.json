@@ -1,0 +1,13 @@
+[
+  {
+    "cveID": "CVE-2023-36884",
+    "vendorProject": "Microsoft",
+    "product": "Office and Windows",
+    "vulnerabilityName": "Microsoft Office and Windows HTML Remote Code Execution Vulnerability",
+    "dateAdded": "2023-07-17",
+    "shortDescription": "Microsoft Office and Windows contain an unspecified vulnerability that allows an attacker to perform remote code execution via a specially crafted Microsoft Office document.",
+    "requiredAction": "Follow \"CVE-2023-36884 Specific Recommendations\" per vendor instructions. [https://www.microsoft.com/en-us/security/blog/2023/07/11/storm-0978-attacks-reveal-financial-and-espionage-motives/]",
+    "dueDate": "2023-08-07",
+    "notes": "Required actions will be modified if and when the vendor releases as an update addressing the vulnerability. https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-36884"
+  }
+]
