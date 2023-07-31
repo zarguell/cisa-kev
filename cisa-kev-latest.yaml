@@ -1,7 +1,7 @@
 title: CISA Catalog of Known Exploited Vulnerabilities
-catalogVersion: 2023.07.27
-dateReleased: '2023-07-27T09:46:48.3349Z'
-count: 980
+catalogVersion: 2023.07.31
+dateReleased: '2023-07-31T10:05:03.0052Z'
+count: 981
 vulnerabilities:
   - cveID: CVE-2021-27104
     vendorProject: Accellion
@@ -10891,7 +10891,7 @@ vulnerabilities:
     notes: https://helpx.adobe.com/security/products/coldfusion/apsb23-47.html
   - cveID: CVE-2023-35078
     vendorProject: Ivanti
-    product: Endpoint Manager Mobile
+    product: Endpoint Manager Mobile (EPMM)
     vulnerabilityName: Ivanti Endpoint Manager Mobile Authentication Bypass Vulnerability
     dateAdded: '2023-07-25'
     shortDescription: Ivanti Endpoint Manager Mobile (EPMM, previously branded MobileIron
@@ -10911,7 +10911,7 @@ vulnerabilities:
     vulnerabilityName: Apple Multiple Products Kernel Unspecified Vulnerability
     dateAdded: '2023-07-26'
     shortDescription: Apple iOS, iPadOS, macOS, tvOS, and watchOS contain an unspecified
-      vulnerability allowing an app to modify sensitive kernel state.
+      vulnerability allowing an app to modify a sensitive kernel state.
     requiredAction: Apply mitigations per vendor instructions or discontinue use of
       the product if mitigations are unavailable.
     dueDate: '2023-08-16'
@@ -10928,3 +10928,17 @@ vulnerabilities:
       the product if mitigations are unavailable.
     dueDate: '2023-08-17'
     notes: https://wiki.zimbra.com/wiki/Security_Center
+  - cveID: CVE-2023-35081
+    vendorProject: Ivanti
+    product: Endpoint Manager Mobile (EPMM)
+    vulnerabilityName: Ivanti Endpoint Manager Mobile (EPMM) Path Traversal Vulnerability
+    dateAdded: '2023-07-31'
+    shortDescription: Ivanti Endpoint Manager Mobile (EPMM) contains a path traversal
+      vulnerability that enables an authenticated administrator to perform malicious
+      file writes to the EPMM server. This vulnerability can be used in conjunction
+      with CVE-2023-35078, bypassing administrator authentication and ACLs restrictions
+      (if applicable).
+    requiredAction: Apply mitigations per vendor instructions or discontinue use of
+      the product if mitigations are unavailable.
+    dueDate: '2023-08-21'
+    notes: https://forums.ivanti.com/s/article/CVE-2023-35081-Arbitrary-File-Write?language=en_US
