@@ -1,0 +1,25 @@
+- cveID: CVE-2022-29303
+  vendorProject: SolarView
+  product: Compact
+  vulnerabilityName: SolarView Compact Command Injection Vulnerability
+  dateAdded: '2023-07-13'
+  shortDescription: SolarView Compact contains a command injection vulnerability due
+    to improper validation of input values on the send test mail console of the product's
+    web server.
+  requiredAction: Apply updates per vendor instructions or discontinue use of the
+    product if updates are unavailable.
+  dueDate: '2023-08-03'
+  notes: https://jvn.jp/en/vu/JVNVU92327282/
+- cveID: CVE-2023-37450
+  vendorProject: Apple
+  product: Multiple Products
+  vulnerabilityName: Apple Multiple Products WebKit Code Execution Vulnerability
+  dateAdded: '2023-07-13'
+  shortDescription: Apple iOS, iPadOS, macOS, and Safari WebKit contain an unspecified
+    vulnerability that can allow an attacker to execute code when processing web content.
+  requiredAction: Apply updates per vendor instructions or discontinue use of the
+    product if updates are unavailable.
+  dueDate: '2023-08-03'
+  notes: https://support.apple.com/en-us/HT213826, https://support.apple.com/en-us/HT213841,
+    https://support.apple.com/en-us/HT213843, https://support.apple.com/en-us/HT213846,
+    https://support.apple.com/en-us/HT213848
