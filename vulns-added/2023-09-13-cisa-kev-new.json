@@ -1,0 +1,35 @@
+[
+  {
+    "cveID": "CVE-2023-35674",
+    "vendorProject": "Android",
+    "product": "Framework",
+    "vulnerabilityName": "Android Framework Privilege Escalation Vulnerability",
+    "dateAdded": "2023-09-13",
+    "shortDescription": "Android Framework contains an unspecified vulnerability that allows for privilege escalation.",
+    "requiredAction": "Apply mitigations per vendor instructions or discontinue use of the product if mitigations are unavailable.",
+    "dueDate": "2023-10-04",
+    "notes": "https://source.android.com/docs/security/bulletin/2023-09-01"
+  },
+  {
+    "cveID": "CVE-2023-20269",
+    "vendorProject": "Cisco",
+    "product": "Adaptive Security Appliance and Firepower Threat Defense",
+    "vulnerabilityName": "Cisco Adaptive Security Appliance and Firepower Threat Defense Unauthorized Access Vulnerability",
+    "dateAdded": "2023-09-13",
+    "shortDescription": "Cisco Adaptive Security Appliance and Firepower Threat Defense contain an unauthorized access vulnerability that could allow an unauthenticated, remote attacker to conduct a brute force attack in an attempt to identify valid username and password combinations or establish a clientless SSL VPN session with an unauthorized user.",
+    "requiredAction": "Apply mitigations per vendor instructions for group-lock and vpn-simultaneous-logins or discontinue use of the product for unsupported devices.",
+    "dueDate": "2023-10-04",
+    "notes": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-asaftd-ravpn-auth-8LyfCkeC"
+  },
+  {
+    "cveID": "CVE-2023-4863",
+    "vendorProject": "Google",
+    "product": "Chromium",
+    "vulnerabilityName": "Google Chromium Heap-Based Buffer Overflow Vulnerability",
+    "dateAdded": "2023-09-13",
+    "shortDescription": "Google Chromium contains a heap-based buffer overflow vulnerability in WebP that allows a remote attacker to perform an out-of-bounds memory write via a crafted HTML page.",
+    "requiredAction": "Apply mitigations per vendor instructions or discontinue use of the product if mitigations are unavailable.",
+    "dueDate": "2023-10-04",
+    "notes": "https://chromereleases.googleblog.com/2023/09/stable-channel-update-for-desktop_11.html?m=1"
+  }
+]
