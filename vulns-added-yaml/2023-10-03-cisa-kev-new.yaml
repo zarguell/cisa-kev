@@ -1,0 +1,12 @@
+- cveID: CVE-2023-4211
+  vendorProject: Arm
+  product: Mali GPU Kernel Driver
+  vulnerabilityName: Arm Mali GPU Kernel Driver Use-After-Free Vulnerability
+  dateAdded: '2023-10-03'
+  shortDescription: Arm Mali GPU Kernel Driver contains a use-after-free vulnerability
+    that allows a local, non-privileged user to make improper GPU memory processing
+    operations to gain access to already freed memory.
+  requiredAction: Apply mitigations per vendor instructions or discontinue use of
+    the product if mitigations are unavailable.
+  dueDate: '2023-10-24'
+  notes: https://developer.arm.com/Arm%20Security%20Center/Mali%20GPU%20Driver%20Vulnerabilities
