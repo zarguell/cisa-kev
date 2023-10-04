@@ -1,0 +1,24 @@
+- cveID: CVE-2023-42793
+  vendorProject: JetBrains
+  product: TeamCity
+  vulnerabilityName: JetBrains TeamCity Authentication Bypass Vulnerability
+  dateAdded: '2023-10-04'
+  shortDescription: JetBrains TeamCity contains an authentication bypass vulnerability
+    that allows for remote code execution on TeamCity Server.
+  requiredAction: Apply mitigations per vendor instructions or discontinue use of
+    the product if mitigations are unavailable.
+  dueDate: '2023-10-25'
+  notes: https://blog.jetbrains.com/teamcity/2023/09/critical-security-issue-affecting-teamcity-on-premises-update-to-2023-05-4-now/
+- cveID: CVE-2023-28229
+  vendorProject: Microsoft
+  product: Windows CNG Key Isolation Service
+  vulnerabilityName: Microsoft Windows CNG Key Isolation Service Privilege Escalation
+    Vulnerability
+  dateAdded: '2023-10-04'
+  shortDescription: Microsoft Windows Cryptographic Next Generation (CNG) Key Isolation
+    Service contains an unspecified vulnerability that allows an attacker to gain
+    specific limited SYSTEM privileges.
+  requiredAction: Apply mitigations per vendor instructions or discontinue use of
+    the product if mitigations are unavailable.
+  dueDate: '2023-10-25'
+  notes: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-28229
