@@ -1,0 +1,14 @@
+[
+  {
+    "cveID": "CVE-2023-5217",
+    "vendorProject": "Google",
+    "product": "Chrome libvpx",
+    "vulnerabilityName": "Google Chrome libvpx Heap Buffer Overflow Vulnerability",
+    "dateAdded": "2023-10-02",
+    "shortDescription": "Google Chrome libvpx contains a heap buffer overflow vulnerability in vp8 encoding that allows a remote attacker to potentially exploit heap corruption via a crafted HTML page.",
+    "requiredAction": "Apply mitigations per vendor instructions or discontinue use of the product if mitigations are unavailable.",
+    "dueDate": "2023-10-23",
+    "knownRansomwareCampaignUse": "Unknown",
+    "notes": "https://chromereleases.googleblog.com/2023/09/stable-channel-update-for-desktop_27.html"
+  }
+]
