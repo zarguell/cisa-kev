@@ -1,0 +1,63 @@
+- cveID: CVE-2023-21608
+  vendorProject: Adobe
+  product: Acrobat and Reader
+  vulnerabilityName: Adobe Acrobat and Reader Use-After-Free Vulnerability
+  dateAdded: '2023-10-10'
+  shortDescription: Adobe Acrobat and Reader contains a use-after-free vulnerability
+    that allows for code execution in the context of the current user.
+  requiredAction: Apply mitigations per vendor instructions or discontinue use of
+    the product if mitigations are unavailable.
+  dueDate: '2023-10-31'
+  knownRansomwareCampaignUse: Unknown
+  notes: https://helpx.adobe.com/security/products/acrobat/apsb23-01.html
+- cveID: CVE-2023-20109
+  vendorProject: Cisco
+  product: IOS and IOS XE
+  vulnerabilityName: Cisco IOS and IOS XE Group Encrypted Transport VPN Out-of-Bounds
+    Write Vulnerability
+  dateAdded: '2023-10-10'
+  shortDescription: Cisco IOS and IOS XE contain an out-of-bounds write vulnerability
+    in the Group Encrypted Transport VPN (GET VPN) feature that could allow an authenticated,
+    remote attacker who has administrative control of either a group member or a key
+    server to execute malicious code or cause a device to crash.
+  requiredAction: Apply mitigations per vendor instructions or discontinue use of
+    the product if mitigations are unavailable.
+  dueDate: '2023-10-31'
+  knownRansomwareCampaignUse: Unknown
+  notes: https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-getvpn-rce-g8qR68sx
+- cveID: CVE-2023-41763
+  vendorProject: Microsoft
+  product: Skype for Business
+  vulnerabilityName: Microsoft Skype for Business Privilege Escalation Vulnerability
+  dateAdded: '2023-10-10'
+  shortDescription: Microsoft Skype for Business contains an unspecified vulnerability
+    that allows for privilege escalation.
+  requiredAction: Apply mitigations per vendor instructions or discontinue use of
+    the product if mitigations are unavailable.
+  dueDate: '2023-10-31'
+  knownRansomwareCampaignUse: Unknown
+  notes: https://msrc.microsoft.com/update-guide/en-US/vulnerability/CVE-2023-41763
+- cveID: CVE-2023-36563
+  vendorProject: Microsoft
+  product: WordPad
+  vulnerabilityName: Microsoft WordPad Information Disclosure Vulnerability
+  dateAdded: '2023-10-10'
+  shortDescription: Microsoft WordPad contains an unspecified vulnerability that allows
+    for information disclosure.
+  requiredAction: Apply mitigations per vendor instructions or discontinue use of
+    the product if mitigations are unavailable.
+  dueDate: '2023-10-31'
+  knownRansomwareCampaignUse: Unknown
+  notes: https://msrc.microsoft.com/update-guide/en-US/vulnerability/CVE-2023-36563
+- cveID: CVE-2023-44487
+  vendorProject: IETF
+  product: HTTP/2
+  vulnerabilityName: HTTP/2 Rapid Reset Attack Vulnerability
+  dateAdded: '2023-10-10'
+  shortDescription: HTTP/2 contains a rapid reset vulnerability that allows for a
+    distributed denial-of-service attack (DDoS).
+  requiredAction: Apply mitigations per vendor instructions or discontinue use of
+    the product if mitigations are unavailable.
+  dueDate: '2023-10-31'
+  knownRansomwareCampaignUse: Unknown
+  notes: https://blog.cloudflare.com/technical-breakdown-http2-rapid-reset-ddos-attack/
