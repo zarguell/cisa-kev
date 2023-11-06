@@ -1,6 +1,6 @@
 title: CISA Catalog of Known Exploited Vulnerabilities
-catalogVersion: 2023.11.02
-dateReleased: '2023-11-02T09:44:19.4160Z'
+catalogVersion: 2023.11.06
+dateReleased: '2023-11-06T15:26:08.0601Z'
 count: 1026
 vulnerabilities:
   - cveID: CVE-2021-27104
@@ -771,7 +771,7 @@ vulnerabilities:
     dateAdded: '2021-11-03'
     shortDescription: Cisco IP Phones contain an improper input validation vulnerability
       for HTTP requests. Exploitation could allow an attacker to execute code remotely
-      with�root�privileges or cause a denial-of-service condition.
+      with�root�privileges or cause a denial-of-service (DoS) condition.
     requiredAction: Apply updates per vendor instructions.
     dueDate: '2022-05-03'
     knownRansomwareCampaignUse: Unknown
@@ -796,7 +796,7 @@ vulnerabilities:
     dateAdded: '2021-11-03'
     shortDescription: Cisco Adaptive Security Appliance (ASA) contains an improper
       input validation vulnerability with HTTP URLs. Exploitation could allow an attacker
-      to cause a denial-of-service condition or information disclosure.
+      to cause a denial-of-service (DoS) condition or information disclosure.
     requiredAction: Apply updates per vendor instructions.
     dueDate: '2022-05-03'
     knownRansomwareCampaignUse: Unknown
@@ -2835,7 +2835,7 @@ vulnerabilities:
     dateAdded: '2021-11-03'
     shortDescription: Realtek AP-Router SDK HTTP web server �boa� contains a buffer
       overflow vulnerability due to unsafe copies of some overly long parameters submitted
-      in the form that lead to denial-of-service.
+      in the form that lead to denial-of-service (DoS).
     requiredAction: Apply updates per vendor instructions.
     dueDate: '2021-11-17'
     knownRansomwareCampaignUse: Unknown
@@ -3772,7 +3772,7 @@ vulnerabilities:
     notes: ''
   - cveID: CVE-2020-17463
     vendorProject: Fuel CMS
-    product: ''
+    product: Fuel CMS
     vulnerabilityName: Fuel CMS SQL Injection Vulnerability
     dateAdded: '2021-12-10'
     shortDescription: FUEL CMS 1.4.7 allows SQL Injection via the col parameter to
@@ -4171,7 +4171,7 @@ vulnerabilities:
     vulnerabilityName: Apache Struts 1 ActionForm Denial-of-Service Vulnerability
     dateAdded: '2022-01-21'
     shortDescription: ActionForm in Apache Struts versions before 1.2.9 with BeanUtils
-      1.7 contains a vulnerability that allows for denial-of-service.
+      1.7 contains a vulnerability that allows for denial-of-service (DoS).
     requiredAction: Apply updates per vendor instructions.
     dueDate: '2022-07-21'
     knownRansomwareCampaignUse: Unknown
@@ -4884,7 +4884,8 @@ vulnerabilities:
       Validation Vulnerability
     dateAdded: '2022-03-03'
     shortDescription: A vulnerability in the DHCP option 82 encapsulation functionality
-      of Cisco IOS Software and Cisco IOS XE Software could allow for denial-of-service.
+      of Cisco IOS Software and Cisco IOS XE Software could allow for denial-of-service
+      (DoS).
     requiredAction: Apply updates per vendor instructions.
     dueDate: '2022-03-17'
     knownRansomwareCampaignUse: Unknown
@@ -4896,7 +4897,7 @@ vulnerabilities:
     dateAdded: '2022-03-03'
     shortDescription: A vulnerability in the Cisco IOS Software and Cisco IOS XE Software
       function that restores encapsulated option 82 information in DHCP Version 4
-      (DHCPv4) packets can allow for denial-of-service.
+      (DHCPv4) packets can allow for denial-of-service (DoS).
     requiredAction: Apply updates per vendor instructions.
     dueDate: '2022-03-17'
     knownRansomwareCampaignUse: Unknown
@@ -4907,7 +4908,8 @@ vulnerabilities:
     vulnerabilityName: Cisco IOS and IOS XE Software Improper Input Validation Vulnerability
     dateAdded: '2022-03-03'
     shortDescription: A vulnerability in the DHCP option 82 encapsulation functionality
-      of Cisco IOS Software and Cisco IOS XE Software could allow for denial-of-service.
+      of Cisco IOS Software and Cisco IOS XE Software could allow for denial-of-service
+      (DoS).
     requiredAction: Apply updates per vendor instructions.
     dueDate: '2022-03-17'
     knownRansomwareCampaignUse: Unknown
@@ -6888,7 +6890,7 @@ vulnerabilities:
       Vulnerability
     dateAdded: '2022-03-25'
     shortDescription: Cisco IOS XR, when BGP is the configured routing feature, allows
-      remote attackers to cause a denial-of-service.
+      remote attackers to cause a denial-of-service (DoS).
     requiredAction: Apply updates per vendor instructions.
     dueDate: '2022-04-15'
     knownRansomwareCampaignUse: Unknown
@@ -6912,7 +6914,7 @@ vulnerabilities:
       Vulnerability
     dateAdded: '2022-03-25'
     shortDescription: Cisco IOS XR,when BGP is the configured routing feature, allows
-      remote attackers to cause a denial-of-service.
+      remote attackers to cause a denial-of-service (DoS).
     requiredAction: Apply updates per vendor instructions.
     dueDate: '2022-04-15'
     knownRansomwareCampaignUse: Unknown
@@ -7248,8 +7250,8 @@ vulnerabilities:
     dateAdded: '2022-03-28'
     shortDescription: Mozilla Firefox and Thunderbird do not properly handle onreadystatechange
       events in conjunction with page reloading, which allows remote attackers to
-      cause a denial-of-service or possibly execute arbitrary code via a crafted web
-      site.
+      cause a denial-of-service (DoS) or possibly execute malicious code via a crafted
+      web site.
     requiredAction: Apply updates per vendor instructions.
     dueDate: '2022-04-18'
     knownRansomwareCampaignUse: Unknown
@@ -7273,7 +7275,7 @@ vulnerabilities:
     vulnerabilityName: Microsoft Word Remote Code Execution Vulnerability
     dateAdded: '2022-03-28'
     shortDescription: Microsoft Word allows attackers to execute remote code or cause
-      a denial-of-service via crafted RTF data.
+      a denial-of-service (DoS) via crafted RTF data.
     requiredAction: Apply updates per vendor instructions.
     dueDate: '2022-04-18'
     knownRansomwareCampaignUse: Unknown
@@ -7284,7 +7286,7 @@ vulnerabilities:
     vulnerabilityName: Adobe Flash Player Memory Corruption Vulnerability
     dateAdded: '2022-03-28'
     shortDescription: Adobe Flash Player contains a memory corruption vulnerability
-      that allows for remote code execution or denial-of-service.
+      that allows for remote code execution or denial-of-service (DoS).
     requiredAction: The impacted product is end-of-life and should be disconnected
       if still in use.
     dueDate: '2022-04-18'
@@ -7378,7 +7380,7 @@ vulnerabilities:
     vulnerabilityName: Dell dbutil Driver Insufficient Access Control Vulnerability
     dateAdded: '2022-03-31'
     shortDescription: Dell dbutil driver contains an insufficient access control vulnerability
-      which may lead to escalation of privileges, denial-of-service, or information
+      which may lead to escalation of privileges, denial-of-service (DoS), or information
       disclosure.
     requiredAction: Apply updates per vendor instructions.
     dueDate: '2022-04-21'
@@ -7555,7 +7557,7 @@ vulnerabilities:
     dateAdded: '2022-04-11'
     shortDescription: Linux Kernel contains a flaw in the packet socket (AF_PACKET)
       implementation which could lead to incorrectly freeing memory. A local user
-      could exploit this for denial-of-service or possibly for privilege escalation.
+      could exploit this for denial-of-service (DoS) or possibly for privilege escalation.
     requiredAction: Apply updates per vendor instructions.
     dueDate: '2022-05-02'
     knownRansomwareCampaignUse: Unknown
@@ -7623,7 +7625,7 @@ vulnerabilities:
     dateAdded: '2022-04-13'
     shortDescription: Use-after-free vulnerability in the BitmapData class in the
       ActionScript 3 (AS3) implementation in Adobe Flash Player allows remote attackers
-      to execute code or cause a denial-of-service.
+      to execute code or cause a denial-of-service (DoS).
     requiredAction: The impacted product is end-of-life and should be disconnected
       if still in use.
     dueDate: '2022-05-04'
@@ -7636,7 +7638,7 @@ vulnerabilities:
     dateAdded: '2022-04-13'
     shortDescription: Use-after-free vulnerability in the DisplayObject class in the
       ActionScript 3 (AS3) implementation in Adobe Flash Player allows remote attackers
-      to execute code or cause a denial-of-service.
+      to execute code or cause a denial-of-service (DoS).
     requiredAction: The impacted product is end-of-life and should be disconnected
       if still in use.
     dueDate: '2022-05-04'
@@ -7660,7 +7662,7 @@ vulnerabilities:
     vulnerabilityName: Microsoft Internet Explorer Memory Corruption Vulnerability
     dateAdded: '2022-04-13'
     shortDescription: Microsoft Internet Explorer contains a memory corruption vulnerability
-      that allows an attacker to execute code or cause a denial-of-service.
+      that allows an attacker to execute code or cause a denial-of-service (DoS).
     requiredAction: Apply updates per vendor instructions.
     dueDate: '2022-05-04'
     knownRansomwareCampaignUse: Unknown
@@ -7778,7 +7780,7 @@ vulnerabilities:
     vulnerabilityName: Trihedral VTScada (formerly VTS) Denial-of-Service Vulnerability
     dateAdded: '2022-04-15'
     shortDescription: The WAP interface in Trihedral VTScada (formerly VTS) allows
-      remote attackers to cause a denial-of-service.
+      remote attackers to cause a denial-of-service (DoS).
     requiredAction: Apply updates per vendor instructions.
     dueDate: '2022-05-06'
     knownRansomwareCampaignUse: Unknown
@@ -8351,8 +8353,9 @@ vulnerabilities:
     product: Internet Explorer
     vulnerabilityName: Microsoft Internet Explorer Memory Corruption Vulnerability
     dateAdded: '2022-05-24'
-    shortDescription: Microsoft Internet Explorer allows remote attackers to execute
-      code or cause a denial-of-service (memory corruption) via a crafted web site.
+    shortDescription: Microsoft Internet Explorer contains a memory corruption vulnerability
+      that allows remote attackers to execute code or cause a denial-of-service (DoS)
+      via a crafted website.
     requiredAction: Apply updates per vendor instructions.
     dueDate: '2022-06-14'
     knownRansomwareCampaignUse: Unknown
@@ -8448,7 +8451,7 @@ vulnerabilities:
     dateAdded: '2022-05-24'
     shortDescription: A memory corruption vulnerability in Apple iOS kernel allows
       attackers to execute code in a privileged context or cause a denial-of-service
-      via a crafted application.
+      (DoS) via a crafted application.
     requiredAction: Apply updates per vendor instructions.
     dueDate: '2022-06-14'
     knownRansomwareCampaignUse: Unknown
@@ -8459,8 +8462,8 @@ vulnerabilities:
     vulnerabilityName: Apple iOS Webkit Memory Corruption Vulnerability
     dateAdded: '2022-05-24'
     shortDescription: WebKit in Apple iOS contains a memory corruption vulnerability
-      that allows attackers to execute remote code or cause a denial-of-service via
-      a crafted web site.
+      that allows attackers to execute remote code or cause a denial-of-service (DoS)
+      via a crafted web site.
     requiredAction: Apply updates per vendor instructions.
     dueDate: '2022-06-14'
     knownRansomwareCampaignUse: Unknown
@@ -8486,7 +8489,7 @@ vulnerabilities:
     dateAdded: '2022-05-24'
     shortDescription: A vulnerability in the command-line interface (CLI) parser of
       Cisco ASA software could allow an authenticated, local attacker to create a
-      denial-of-service condition or potentially execute code.
+      denial-of-service (DoS) condition or potentially execute code.
     requiredAction: Apply updates per vendor instructions.
     dueDate: '2022-06-14'
     knownRansomwareCampaignUse: Unknown
@@ -8572,7 +8575,7 @@ vulnerabilities:
     vulnerabilityName: Microsoft Silverlight Runtime Remote Code Execution Vulnerability
     dateAdded: '2022-05-25'
     shortDescription: Microsoft Silverlight mishandles negative offsets during decoding,
-      which allows attackers to execute remote code or cause a denial-of-service.
+      which allows attackers to execute remote code or cause a denial-of-service (DoS).
     requiredAction: The impacted products are end-of-life and should be disconnected
       if still in use.
     dueDate: '2022-06-15'
@@ -8620,7 +8623,7 @@ vulnerabilities:
     vulnerabilityName: Microsoft Win32k Privilege Escalation Vulnerability
     dateAdded: '2022-05-25'
     shortDescription: Win32k.sys in the kernel-mode drivers in Microsoft Windows allows
-      local users to gain privileges or cause denial-of-service.
+      local users to gain privileges or cause denial-of-service (DoS).
     requiredAction: Apply updates per vendor instructions.
     dueDate: '2022-06-15'
     knownRansomwareCampaignUse: Unknown
@@ -8631,7 +8634,7 @@ vulnerabilities:
     vulnerabilityName: Microsoft Internet Explorer Memory Corruption Vulnerability
     dateAdded: '2022-05-25'
     shortDescription: Microsoft Internet Explorer contains a memory corruption vulnerability
-      that allows remote attackers to execute code or cause denial-of-service.
+      that allows remote attackers to execute code or cause denial-of-service (DoS).
     requiredAction: Apply updates per vendor instructions.
     dueDate: '2022-06-15'
     knownRansomwareCampaignUse: Unknown
@@ -9157,7 +9160,7 @@ vulnerabilities:
     vulnerabilityName: Adobe Flash Player Memory Corruption Vulnerability
     dateAdded: '2022-06-08'
     shortDescription: Adobe Flash Player contains a memory corruption vulnerability
-      that allows remote attackers to execute code or cause denial-of-service.
+      that allows remote attackers to execute code or cause denial-of-service (DoS).
     requiredAction: The impacted product is end-of-life and should be disconnected
       if still in use.
     dueDate: '2022-06-22'
@@ -9184,7 +9187,7 @@ vulnerabilities:
     dateAdded: '2022-06-08'
     shortDescription: The Universal 3D (U3D) component in Adobe Acrobat and Reader
       contains a memory corruption vulnerability which could allow remote attackers
-      to execute code or cause denial-of-service.
+      to execute code or cause denial-of-service (DoS).
     requiredAction: Apply updates per vendor instructions.
     dueDate: '2022-06-22'
     knownRansomwareCampaignUse: Unknown
@@ -9195,7 +9198,7 @@ vulnerabilities:
     vulnerabilityName: Adobe Flash Player Unspecified Vulnerability
     dateAdded: '2022-06-08'
     shortDescription: Adobe Flash Player contains an unspecified vulnerability that
-      allows remote attackers to execute code or cause denial-of-service.
+      allows remote attackers to execute code or cause denial-of-service (DoS).
     requiredAction: The impacted product is end-of-life and should be disconnected
       if still in use.
     dueDate: '2022-06-22'
@@ -9207,7 +9210,8 @@ vulnerabilities:
     vulnerabilityName: Adobe Acrobat and Reader Stack-Based Buffer Overflow Vulnerability
     dateAdded: '2022-06-08'
     shortDescription: Adobe Acrobat and Reader contain a stack-based buffer overflow
-      vulnerability that allows remote attackers to execute code or cause denial-of-service.
+      vulnerability that allows remote attackers to execute code or cause denial-of-service
+      (DoS).
     requiredAction: Apply updates per vendor instructions.
     dueDate: '2022-06-22'
     knownRansomwareCampaignUse: Unknown
@@ -9229,7 +9233,7 @@ vulnerabilities:
     vulnerabilityName: Adobe Flash Player Memory Corruption Vulnerability
     dateAdded: '2022-06-08'
     shortDescription: Adobe Flash Player contains a memory corruption vulnerability
-      that allows remote attackers to execute code or cause denial-of-service.
+      that allows remote attackers to execute code or cause denial-of-service (DoS).
     requiredAction: The impacted product is end-of-life and should be disconnected
       if still in use.
     dueDate: '2022-06-22'
@@ -9264,7 +9268,7 @@ vulnerabilities:
     vulnerabilityName: Adobe Acrobat and Reader, Flash Player Unspecified Vulnerability
     dateAdded: '2022-06-08'
     shortDescription: Adobe Acrobat and Reader and Adobe Flash Player allows remote
-      attackers to execute code or cause denial-of-service.
+      attackers to execute code or cause denial-of-service (DoS).
     requiredAction: For Adobe Acrobat and Reader, apply updates per vendor instructions.
       For Adobe Flash Player, the impacted product is end-of-life and should be disconnected
       if still in use.
@@ -10587,7 +10591,8 @@ vulnerabilities:
       Vulnerability
     dateAdded: '2023-02-10'
     shortDescription: Intel ethernet diagnostics driver for Windows IQVW32.sys and
-      IQVW64.sys contain an unspecified vulnerability that allows for a denial-of-service.
+      IQVW64.sys contain an unspecified vulnerability that allows for a denial-of-service
+      (DoS).
     requiredAction: Apply updates per vendor instructions.
     dueDate: '2023-03-03'
     knownRansomwareCampaignUse: Unknown
@@ -11224,7 +11229,7 @@ vulnerabilities:
     dateAdded: '2023-05-12'
     shortDescription: Linux Kernel contains a race condition vulnerability within
       the n_tty_write function that allows local users to cause a denial-of-service
-      or gain privileges via read and write operations with long strings.
+      (DoS) or gain privileges via read and write operations with long strings.
     requiredAction: The impacted product is end-of-life and should be disconnected
       if still in use.
     dueDate: '2023-06-02'
@@ -11932,7 +11937,7 @@ vulnerabilities:
     vulnerabilityName: Microsoft .NET Core and Visual Studio Denial-of-Service Vulnerability
     dateAdded: '2023-08-09'
     shortDescription: Microsoft .NET Core and Visual Studio contain an unspecified
-      vulnerability that allows for denial-of-service.
+      vulnerability that allows for denial-of-service (DoS).
     requiredAction: Apply mitigations per vendor instructions or discontinue use of
       the product if mitigations are unavailable.
     dueDate: '2023-08-30'
@@ -12466,11 +12471,13 @@ vulnerabilities:
       overflow vulnerability that allows for sensitive information disclosure when
       configured as a Gateway (VPN virtual server, ICA Proxy, CVPN, RDP Proxy) or
       AAA virtual server.
-    requiredAction: Apply mitigations per vendor instructions or discontinue use of
-      the product if mitigations are unavailable.
+    requiredAction: Apply mitigations and kill all active and persistent sessions
+      per vendor instructions [https://www.netscaler.com/blog/news/cve-2023-4966-critical-security-update-now-available-for-netscaler-adc-and-netscaler-gateway/]
+      OR discontinue use of the product if mitigations are unavailable.
     dueDate: '2023-11-08'
     knownRansomwareCampaignUse: Unknown
-    notes: https://support.citrix.com/article/CTX579459/netscaler-adc-and-netscaler-gateway-security-bulletin-for-cve20234966-and-cve20234967
+    notes: https://www.netscaler.com/blog/news/cve-2023-4966-critical-security-update-now-available-for-netscaler-adc-and-netscaler-gateway/,
+      https://support.citrix.com/article/CTX579459/netscaler-adc-and-netscaler-gateway-security-bulletin-for-cve20234966-and-cve20234967
   - cveID: CVE-2023-20273
     vendorProject: Cisco
     product: Cisco IOS XE Web UI
