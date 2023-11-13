@@ -1,7 +1,7 @@
 title: CISA Catalog of Known Exploited Vulnerabilities
-catalogVersion: 2023.11.08
-dateReleased: '2023-11-08T09:47:46.0449Z'
-count: 1028
+catalogVersion: 2023.11.13
+dateReleased: '2023-11-13T14:49:45.3185Z'
+count: 1034
 vulnerabilities:
   - cveID: CVE-2021-27104
     vendorProject: Accellion
@@ -2173,7 +2173,7 @@ vulnerabilities:
       that allows remote code execution in the context of the current user.
     requiredAction: Apply updates per vendor instructions.
     dueDate: '2022-05-03'
-    knownRansomwareCampaignUse: Unknown
+    knownRansomwareCampaignUse: Known
     notes: ''
   - cveID: CVE-2020-0674
     vendorProject: Microsoft
@@ -2698,7 +2698,7 @@ vulnerabilities:
       that allow a remote, unauthenticated attacker to execute code via license services.
     requiredAction: Apply updates per vendor instructions.
     dueDate: '2021-04-23'
-    knownRansomwareCampaignUse: Unknown
+    knownRansomwareCampaignUse: Known
     notes: Reference CISA's ED 21-03 (https://www.cisa.gov/emergency-directive-21-03)
       for further guidance and requirements.
   - cveID: CVE-2020-8243
@@ -2777,7 +2777,7 @@ vulnerabilities:
       via HTTPS to send a specially crafted URI.
     requiredAction: Apply updates per vendor instructions.
     dueDate: '2021-04-23'
-    knownRansomwareCampaignUse: Unknown
+    knownRansomwareCampaignUse: Known
     notes: Reference CISA's ED 21-03 (https://www.cisa.gov/emergency-directive-21-03)
       for further guidance and requirements.
   - cveID: CVE-2019-11539
@@ -2790,7 +2790,7 @@ vulnerabilities:
       attacker from the admin web interface to inject and execute commands.
     requiredAction: Apply updates per vendor instructions.
     dueDate: '2022-05-03'
-    knownRansomwareCampaignUse: Unknown
+    knownRansomwareCampaignUse: Known
     notes: ''
   - cveID: CVE-2021-1906
     vendorProject: Qualcomm
@@ -3932,7 +3932,7 @@ vulnerabilities:
       modify the password.
     requiredAction: Apply updates per vendor instructions.
     dueDate: '2022-07-10'
-    knownRansomwareCampaignUse: Unknown
+    knownRansomwareCampaignUse: Known
     notes: ''
   - cveID: CVE-2018-13383
     vendorProject: Fortinet
@@ -3943,7 +3943,7 @@ vulnerabilities:
       cause the SSL VPN web service termination for logged in users.
     requiredAction: Apply updates per vendor instructions.
     dueDate: '2022-07-10'
-    knownRansomwareCampaignUse: Unknown
+    knownRansomwareCampaignUse: Known
     notes: ''
   - cveID: CVE-2019-1579
     vendorProject: Palo Alto Networks
@@ -7616,7 +7616,7 @@ vulnerabilities:
       PowerShell payloads on all managed devices.
     requiredAction: Apply updates per vendor instructions.
     dueDate: '2022-05-04'
-    knownRansomwareCampaignUse: Unknown
+    knownRansomwareCampaignUse: Known
     notes: ''
   - cveID: CVE-2015-5123
     vendorProject: Adobe
@@ -8002,7 +8002,7 @@ vulnerabilities:
       of files, or disabling services.
     requiredAction: Apply updates per vendor instructions.
     dueDate: '2022-05-31'
-    knownRansomwareCampaignUse: Unknown
+    knownRansomwareCampaignUse: Known
     notes: ''
   - cveID: CVE-2022-30525
     vendorProject: Zyxel
@@ -8323,7 +8323,7 @@ vulnerabilities:
       to obtain sensitive information from process memory via a crafted packet.
     requiredAction: Apply updates per vendor instructions.
     dueDate: '2022-06-14'
-    knownRansomwareCampaignUse: Unknown
+    knownRansomwareCampaignUse: Known
     notes: ''
   - cveID: CVE-2017-0022
     vendorProject: Microsoft
@@ -8405,7 +8405,7 @@ vulnerabilities:
     requiredAction: The impacted product is end-of-life and should be disconnected
       if still in use.
     dueDate: '2022-06-14'
-    knownRansomwareCampaignUse: Unknown
+    knownRansomwareCampaignUse: Known
     notes: ''
   - cveID: CVE-2016-0162
     vendorProject: Microsoft
@@ -8802,7 +8802,7 @@ vulnerabilities:
     requiredAction: The impacted product is end-of-life and should be disconnected
       if still in use.
     dueDate: '2022-06-15'
-    knownRansomwareCampaignUse: Unknown
+    knownRansomwareCampaignUse: Known
     notes: ''
   - cveID: CVE-2013-3896
     vendorProject: Microsoft
@@ -9919,7 +9919,7 @@ vulnerabilities:
       to a rogue LDAP server.
     requiredAction: Apply updates per vendor instructions.
     dueDate: '2022-09-29'
-    knownRansomwareCampaignUse: Unknown
+    knownRansomwareCampaignUse: Known
     notes: https://www.fortiguard.com/psirt/FG-IR-18-157
   - cveID: CVE-2017-5521
     vendorProject: NETGEAR
@@ -10128,7 +10128,7 @@ vulnerabilities:
       HTTP or HTTPS requests.
     requiredAction: Apply updates per vendor instructions.
     dueDate: '2022-11-01'
-    knownRansomwareCampaignUse: Unknown
+    knownRansomwareCampaignUse: Known
     notes: https://www.fortiguard.com/psirt/FG-IR-22-377
   - cveID: CVE-2022-41033
     vendorProject: Microsoft
@@ -10205,7 +10205,7 @@ vulnerabilities:
       attacker to elevate privileges.
     requiredAction: Apply updates per vendor instructions.
     dueDate: '2022-11-14'
-    knownRansomwareCampaignUse: Unknown
+    knownRansomwareCampaignUse: Known
     notes: https://www.gigabyte.com/Support/Security/1801
   - cveID: CVE-2018-19322
     vendorProject: GIGABYTE
@@ -10218,7 +10218,7 @@ vulnerabilities:
       ways to ultimately run code with elevated privileges.
     requiredAction: Apply updates per vendor instructions.
     dueDate: '2022-11-14'
-    knownRansomwareCampaignUse: Unknown
+    knownRansomwareCampaignUse: Known
     notes: https://www.gigabyte.com/Support/Security/1801
   - cveID: CVE-2018-19321
     vendorProject: GIGABYTE
@@ -10231,7 +10231,7 @@ vulnerabilities:
       attacker to elevate privileges.
     requiredAction: Apply updates per vendor instructions.
     dueDate: '2022-11-14'
-    knownRansomwareCampaignUse: Unknown
+    knownRansomwareCampaignUse: Known
     notes: https://www.gigabyte.com/Support/Security/1801
   - cveID: CVE-2018-19320
     vendorProject: GIGABYTE
@@ -10243,7 +10243,7 @@ vulnerabilities:
       that could allow a local attacker to take complete control of the affected system.
     requiredAction: Apply updates per vendor instructions.
     dueDate: '2022-11-14'
-    knownRansomwareCampaignUse: Unknown
+    knownRansomwareCampaignUse: Known
     notes: https://www.gigabyte.com/Support/Security/1801
   - cveID: CVE-2022-42827
     vendorProject: Apple
@@ -10618,7 +10618,7 @@ vulnerabilities:
       an attacker-controlled object.
     requiredAction: Apply updates per vendor instructions.
     dueDate: '2023-03-03'
-    knownRansomwareCampaignUse: Unknown
+    knownRansomwareCampaignUse: Known
     notes: 'This CVE has a CISA AA located here: https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-158a.
       Please see the AA for associated IOCs. Additional information is available at:
       https://my.goanywhere.com/webclient/DownloadProductFiles.xhtml. Fortra users
@@ -10689,7 +10689,7 @@ vulnerabilities:
       on the system, caused by a YAML deserialization flaw.
     requiredAction: Apply updates per vendor instructions.
     dueDate: '2023-03-14'
-    knownRansomwareCampaignUse: Unknown
+    knownRansomwareCampaignUse: Known
     notes: https://exchange.xforce.ibmcloud.com/vulnerabilities/243512?_ga=2.189195179.1800390251.1676559338-700333034.1676325890
   - cveID: CVE-2022-41223
     vendorProject: Mitel
@@ -11835,7 +11835,7 @@ vulnerabilities:
     requiredAction: Apply mitigations per vendor instructions or discontinue use of
       the product if mitigations are unavailable.
     dueDate: '2023-08-09'
-    knownRansomwareCampaignUse: Unknown
+    knownRansomwareCampaignUse: Known
     notes: https://support.citrix.com/article/CTX561482/citrix-adc-and-citrix-gateway-security-bulletin-for-cve20233519-cve20233466-cve20233467
   - cveID: CVE-2023-29298
     vendorProject: Adobe
@@ -11876,7 +11876,7 @@ vulnerabilities:
     requiredAction: Apply mitigations per vendor instructions or discontinue use of
       the product if mitigations are unavailable.
     dueDate: '2023-08-15'
-    knownRansomwareCampaignUse: Unknown
+    knownRansomwareCampaignUse: Known
     notes: https://forums.ivanti.com/s/article/CVE-2023-35078-Remote-unauthenticated-API-access-vulnerability?language=en_US
   - cveID: CVE-2023-38606
     vendorProject: Apple
@@ -11998,7 +11998,7 @@ vulnerabilities:
     requiredAction: Apply mitigations per vendor instructions or discontinue use of
       the product if mitigations are unavailable.
     dueDate: '2023-09-12'
-    knownRansomwareCampaignUse: Unknown
+    knownRansomwareCampaignUse: Known
     notes: https://www.veeam.com/kb4424
   - cveID: CVE-2023-38831
     vendorProject: RARLAB
@@ -12117,7 +12117,7 @@ vulnerabilities:
     requiredAction: Apply mitigations per vendor instructions for group-lock and vpn-simultaneous-logins
       or discontinue use of the product for unsupported devices.
     dueDate: '2023-10-04'
-    knownRansomwareCampaignUse: Unknown
+    knownRansomwareCampaignUse: Known
     notes: https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-asaftd-ravpn-auth-8LyfCkeC
   - cveID: CVE-2023-4863
     vendorProject: Google
@@ -12324,7 +12324,7 @@ vulnerabilities:
     requiredAction: Apply mitigations per vendor instructions or discontinue use of
       the product if mitigations are unavailable.
     dueDate: '2023-10-25'
-    knownRansomwareCampaignUse: Unknown
+    knownRansomwareCampaignUse: Known
     notes: https://blog.jetbrains.com/teamcity/2023/09/critical-security-issue-affecting-teamcity-on-premises-update-to-2023-05-4-now/
   - cveID: CVE-2023-28229
     vendorProject: Microsoft
@@ -12354,7 +12354,7 @@ vulnerabilities:
       for evidence of compromise per vendor instructions and report any positive findings
       to CISA.
     dueDate: '2023-10-13'
-    knownRansomwareCampaignUse: Unknown
+    knownRansomwareCampaignUse: Known
     notes: https://confluence.atlassian.com/security/cve-2023-22515-privilege-escalation-vulnerability-in-confluence-data-center-and-server-1295682276.html
   - cveID: CVE-2023-40044
     vendorProject: Progress
@@ -12551,7 +12551,7 @@ vulnerabilities:
     requiredAction: Apply mitigations per vendor instructions or discontinue use of
       the product if mitigations are unavailable.
     dueDate: '2023-11-23'
-    knownRansomwareCampaignUse: Unknown
+    knownRansomwareCampaignUse: Known
     notes: https://activemq.apache.org/security-advisories.data/CVE-2023-46604-announcement.txt
   - cveID: CVE-2023-22518
     vendorProject: Atlassian
@@ -12566,7 +12566,7 @@ vulnerabilities:
     requiredAction: Apply mitigations per vendor instructions or discontinue use of
       the product if mitigations are unavailable.
     dueDate: '2023-11-28'
-    knownRansomwareCampaignUse: Unknown
+    knownRansomwareCampaignUse: Known
     notes: https://confluence.atlassian.com/security/cve-2023-22518-improper-authorization-vulnerability-in-confluence-data-center-and-server-1311473907.html
   - cveID: CVE-2023-29552
     vendorProject: IETF
@@ -12582,6 +12582,103 @@ vulnerabilities:
       directly connected to the Internet.
     dueDate: '2023-11-29'
     knownRansomwareCampaignUse: Unknown
-    notes: https://blogs.vmware.com/security/2023/04/vmware-response-to-cve-2023-29552-reflective-denial-of-service-dos-amplification-vulnerability-in-slp.html,
-      https://www.suse.com/support/kb/doc/?id=000021051, https://security.netapp.com/advisory/ntap-20230426-0001/,
-      https://www.cisa.gov/news-events/alerts/2023/04/25/abuse-service-location-protocol-may-lead-dos-attacks
+    notes: This vulnerability affects a common open-source component, third-party
+      library, or a protocol used by different products. Please check with specific
+      vendors for information on the patching status. For more information please
+      see https://www.bitsight.com/blog/new-high-severity-vulnerability-cve-2023-29552-discovered-service-location-protocol-slp
+      and https://www.cisa.gov/news-events/alerts/2023/04/25/abuse-service-location-protocol-may-lead-dos-attacks.
+  - cveID: CVE-2023-47246
+    vendorProject: SysAid
+    product: SysAid Server
+    vulnerabilityName: SysAid Server Path Traversal Vulnerability
+    dateAdded: '2023-11-13'
+    shortDescription: SysAid Server (on-premises version) contains a path traversal
+      vulnerability that leads to code execution.
+    requiredAction: Apply mitigations per vendor instructions or discontinue use of
+      the product if mitigations are unavailable.
+    dueDate: '2023-12-04'
+    knownRansomwareCampaignUse: Unknown
+    notes: https://www.sysaid.com/blog/service-desk/on-premise-software-security-vulnerability-notification
+  - cveID: CVE-2023-36844
+    vendorProject: Juniper
+    product: Junos OS
+    vulnerabilityName: Juniper Junos OS EX Series PHP External Variable Modification
+      Vulnerability
+    dateAdded: '2023-11-13'
+    shortDescription: Juniper Junos OS on EX Series contains a PHP external variable
+      modification vulnerability that allows an unauthenticated, network-based attacker
+      to control certain, important environment variables. Using a crafted request
+      an attacker is able to modify certain PHP environment variables, leading to
+      partial loss of integrity, which may allow chaining to other vulnerabilities.
+    requiredAction: Apply mitigations per vendor instructions or discontinue use of
+      the product if mitigations are unavailable.
+    dueDate: '2023-11-17'
+    knownRansomwareCampaignUse: Unknown
+    notes: https://supportportal.juniper.net/s/article/2023-08-Out-of-Cycle-Security-Bulletin-Junos-OS-SRX-Series-and-EX-Series-Multiple-vulnerabilities-in-J-Web-can-be-combined-to-allow-a-preAuth-Remote-Code-Execution?language=en_US
+  - cveID: CVE-2023-36845
+    vendorProject: Juniper
+    product: Junos OS
+    vulnerabilityName: Juniper Junos OS EX Series and SRX Series PHP External Variable
+      Modification Vulnerability
+    dateAdded: '2023-11-13'
+    shortDescription: Juniper Junos OS on EX Series and SRX Series contains a PHP
+      external variable modification vulnerability that allows an unauthenticated,
+      network-based attacker to control an important environment variable. Using a
+      crafted request, which sets the variable PHPRC, an attacker is able to modify
+      the PHP execution environment allowing the injection und execution of code.
+    requiredAction: Apply mitigations per vendor instructions or discontinue use of
+      the product if mitigations are unavailable.
+    dueDate: '2023-11-17'
+    knownRansomwareCampaignUse: Unknown
+    notes: https://supportportal.juniper.net/s/article/2023-08-Out-of-Cycle-Security-Bulletin-Junos-OS-SRX-Series-and-EX-Series-Multiple-vulnerabilities-in-J-Web-can-be-combined-to-allow-a-preAuth-Remote-Code-Execution?language=en_US
+  - cveID: CVE-2023-36846
+    vendorProject: Juniper
+    product: Junos OS
+    vulnerabilityName: Juniper Junos OS SRX Series Missing Authentication for Critical
+      Function Vulnerability
+    dateAdded: '2023-11-13'
+    shortDescription: Juniper Junos OS on SRX Series contains a missing authentication
+      for critical function vulnerability that allows an unauthenticated, network-based
+      attacker to cause limited impact to the file system integrity. With a specific
+      request to user.php that doesn't require authentication, an attacker is able
+      to upload arbitrary files via J-Web, leading to a loss of integrity for a certain
+      part of the file system, which may allow chaining to other vulnerabilities.
+    requiredAction: Apply mitigations per vendor instructions or discontinue use of
+      the product if mitigations are unavailable.
+    dueDate: '2023-11-17'
+    knownRansomwareCampaignUse: Unknown
+    notes: https://supportportal.juniper.net/s/article/2023-08-Out-of-Cycle-Security-Bulletin-Junos-OS-SRX-Series-and-EX-Series-Multiple-vulnerabilities-in-J-Web-can-be-combined-to-allow-a-preAuth-Remote-Code-Execution?language=en_US
+  - cveID: CVE-2023-36847
+    vendorProject: Juniper
+    product: Junos OS
+    vulnerabilityName: Juniper Junos OS EX Series Missing Authentication for Critical
+      Function Vulnerability
+    dateAdded: '2023-11-13'
+    shortDescription: Juniper Junos OS on EX Series contains a missing authentication
+      for critical function vulnerability that allows an unauthenticated, network-based
+      attacker to cause limited impact to the file system integrity. With a specific
+      request to installAppPackage.php that doesn't require authentication, an attacker
+      is able to upload arbitrary files via J-Web, leading to a loss of integrity
+      for a certain part of the file system, which may allow chaining to other vulnerabilities.
+    requiredAction: Apply mitigations per vendor instructions or discontinue use of
+      the product if mitigations are unavailable.
+    dueDate: '2023-11-17'
+    knownRansomwareCampaignUse: Unknown
+    notes: https://supportportal.juniper.net/s/article/2023-08-Out-of-Cycle-Security-Bulletin-Junos-OS-SRX-Series-and-EX-Series-Multiple-vulnerabilities-in-J-Web-can-be-combined-to-allow-a-preAuth-Remote-Code-Execution?language=en_US
+  - cveID: CVE-2023-36851
+    vendorProject: Juniper
+    product: Junos OS
+    vulnerabilityName: Juniper Junos OS SRX Series Missing Authentication for Critical
+      Function Vulnerability
+    dateAdded: '2023-11-13'
+    shortDescription: Juniper Junos OS on SRX Series contains a missing authentication
+      for critical function vulnerability that allows an unauthenticated, network-based
+      attacker to cause limited impact to the file system integrity. With a specific
+      request to webauth_operation.php that doesn't require authentication, an attacker
+      is able to upload arbitrary files via J-Web, leading to a loss of integrity
+      for a certain part of the file system, which may allow chaining to other vulnerabilities.
+    requiredAction: Apply mitigations per vendor instructions or discontinue use of
+      the product if mitigations are unavailable.
+    dueDate: '2023-11-17'
+    knownRansomwareCampaignUse: Unknown
+    notes: https://supportportal.juniper.net/s/article/2023-08-Out-of-Cycle-Security-Bulletin-Junos-OS-SRX-Series-and-EX-Series-Multiple-vulnerabilities-in-J-Web-can-be-combined-to-allow-a-preAuth-Remote-Code-Execution?language=en_US
