@@ -1,0 +1,38 @@
+[
+  {
+    "cveID": "CVE-2023-36033",
+    "vendorProject": "Microsoft",
+    "product": "Windows",
+    "vulnerabilityName": "Microsoft Windows Desktop Window Manager (DWM) Core Library Privilege Escalation Vulnerability",
+    "dateAdded": "2023-11-14",
+    "shortDescription": "Microsoft Windows Desktop Window Manager (DWM) Core Library contains an unspecified vulnerability that allows for privilege escalation.",
+    "requiredAction": "Apply mitigations per vendor instructions or discontinue use of the product if mitigations are unavailable.",
+    "dueDate": "2023-12-05",
+    "knownRansomwareCampaignUse": "Unknown",
+    "notes": "https://msrc.microsoft.com/update-guide/en-US/vulnerability/CVE-2023-36033"
+  },
+  {
+    "cveID": "CVE-2023-36025",
+    "vendorProject": "Microsoft",
+    "product": "Windows",
+    "vulnerabilityName": "Microsoft Windows SmartScreen Security Feature Bypass Vulnerability",
+    "dateAdded": "2023-11-14",
+    "shortDescription": "Microsoft Windows SmartScreen contains a security feature bypass vulnerability that could allow an attacker to bypass Windows Defender SmartScreen checks and their associated prompts.",
+    "requiredAction": "Apply mitigations per vendor instructions or discontinue use of the product if mitigations are unavailable.",
+    "dueDate": "2023-12-05",
+    "knownRansomwareCampaignUse": "Unknown",
+    "notes": "https://msrc.microsoft.com/update-guide/en-US/vulnerability/CVE-2023-36025"
+  },
+  {
+    "cveID": "CVE-2023-36036",
+    "vendorProject": "Microsoft",
+    "product": "Windows",
+    "vulnerabilityName": "Microsoft Windows Cloud Files Mini Filter Driver Privilege Escalation Vulnerability",
+    "dateAdded": "2023-11-14",
+    "shortDescription": "Microsoft Windows Cloud Files Mini Filter Driver contains a privilege escalation vulnerability that could allow an attacker to gain SYSTEM privileges.",
+    "requiredAction": "Apply mitigations per vendor instructions or discontinue use of the product if mitigations are unavailable.",
+    "dueDate": "2023-12-05",
+    "knownRansomwareCampaignUse": "Unknown",
+    "notes": "https://msrc.microsoft.com/update-guide/en-US/vulnerability/CVE-2023-36036"
+  }
+]
