@@ -1,0 +1,83 @@
+- cveID: CVE-2023-36844
+  vendorProject: Juniper
+  product: Junos OS
+  vulnerabilityName: Juniper Junos OS EX Series PHP External Variable Modification
+    Vulnerability
+  dateAdded: '2023-11-13'
+  shortDescription: Juniper Junos OS on EX Series contains a PHP external variable
+    modification vulnerability that allows an unauthenticated, network-based attacker
+    to control certain, important environment variables. Using a crafted request an
+    attacker is able to modify certain PHP environment variables, leading to partial
+    loss of integrity, which may allow chaining to other vulnerabilities.
+  requiredAction: Apply mitigations per vendor instructions or discontinue use of
+    the product if mitigations are unavailable.
+  dueDate: '2023-11-17'
+  knownRansomwareCampaignUse: Unknown
+  notes: https://supportportal.juniper.net/s/article/2023-08-Out-of-Cycle-Security-Bulletin-Junos-OS-SRX-Series-and-EX-Series-Multiple-vulnerabilities-in-J-Web-can-be-combined-to-allow-a-preAuth-Remote-Code-Execution?language=en_US
+- cveID: CVE-2023-36845
+  vendorProject: Juniper
+  product: Junos OS
+  vulnerabilityName: Juniper Junos OS EX Series and SRX Series PHP External Variable
+    Modification Vulnerability
+  dateAdded: '2023-11-13'
+  shortDescription: Juniper Junos OS on EX Series and SRX Series contains a PHP external
+    variable modification vulnerability that allows an unauthenticated, network-based
+    attacker to control an important environment variable. Using a crafted request,
+    which sets the variable PHPRC, an attacker is able to modify the PHP execution
+    environment allowing the injection und execution of code.
+  requiredAction: Apply mitigations per vendor instructions or discontinue use of
+    the product if mitigations are unavailable.
+  dueDate: '2023-11-17'
+  knownRansomwareCampaignUse: Unknown
+  notes: https://supportportal.juniper.net/s/article/2023-08-Out-of-Cycle-Security-Bulletin-Junos-OS-SRX-Series-and-EX-Series-Multiple-vulnerabilities-in-J-Web-can-be-combined-to-allow-a-preAuth-Remote-Code-Execution?language=en_US
+- cveID: CVE-2023-36846
+  vendorProject: Juniper
+  product: Junos OS
+  vulnerabilityName: Juniper Junos OS SRX Series Missing Authentication for Critical
+    Function Vulnerability
+  dateAdded: '2023-11-13'
+  shortDescription: Juniper Junos OS on SRX Series contains a missing authentication
+    for critical function vulnerability that allows an unauthenticated, network-based
+    attacker to cause limited impact to the file system integrity. With a specific
+    request to user.php that doesn't require authentication, an attacker is able to
+    upload arbitrary files via J-Web, leading to a loss of integrity for a certain
+    part of the file system, which may allow chaining to other vulnerabilities.
+  requiredAction: Apply mitigations per vendor instructions or discontinue use of
+    the product if mitigations are unavailable.
+  dueDate: '2023-11-17'
+  knownRansomwareCampaignUse: Unknown
+  notes: https://supportportal.juniper.net/s/article/2023-08-Out-of-Cycle-Security-Bulletin-Junos-OS-SRX-Series-and-EX-Series-Multiple-vulnerabilities-in-J-Web-can-be-combined-to-allow-a-preAuth-Remote-Code-Execution?language=en_US
+- cveID: CVE-2023-36847
+  vendorProject: Juniper
+  product: Junos OS
+  vulnerabilityName: Juniper Junos OS EX Series Missing Authentication for Critical
+    Function Vulnerability
+  dateAdded: '2023-11-13'
+  shortDescription: Juniper Junos OS on EX Series contains a missing authentication
+    for critical function vulnerability that allows an unauthenticated, network-based
+    attacker to cause limited impact to the file system integrity. With a specific
+    request to installAppPackage.php that doesn't require authentication, an attacker
+    is able to upload arbitrary files via J-Web, leading to a loss of integrity for
+    a certain part of the file system, which may allow chaining to other vulnerabilities.
+  requiredAction: Apply mitigations per vendor instructions or discontinue use of
+    the product if mitigations are unavailable.
+  dueDate: '2023-11-17'
+  knownRansomwareCampaignUse: Unknown
+  notes: https://supportportal.juniper.net/s/article/2023-08-Out-of-Cycle-Security-Bulletin-Junos-OS-SRX-Series-and-EX-Series-Multiple-vulnerabilities-in-J-Web-can-be-combined-to-allow-a-preAuth-Remote-Code-Execution?language=en_US
+- cveID: CVE-2023-36851
+  vendorProject: Juniper
+  product: Junos OS
+  vulnerabilityName: Juniper Junos OS SRX Series Missing Authentication for Critical
+    Function Vulnerability
+  dateAdded: '2023-11-13'
+  shortDescription: Juniper Junos OS on SRX Series contains a missing authentication
+    for critical function vulnerability that allows an unauthenticated, network-based
+    attacker to cause limited impact to the file system integrity. With a specific
+    request to webauth_operation.php that doesn't require authentication, an attacker
+    is able to upload arbitrary files via J-Web, leading to a loss of integrity for
+    a certain part of the file system, which may allow chaining to other vulnerabilities.
+  requiredAction: Apply mitigations per vendor instructions or discontinue use of
+    the product if mitigations are unavailable.
+  dueDate: '2023-11-17'
+  knownRansomwareCampaignUse: Unknown
+  notes: https://supportportal.juniper.net/s/article/2023-08-Out-of-Cycle-Security-Bulletin-Junos-OS-SRX-Series-and-EX-Series-Multiple-vulnerabilities-in-J-Web-can-be-combined-to-allow-a-preAuth-Remote-Code-Execution?language=en_US
