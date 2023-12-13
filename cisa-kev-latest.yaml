@@ -1,6 +1,6 @@
 title: CISA Catalog of Known Exploited Vulnerabilities
-catalogVersion: 2023.12.11
-dateReleased: '2023-12-11T21:12:53.2275Z'
+catalogVersion: 2023.12.13
+dateReleased: '2023-12-13T14:25:09.7066Z'
 count: 1051
 vulnerabilities:
   - cveID: CVE-2021-27104
@@ -12927,4 +12927,4 @@ vulnerabilities:
     knownRansomwareCampaignUse: Unknown
     notes: 'Note that while it is possible to change the default password, implementors
       are encouraged to remove affected controllers from public networks per vendor
-      advice: https://www.unitronicsplc.com/cyber_security_unistream/'
+      advice: https://www.unitronicsplc.com/cyber_security_vision-samba/'
