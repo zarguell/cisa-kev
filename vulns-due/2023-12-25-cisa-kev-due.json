@@ -1,0 +1,26 @@
+[
+  {
+    "cveID": "CVE-2023-42917",
+    "vendorProject": "Apple",
+    "product": "Multiple Products",
+    "vulnerabilityName": "Apple Multiple Products WebKit Memory Corruption Vulnerability",
+    "dateAdded": "2023-12-04",
+    "shortDescription": "Apple iOS, iPadOS, macOS, and Safari WebKit contain a memory corruption vulnerability that leads to code execution when processing web content.",
+    "requiredAction": "Apply remediations or mitigations per vendor instructions or discontinue use of the product if remediation or mitigations are unavailable.",
+    "dueDate": "2023-12-25",
+    "knownRansomwareCampaignUse": "Unknown",
+    "notes": "https://support.apple.com/en-us/HT214031, https://support.apple.com/en-us/HT214032, https://support.apple.com/en-us/HT214033"
+  },
+  {
+    "cveID": "CVE-2023-42916",
+    "vendorProject": "Apple",
+    "product": "Multiple Products",
+    "vulnerabilityName": "Apple Multiple Products WebKit Out-of-Bounds Read Vulnerability",
+    "dateAdded": "2023-12-04",
+    "shortDescription": "Apple iOS, iPadOS, macOS, and Safari WebKit contain an out-of-bounds read vulnerability that may disclose sensitive information when processing web content.",
+    "requiredAction": "Apply remediations or mitigations per vendor instructions or discontinue use of the product if remediation or mitigations are unavailable.",
+    "dueDate": "2023-12-25",
+    "knownRansomwareCampaignUse": "Unknown",
+    "notes": "https://support.apple.com/en-us/HT214031, https://support.apple.com/en-us/HT214032, https://support.apple.com/en-us/HT214033"
+  }
+]
