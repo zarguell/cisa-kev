@@ -1,0 +1,16 @@
+- cveID: CVE-2024-23222
+  vendorProject: Apple
+  product: Multiple Products
+  vulnerabilityName: Apple Multiple Products Type Confusion Vulnerability
+  dateAdded: '2024-01-23'
+  shortDescription: Apple iOS, iPadOS, macOS, tvOS, and Safari WebKit contain a type
+    confusion vulnerability that leads to code execution when processing maliciously
+    crafted web content.
+  requiredAction: Apply mitigations per vendor instructions or discontinue use of
+    the product if mitigations are unavailable.
+  dueDate: '2024-02-13'
+  knownRansomwareCampaignUse: Unknown
+  notes: "https://support.apple.com/en-us/HT214055,\r\nhttps://support.apple.com/en-us/HT214056,\
+    \ https://support.apple.com/en-us/HT214057, https://support.apple.com/en-us/HT214058,\
+    \ https://support.apple.com/en-us/HT214059, https://support.apple.com/en-us/HT214061,\
+    \ https://support.apple.com/en-us/HT214063"
