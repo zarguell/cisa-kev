@@ -1,0 +1,34 @@
+- cveID: CVE-2023-7101
+  vendorProject: Spreadsheet::ParseExcel
+  product: Spreadsheet::ParseExcel
+  vulnerabilityName: Spreadsheet::ParseExcel Remote Code Execution Vulnerability
+  dateAdded: '2024-01-02'
+  shortDescription: Spreadsheet::ParseExcel contains a remote code execution vulnerability
+    due to passing unvalidated input from a file into a string-type “eval”. Specifically,
+    the issue stems from the evaluation of Number format strings within the Excel
+    parsing logic.
+  requiredAction: Apply mitigations per vendor instructions or discontinue use of
+    the product if mitigations are unavailable.
+  dueDate: '2024-01-23'
+  knownRansomwareCampaignUse: Unknown
+  notes: 'This vulnerability affects a common open-source component, third-party library,
+    or a protocol used by different products. Please check with specific vendors for
+    information on patching status. For more information, please see: https://metacpan.org/dist/Spreadsheet-ParseExcel
+    and Barracuda''s specific implementation and fix for their downstream issue CVE-2023-7102
+    at https://www.barracuda.com/company/legal/esg-vulnerability'
+- cveID: CVE-2023-7024
+  vendorProject: Google Chromium
+  product: WebRTC
+  vulnerabilityName: Google Chromium WebRTC Heap Buffer Overflow Vulnerability
+  dateAdded: '2024-01-02'
+  shortDescription: Google Chromium WebRTC, an open-source project providing web browsers
+    with real-time communication, contains a heap buffer overflow vulnerability that
+    allows an attacker to cause crashes or code execution. This vulnerability could
+    impact web browsers using WebRTC, including but not limited to Google Chrome.
+  requiredAction: Apply mitigations per vendor instructions or discontinue use of
+    the product if mitigations are unavailable.
+  dueDate: '2024-01-23'
+  knownRansomwareCampaignUse: Unknown
+  notes: 'This vulnerability affects a common open-source component, third-party library,
+    or a protocol used by different products. Please check with specific vendors for
+    information on patching status. For more information, please see: https://chromereleases.googleblog.com/2023/12/stable-channel-update-for-desktop_20.html'
