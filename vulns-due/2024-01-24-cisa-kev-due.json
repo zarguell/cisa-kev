@@ -1,0 +1,14 @@
+[
+  {
+    "cveID": "CVE-2023-6548",
+    "vendorProject": "Citrix",
+    "product": "NetScaler ADC and NetScaler Gateway",
+    "vulnerabilityName": "Citrix NetScaler ADC and NetScaler Gateway Code Injection Vulnerability",
+    "dateAdded": "2024-01-17",
+    "shortDescription": "Citrix NetScaler ADC and NetScaler Gateway contain a code injection vulnerability that allows for authenticated remote code execution on the management interface with access to NSIP, CLIP, or SNIP.",
+    "requiredAction": "Apply mitigations per vendor instructions or discontinue use of the product if mitigations are unavailable.",
+    "dueDate": "2024-01-24",
+    "knownRansomwareCampaignUse": "Unknown",
+    "notes": "https://support.citrix.com/article/CTX584986/netscaler-adc-and-netscaler-gateway-security-bulletin-for-cve20236548-and-cve20236549"
+  }
+]
