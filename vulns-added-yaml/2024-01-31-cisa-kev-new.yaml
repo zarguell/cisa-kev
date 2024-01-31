@@ -1,0 +1,29 @@
+- cveID: CVE-2022-48618
+  vendorProject: Apple
+  product: Multiple Products
+  vulnerabilityName: Apple Multiple Products Improper Authentication Vulnerability
+  dateAdded: '2024-01-31'
+  shortDescription: Apple iOS, iPadOS, macOS, tvOS, and watchOS contain an improper
+    authentication vulnerability that allows an attacker with read and write capabilities
+    to bypass Pointer Authentication.
+  requiredAction: Apply mitigations per vendor instructions or discontinue use of
+    the product if mitigations are unavailable.
+  dueDate: '2024-02-21'
+  knownRansomwareCampaignUse: Unknown
+  notes: https://support.apple.com/en-us/HT213530, https://support.apple.com/en-us/HT213532,
+    https://support.apple.com/en-us/HT213535, https://support.apple.com/en-us/HT213536
+- cveID: CVE-2024-21893
+  vendorProject: Ivanti
+  product: Connect Secure, Policy Secure, and Neurons
+  vulnerabilityName: Ivanti Connect Secure, Policy Secure, and Neurons Server-Side
+    Request Forgery (SSRF) Vulnerability
+  dateAdded: '2024-01-31'
+  shortDescription: Ivanti Connect Secure (ICS, formerly known as Pulse Connect Secure),
+    Ivanti Policy Secure, and Ivanti Neurons contain a server-side request forgery
+    (SSRF) vulnerability in the SAML component that allows an attacker to access certain
+    restricted resources without authentication.
+  requiredAction: Apply mitigations per vendor instructions or discontinue use of
+    the product if mitigations are unavailable.
+  dueDate: '2024-02-02'
+  knownRansomwareCampaignUse: Unknown
+  notes: https://forums.ivanti.com/s/article/KB-CVE-2023-46805-Authentication-Bypass-CVE-2024-21887-Command-Injection-for-Ivanti-Connect-Secure-and-Ivanti-Policy-Secure-Gateways?language=en_US
