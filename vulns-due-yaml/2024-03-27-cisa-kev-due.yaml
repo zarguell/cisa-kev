@@ -1,0 +1,31 @@
+- cveID: CVE-2024-23225
+  vendorProject: Apple
+  product: Multiple Products
+  vulnerabilityName: Apple Multiple Products Memory Corruption Vulnerability
+  dateAdded: '2024-03-06'
+  shortDescription: Apple iOS, iPadOS, macOS, tvOS, watchOS, and visionOS kernel contain
+    a memory corruption vulnerability that allows an attacker with arbitrary kernel
+    read and write capability to bypass kernel memory protections.
+  requiredAction: Apply mitigations per vendor instructions or discontinue use of
+    the product if mitigations are unavailable.
+  dueDate: '2024-03-27'
+  knownRansomwareCampaignUse: Unknown
+  notes: https://support.apple.com/en-us/HT214081, https://support.apple.com/en-us/HT214082,
+    https://support.apple.com/en-us/HT214083, https://support.apple.com/en-us/HT214084,
+    https://support.apple.com/en-us/HT214085, https://support.apple.com/en-us/HT214086,
+    https://support.apple.com/en-us/HT214087, https://support.apple.com/en-us/HT214088
+- cveID: CVE-2024-23296
+  vendorProject: Apple
+  product: Multiple Products
+  vulnerabilityName: Apple Multiple Products Memory Corruption Vulnerability
+  dateAdded: '2024-03-06'
+  shortDescription: Apple iOS, iPadOS, macOS, tvOS, and watchOS RTKit contain a memory
+    corruption vulnerability that allows an attacker with arbitrary kernel read and
+    write capability to bypass kernel memory protections.
+  requiredAction: Apply mitigations per vendor instructions or discontinue use of
+    the product if mitigations are unavailable.
+  dueDate: '2024-03-27'
+  knownRansomwareCampaignUse: Unknown
+  notes: 'https://support.apple.com/en-us/HT214081, https://support.apple.com/en-us/HT214082,
+    https://support.apple.com/en-us/HT214084, https://support.apple.com/en-us/HT214086,
+    https://support.apple.com/en-us/HT214088  '
