@@ -1,6 +1,6 @@
 title: CISA Catalog of Known Exploited Vulnerabilities
-catalogVersion: 2024.04.04
-dateReleased: '2024-04-04T14:01:27.5435Z'
+catalogVersion: 2024.04.05
+dateReleased: '2024-04-05T20:39:34.2314Z'
 count: 1095
 vulnerabilities:
   - cveID: CVE-2021-27104
@@ -12664,7 +12664,7 @@ vulnerabilities:
     requiredAction: Apply mitigations per vendor instructions or discontinue use of
       the product if mitigations are unavailable.
     dueDate: '2023-12-04'
-    knownRansomwareCampaignUse: Unknown
+    knownRansomwareCampaignUse: Known
     notes: https://www.sysaid.com/blog/service-desk/on-premise-software-security-vulnerability-notification
   - cveID: CVE-2023-36844
     vendorProject: Juniper
