@@ -1,6 +1,6 @@
 title: CISA Catalog of Known Exploited Vulnerabilities
-catalogVersion: 2024.04.05
-dateReleased: '2024-04-05T20:39:34.2314Z'
+catalogVersion: 2024.04.08
+dateReleased: '2024-04-08T13:37:14.6625Z'
 count: 1095
 vulnerabilities:
   - cveID: CVE-2021-27104
@@ -13160,7 +13160,7 @@ vulnerabilities:
     requiredAction: Apply mitigations per vendor instructions or discontinue use of
       the product if mitigations are unavailable.
     dueDate: '2024-01-31'
-    knownRansomwareCampaignUse: Unknown
+    knownRansomwareCampaignUse: Known
     notes: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-29357
   - cveID: CVE-2023-46805
     vendorProject: Ivanti
@@ -13594,7 +13594,7 @@ vulnerabilities:
     requiredAction: Apply mitigations per vendor instructions or discontinue use of
       the product if mitigations are unavailable.
     dueDate: '2024-04-16'
-    knownRansomwareCampaignUse: Unknown
+    knownRansomwareCampaignUse: Known
     notes: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-24955
   - cveID: CVE-2024-29748
     vendorProject: Android
