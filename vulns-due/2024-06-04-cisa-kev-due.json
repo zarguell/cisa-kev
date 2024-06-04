@@ -1,0 +1,26 @@
+[
+  {
+    "cveID": "CVE-2024-30040",
+    "vendorProject": "Microsoft",
+    "product": "Windows",
+    "vulnerabilityName": "Microsoft Windows MSHTML Platform Security Feature Bypass Vulnerability",
+    "dateAdded": "2024-05-14",
+    "shortDescription": "Microsoft Windows MSHTML Platform contains an unspecified vulnerability that allows for a security feature bypass.",
+    "requiredAction": "Apply mitigations per vendor instructions or discontinue use of the product if mitigations are unavailable.",
+    "dueDate": "2024-06-04",
+    "knownRansomwareCampaignUse": "Unknown",
+    "notes": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-30040"
+  },
+  {
+    "cveID": "CVE-2024-30051",
+    "vendorProject": "Microsoft",
+    "product": "DWM Core Library",
+    "vulnerabilityName": " Microsoft DWM Core Library Privilege Escalation Vulnerability",
+    "dateAdded": "2024-05-14",
+    "shortDescription": "Microsoft DWM Core Library contains a privilege escalation vulnerability that allows an attacker to gain SYSTEM privileges.",
+    "requiredAction": "Apply mitigations per vendor instructions or discontinue use of the product if mitigations are unavailable.",
+    "dueDate": "2024-06-04",
+    "knownRansomwareCampaignUse": "Unknown",
+    "notes": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-30051"
+  }
+]
