@@ -1,0 +1,26 @@
+[
+  {
+    "cveID": "CVE-2024-1086",
+    "vendorProject": "Linux",
+    "product": "Kernel",
+    "vulnerabilityName": "Linux Kernel Use-After-Free Vulnerability",
+    "dateAdded": "2024-05-30",
+    "shortDescription": "Linux kernel contains a use-after-free vulnerability in the netfilter: nf_tables component that allows an attacker to achieve local privilege escalation.",
+    "requiredAction": "Apply mitigations per vendor instructions or discontinue use of the product if mitigations are unavailable.",
+    "dueDate": "2024-06-20",
+    "knownRansomwareCampaignUse": "Unknown",
+    "notes": "This vulnerability affects a common open-source component, third-party library, or a protocol used by different products. Please check with specific vendors for information on patching status. For more information, please see: https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=f342de4e2f33e0e39165d8639387aa6c19dff660"
+  },
+  {
+    "cveID": "CVE-2024-24919",
+    "vendorProject": "Check Point",
+    "product": "Quantum Security Gateways",
+    "vulnerabilityName": "Check Point Quantum Security Gateways Information Disclosure Vulnerability",
+    "dateAdded": "2024-05-30",
+    "shortDescription": "Check Point Quantum Security Gateways contain an unspecified information disclosure vulnerability. The vulnerability potentially allows an attacker to access information on Gateways connected to the internet, with IPSec VPN, Remote Access VPN or Mobile Access enabled. This issue affects several product lines from Check Point, including CloudGuard Network, Quantum Scalable Chassis, Quantum Security Gateways, and Quantum Spark Appliances.",
+    "requiredAction": "Apply mitigations per vendor instructions or discontinue use of the product if mitigations are unavailable.",
+    "dueDate": "2024-06-20",
+    "knownRansomwareCampaignUse": "Unknown",
+    "notes": "https://support.checkpoint.com/results/sk/sk182336"
+  }
+]
