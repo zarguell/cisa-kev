@@ -1,0 +1,44 @@
+- cveID: CVE-2020-13965
+  vendorProject: Roundcube
+  product: Webmail
+  vulnerabilityName: Roundcube Webmail Cross-Site Scripting (XSS) Vulnerability
+  dateAdded: '2024-06-26'
+  shortDescription: Roundcube Webmail contains a cross-site scripting (XSS) vulnerability
+    that allows a remote attacker to manipulate data via a malicious XML attachment.
+  requiredAction: Apply mitigations per vendor instructions or discontinue use of
+    the product if mitigations are unavailable.
+  dueDate: '2024-07-17'
+  knownRansomwareCampaignUse: Unknown
+  notes: https://roundcube.net/news/2020/06/02/security-updates-1.4.5-and-1.3.12
+  cwes: []
+- cveID: CVE-2022-2586
+  vendorProject: Linux
+  product: Kernel
+  vulnerabilityName: Linux Kernel Use-After-Free Vulnerability
+  dateAdded: '2024-06-26'
+  shortDescription: 'Linux Kernel contains a use-after-free vulnerability in the nft_object,
+    allowing local attackers to escalate privileges. '
+  requiredAction: Apply updates per vendor instructions or discontinue use of the
+    product if updates are unavailable.
+  dueDate: '2024-07-17'
+  knownRansomwareCampaignUse: Unknown
+  notes: 'This vulnerability affects a common open-source component, third-party library,
+    or a protocol used by different products. For more information, please see: https://seclists.org/oss-sec/2022/q3/131'
+  cwes: []
+- cveID: CVE-2022-24816
+  vendorProject: GeoSolutionsGroup
+  product: JAI-EXT
+  vulnerabilityName: GeoSolutionsGroup JAI-EXT Code Injection Vulnerability
+  dateAdded: '2024-06-26'
+  shortDescription: GeoSolutionsGroup JAI-EXT, a component of GeoSolutions GeoServer,
+    contains a code injection vulnerability that, when programs use jt-jiffle and
+    allow Jiffle script to be provided via network request, could allow remote code
+    execution.
+  requiredAction: Apply mitigations per vendor instructions or discontinue use of
+    the product if mitigations are unavailable.
+  dueDate: '2024-07-17'
+  knownRansomwareCampaignUse: Unknown
+  notes: 'This vulnerability affects a common open-source component, third-party library,
+    or a protocol used by different products. The patched JAI-EXT is version 1.1.22:
+    https://github.com/geosolutions-it/jai-ext/releases/tag/1.1.22, https://github.com/geosolutions-it/jai-ext/security/advisories/GHSA-v92f-jx6p-73rx'
+  cwes: []
