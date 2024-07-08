@@ -1,6 +1,6 @@
 title: CISA Catalog of Known Exploited Vulnerabilities
-catalogVersion: 2024.07.02
-dateReleased: '2024-07-02T14:09:06.1164Z'
+catalogVersion: 2024.07.08
+dateReleased: '2024-07-08T15:48:15.0847Z'
 count: 1127
 vulnerabilities:
   - cveID: CVE-2021-27104
@@ -2129,8 +2129,9 @@ vulnerabilities:
     requiredAction: Apply updates per vendor instructions.
     dueDate: '2021-07-20'
     knownRansomwareCampaignUse: Known
-    notes: Reference CISA's ED 21-04 (https://www.cisa.gov/emergency-directive-21-04)
-      for further guidance and requirements.
+    notes: 'Reference CISA''s ED 21-04 (https://www.cisa.gov/news-events/directives/ed-21-04-mitigate-windows-print-spooler-service-vulnerability)
+      for further guidance and requirements. Note: The due date for addressing this
+      vulnerability aligns with the requirements outlined in ED 21-04.'
     cwes: []
   - cveID: CVE-2021-31207
     vendorProject: Microsoft
@@ -2194,8 +2195,9 @@ vulnerabilities:
     requiredAction: Apply updates per vendor instructions.
     dueDate: '2020-07-24'
     knownRansomwareCampaignUse: Unknown
-    notes: Reference CISA's ED 20-03 (https://www.cisa.gov/emergency-directive-20-03)
-      for further guidance and requirements.
+    notes: 'Reference CISA''s ED 20-03 (https://www.cisa.gov/news-events/directives/ed-20-03-mitigate-windows-dns-server-remote-code-execution-vulnerability-july-2020-patch-tuesday)
+      for further guidance and requirements. Note: The due date for addressing this
+      vulnerability aligns with the requirements outlined in ED 20-03.'
     cwes: []
   - cveID: CVE-2021-26411
     vendorProject: Microsoft
@@ -2512,8 +2514,9 @@ vulnerabilities:
     requiredAction: Apply updates per vendor instructions.
     dueDate: '2020-09-21'
     knownRansomwareCampaignUse: Known
-    notes: Reference CISA's ED 20-03 (https://www.cisa.gov/emergency-directive-20-03)
-      for further guidance and requirements.
+    notes: 'Reference CISA''s ED 20-04 (https://www.cisa.gov/news-events/directives/ed-20-04-mitigate-netlogon-elevation-privilege-vulnerability-august-2020-patch-tuesday)
+      for further guidance and requirements. Note: The due date for addressing this
+      vulnerability aligns with the requirements outlined in ED 20-04.'
     cwes: []
   - cveID: CVE-2021-26855
     vendorProject: Microsoft
@@ -2526,8 +2529,9 @@ vulnerabilities:
     requiredAction: Apply updates per vendor instructions.
     dueDate: '2021-04-16'
     knownRansomwareCampaignUse: Known
-    notes: Reference CISA's ED 21-02 (https://www.cisa.gov/emergency-directive-21-02)
-      for further guidance and requirements.
+    notes: 'Reference CISA''s ED 21-02 (https://www.cisa.gov/news-events/directives/ed-21-02-mitigate-microsoft-exchange-premises-product-vulnerabilities)
+      for further guidance and requirements. Note: The due date for addressing this
+      vulnerability aligns with the requirements outlined in ED 21-02.'
     cwes: []
   - cveID: CVE-2021-26858
     vendorProject: Microsoft
@@ -2540,8 +2544,9 @@ vulnerabilities:
     requiredAction: Apply updates per vendor instructions.
     dueDate: '2021-04-16'
     knownRansomwareCampaignUse: Known
-    notes: Reference CISA's ED 21-02 (https://www.cisa.gov/emergency-directive-21-02)
-      for further guidance and requirements.
+    notes: 'Reference CISA''s ED 21-02 (https://www.cisa.gov/news-events/directives/ed-21-02-mitigate-microsoft-exchange-premises-product-vulnerabilities)
+      for further guidance and requirements. Note: The due date for addressing this
+      vulnerability aligns with the requirements outlined in ED 21-02.'
     cwes: []
   - cveID: CVE-2021-27065
     vendorProject: Microsoft
@@ -2554,8 +2559,9 @@ vulnerabilities:
     requiredAction: Apply updates per vendor instructions.
     dueDate: '2021-04-16'
     knownRansomwareCampaignUse: Known
-    notes: Reference CISA's ED 21-02 (https://www.cisa.gov/emergency-directive-21-02)
-      for further guidance and requirements.
+    notes: 'Reference CISA''s ED 21-02 (https://www.cisa.gov/news-events/directives/ed-21-02-mitigate-microsoft-exchange-premises-product-vulnerabilities)
+      for further guidance and requirements. Note: The due date for addressing this
+      vulnerability aligns with the requirements outlined in ED 21-02.'
     cwes: []
   - cveID: CVE-2020-1054
     vendorProject: Microsoft
@@ -2610,8 +2616,9 @@ vulnerabilities:
     requiredAction: Apply updates per vendor instructions.
     dueDate: '2020-01-29'
     knownRansomwareCampaignUse: Unknown
-    notes: Reference CISA's ED 20-02 (https://www.cisa.gov/emergency-directive-20-02)
-      for further guidance and requirements.
+    notes: 'Reference CISA''s ED 20-02 (https://www.cisa.gov/news-events/directives/ed-20-02-mitigate-windows-vulnerabilities-january-2020-patch-tuesday)
+      for further guidance and requirements. Note: The due date for addressing this
+      vulnerability aligns with the requirements outlined in ED 20-02.'
     cwes: []
   - cveID: CVE-2019-0604
     vendorProject: Microsoft
@@ -2663,8 +2670,9 @@ vulnerabilities:
     requiredAction: Apply updates per vendor instructions.
     dueDate: '2021-04-16'
     knownRansomwareCampaignUse: Known
-    notes: Reference CISA's ED 21-02 (https://www.cisa.gov/emergency-directive-21-02)
-      for further guidance and requirements.
+    notes: 'Reference CISA''s ED 21-02 (https://www.cisa.gov/news-events/directives/ed-21-02-mitigate-microsoft-exchange-premises-product-vulnerabilities)
+      for further guidance and requirements. Note: The due date for addressing this
+      vulnerability aligns with the requirements outlined in ED 21-02.'
     cwes: []
   - cveID: CVE-2020-1147
     vendorProject: Microsoft
@@ -2958,8 +2966,9 @@ vulnerabilities:
     requiredAction: Apply updates per vendor instructions.
     dueDate: '2021-04-23'
     knownRansomwareCampaignUse: Known
-    notes: Reference CISA's ED 21-03 (https://www.cisa.gov/emergency-directive-21-03)
-      for further guidance and requirements.
+    notes: 'Reference CISA''s ED 21-03 (https://www.cisa.gov/news-events/directives/ed-21-03-mitigate-pulse-connect-secure-product-vulnerabilities)
+      for further guidance and requirements. Note: The due date for addressing this
+      vulnerability aligns with the requirements outlined in ED 21-03.'
     cwes: []
   - cveID: CVE-2020-8243
     vendorProject: Ivanti
@@ -2972,8 +2981,9 @@ vulnerabilities:
     requiredAction: Apply updates per vendor instructions.
     dueDate: '2021-04-23'
     knownRansomwareCampaignUse: Unknown
-    notes: Reference CISA's ED 21-03 (https://www.cisa.gov/emergency-directive-21-03)
-      for further guidance and requirements.
+    notes: 'Reference CISA''s ED 21-03 (https://www.cisa.gov/news-events/directives/ed-21-03-mitigate-pulse-connect-secure-product-vulnerabilities)
+      for further guidance and requirements. Note: The due date for addressing this
+      vulnerability aligns with the requirements outlined in ED 21-03.'
     cwes: []
   - cveID: CVE-2021-22900
     vendorProject: Ivanti
@@ -2986,8 +2996,9 @@ vulnerabilities:
     requiredAction: Apply updates per vendor instructions.
     dueDate: '2021-04-23'
     knownRansomwareCampaignUse: Unknown
-    notes: Reference CISA's ED 21-03 (https://www.cisa.gov/emergency-directive-21-03)
-      for further guidance and requirements.
+    notes: 'Reference CISA''s ED 21-03 (https://www.cisa.gov/news-events/directives/ed-21-03-mitigate-pulse-connect-secure-product-vulnerabilities)
+      for further guidance and requirements. Note: The due date for addressing this
+      vulnerability aligns with the requirements outlined in ED 21-03.'
     cwes: []
   - cveID: CVE-2021-22894
     vendorProject: Ivanti
@@ -3001,8 +3012,9 @@ vulnerabilities:
     requiredAction: Apply updates per vendor instructions.
     dueDate: '2021-04-23'
     knownRansomwareCampaignUse: Unknown
-    notes: Reference CISA's ED 21-03 (https://www.cisa.gov/emergency-directive-21-03)
-      for further guidance and requirements.
+    notes: 'Reference CISA''s ED 21-03 (https://www.cisa.gov/news-events/directives/ed-21-03-mitigate-pulse-connect-secure-product-vulnerabilities)
+      for further guidance and requirements. Note: The due date for addressing this
+      vulnerability aligns with the requirements outlined in ED 21-03.'
     cwes: []
   - cveID: CVE-2020-8260
     vendorProject: Ivanti
@@ -3015,8 +3027,9 @@ vulnerabilities:
     requiredAction: Apply updates per vendor instructions.
     dueDate: '2021-04-23'
     knownRansomwareCampaignUse: Unknown
-    notes: Reference CISA's ED 21-03 (https://www.cisa.gov/emergency-directive-21-03)
-      for further guidance and requirements.
+    notes: 'Reference CISA''s ED 21-03 (https://www.cisa.gov/news-events/directives/ed-21-03-mitigate-pulse-connect-secure-product-vulnerabilities)
+      for further guidance and requirements. Note: The due date for addressing this
+      vulnerability aligns with the requirements outlined in ED 21-03.'
     cwes: []
   - cveID: CVE-2021-22899
     vendorProject: Ivanti
@@ -3029,8 +3042,9 @@ vulnerabilities:
     requiredAction: Apply updates per vendor instructions.
     dueDate: '2021-04-23'
     knownRansomwareCampaignUse: Unknown
-    notes: Reference CISA's ED 21-03 (https://www.cisa.gov/emergency-directive-21-03)
-      for further guidance and requirements.
+    notes: 'Reference CISA''s ED 21-03 (https://www.cisa.gov/news-events/directives/ed-21-03-mitigate-pulse-connect-secure-product-vulnerabilities)
+      for further guidance and requirements. Note: The due date for addressing this
+      vulnerability aligns with the requirements outlined in ED 21-03.'
     cwes: []
   - cveID: CVE-2019-11510
     vendorProject: Ivanti
@@ -3043,8 +3057,9 @@ vulnerabilities:
     requiredAction: Apply updates per vendor instructions.
     dueDate: '2021-04-23'
     knownRansomwareCampaignUse: Known
-    notes: Reference CISA's ED 21-03 (https://www.cisa.gov/emergency-directive-21-03)
-      for further guidance and requirements.
+    notes: 'Reference CISA''s ED 21-03 (https://www.cisa.gov/news-events/directives/ed-21-03-mitigate-pulse-connect-secure-product-vulnerabilities)
+      for further guidance and requirements. Note: The due date for addressing this
+      vulnerability aligns with the requirements outlined in ED 21-03.'
     cwes: []
   - cveID: CVE-2019-11539
     vendorProject: Ivanti
