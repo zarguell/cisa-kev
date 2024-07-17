@@ -1,0 +1,42 @@
+- cveID: CVE-2022-22948
+  vendorProject: VMware
+  product: vCenter Server
+  vulnerabilityName: 'VMware vCenter Server Incorrect Default File Permissions Vulnerability '
+  dateAdded: '2024-07-17'
+  shortDescription: VMware vCenter Server contains an incorrect default file permissions
+    vulnerability that allows a remote, privileged attacker to gain access to sensitive
+    information.
+  requiredAction: Apply mitigations per vendor instructions or discontinue use of
+    the product if mitigations are unavailable.
+  dueDate: '2024-08-07'
+  knownRansomwareCampaignUse: Unknown
+  notes: https://www.vmware.com/security/advisories/VMSA-2022-0009.html
+  cwes: []
+- cveID: CVE-2024-28995
+  vendorProject: SolarWinds
+  product: Serv-U
+  vulnerabilityName: 'SolarWinds Serv-U Path Traversal Vulnerability '
+  dateAdded: '2024-07-17'
+  shortDescription: SolarWinds Serv-U contains a path traversal vulnerability that
+    allows an attacker access to read sensitive files on the host machine.
+  requiredAction: Apply mitigations per vendor instructions or discontinue use of
+    the product if mitigations are unavailable.
+  dueDate: '2024-08-07'
+  knownRansomwareCampaignUse: Unknown
+  notes: https://www.solarwinds.com/trust-center/security-advisories/cve-2024-28995
+  cwes: []
+- cveID: CVE-2024-34102
+  vendorProject: Adobe
+  product: Commerce and Magento Open Source
+  vulnerabilityName: Adobe Commerce and Magento Open Source Improper Restriction of
+    XML External Entity Reference (XXE) Vulnerability
+  dateAdded: '2024-07-17'
+  shortDescription: Adobe Commerce and Magento Open Source contain an improper restriction
+    of XML external entity reference (XXE) vulnerability that allows for remote code
+    execution.
+  requiredAction: Apply mitigations per vendor instructions or discontinue use of
+    the product if mitigations are unavailable.
+  dueDate: '2024-08-07'
+  knownRansomwareCampaignUse: Unknown
+  notes: https://helpx.adobe.com/security/products/magento/apsb24-40.html
+  cwes: []
