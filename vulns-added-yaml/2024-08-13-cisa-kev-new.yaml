@@ -1,0 +1,86 @@
+- cveID: CVE-2024-38107
+  vendorProject: Microsoft
+  product: Windows
+  vulnerabilityName: Microsoft Windows Power Dependency Coordinator Privilege Escalation
+    Vulnerability
+  dateAdded: '2024-08-13'
+  shortDescription: Microsoft Windows Power Dependency Coordinator contains an unspecified
+    vulnerability that allows for privilege escalation, enabling a local attacker
+    to obtain SYSTEM privileges.
+  requiredAction: Apply mitigations per vendor instructions or discontinue use of
+    the product if mitigations are unavailable.
+  dueDate: '2024-09-03'
+  knownRansomwareCampaignUse: Unknown
+  notes: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-38107
+  cwes: []
+- cveID: CVE-2024-38106
+  vendorProject: Microsoft
+  product: Windows
+  vulnerabilityName: Microsoft Windows Kernel Privilege Escalation Vulnerability
+  dateAdded: '2024-08-13'
+  shortDescription: Microsoft Windows Kernel contains an unspecified vulnerability
+    that allows for privilege escalation, enabling a local attacker to gain SYSTEM
+    privileges. Successful exploitation of this vulnerability requires an attacker
+    to win a race condition.
+  requiredAction: Apply mitigations per vendor instructions or discontinue use of
+    the product if mitigations are unavailable.
+  dueDate: '2024-09-03'
+  knownRansomwareCampaignUse: Unknown
+  notes: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-38106
+  cwes: []
+- cveID: CVE-2024-38193
+  vendorProject: Microsoft
+  product: Windows
+  vulnerabilityName: Microsoft Windows Ancillary Function Driver for WinSock Privilege
+    Escalation Vulnerability
+  dateAdded: '2024-08-13'
+  shortDescription: Microsoft Windows Ancillary Function Driver for WinSock contains
+    an unspecified vulnerability that allows for privilege escalation, enabling a
+    local attacker to gain SYSTEM privileges.
+  requiredAction: Apply mitigations per vendor instructions or discontinue use of
+    the product if mitigations are unavailable.
+  dueDate: '2024-09-03'
+  knownRansomwareCampaignUse: Unknown
+  notes: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-38193
+  cwes: []
+- cveID: CVE-2024-38213
+  vendorProject: Microsoft
+  product: Windows
+  vulnerabilityName: Microsoft Windows SmartScreen Security Feature Bypass Vulnerability
+  dateAdded: '2024-08-13'
+  shortDescription: Microsoft Windows SmartScreen contains a security feature bypass
+    vulnerability that allows an attacker to bypass the SmartScreen user experience
+    via a malicious file.
+  requiredAction: Apply mitigations per vendor instructions or discontinue use of
+    the product if mitigations are unavailable.
+  dueDate: '2024-09-03'
+  knownRansomwareCampaignUse: Unknown
+  notes: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-38213
+  cwes: []
+- cveID: CVE-2024-38178
+  vendorProject: Microsoft
+  product: Windows
+  vulnerabilityName: Microsoft Windows Scripting Engine Memory Corruption Vulnerability
+  dateAdded: '2024-08-13'
+  shortDescription: Microsoft Windows Scripting Engine contains a memory corruption
+    vulnerability that allows unauthenticated attacker to initiate remote code execution
+    via a specially crafted URL.
+  requiredAction: Apply mitigations per vendor instructions or discontinue use of
+    the product if mitigations are unavailable.
+  dueDate: '2024-09-03'
+  knownRansomwareCampaignUse: Unknown
+  notes: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-38178
+  cwes: []
+- cveID: CVE-2024-38189
+  vendorProject: Microsoft
+  product: Project
+  vulnerabilityName: 'Microsoft Project Remote Code Execution Vulnerability '
+  dateAdded: '2024-08-13'
+  shortDescription: Microsoft Project contains an unspecified vulnerability that allows
+    for remote code execution via a malicious file.
+  requiredAction: Apply mitigations per vendor instructions or discontinue use of
+    the product if mitigations are unavailable.
+  dueDate: '2024-09-03'
+  knownRansomwareCampaignUse: Unknown
+  notes: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-38189
+  cwes: []
