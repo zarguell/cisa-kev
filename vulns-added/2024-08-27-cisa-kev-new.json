@@ -1,0 +1,15 @@
+[
+  {
+    "cveID": "CVE-2024-38856",
+    "vendorProject": "Apache",
+    "product": "OFBiz",
+    "vulnerabilityName": "Apache OFBiz Incorrect Authorization Vulnerability",
+    "dateAdded": "2024-08-27",
+    "shortDescription": "Apache OFBiz contains an incorrect authorization vulnerability that could allow remote code execution via a Groovy payload in the context of the OFBiz user process by an unauthenticated attacker.",
+    "requiredAction": "Apply mitigations per vendor instructions or discontinue use of the product if mitigations are unavailable.",
+    "dueDate": "2024-09-17",
+    "knownRansomwareCampaignUse": "Unknown",
+    "notes": "This vulnerability affects a common open-source component, third-party library, or a protocol used by different products. Please check with specific vendors for information on patching status. For more information, please see: https://lists.apache.org/list?user@ofbiz.apache.org:lte=1M:CVE-2024-38856",
+    "cwes": []
+  }
+]
