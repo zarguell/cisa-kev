@@ -1,0 +1,50 @@
+- cveID: CVE-2024-40766
+  vendorProject: SonicWall
+  product: SonicOS
+  vulnerabilityName: SonicWall SonicOS Improper Access Control Vulnerability
+  dateAdded: '2024-09-09'
+  shortDescription: SonicWall SonicOS contains an improper access control vulnerability
+    that could lead to unauthorized resource access and, under certain conditions,
+    may cause the firewall to crash.
+  requiredAction: Apply mitigations per vendor instructions or discontinue use of
+    the product if mitigations are unavailable.
+  dueDate: '2024-09-30'
+  knownRansomwareCampaignUse: Unknown
+  notes: https://psirt.global.sonicwall.com/vuln-detail/SNWLID-2024-0015; https://nvd.nist.gov/vuln/detail/CVE-2024-40766
+  cwes:
+    - CWE-284
+- cveID: CVE-2017-1000253
+  vendorProject: Linux
+  product: Kernel
+  vulnerabilityName: 'Linux Kernel PIE Stack Buffer Corruption Vulnerability '
+  dateAdded: '2024-09-09'
+  shortDescription: 'Linux kernel contains a position-independent executable (PIE)
+    stack buffer corruption vulnerability in load_elf_ binary() that allows a local
+    attacker to escalate privileges. '
+  requiredAction: Apply mitigations per vendor instructions or discontinue use of
+    the product if mitigations are unavailable.
+  dueDate: '2024-09-30'
+  knownRansomwareCampaignUse: Known
+  notes: 'This vulnerability affects a common open-source component, third-party library,
+    or a protocol used by different products. For more information, please see: https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=a87938b2e246b81b4fb713edb371a9fa3c5c3c86;
+    https://nvd.nist.gov/vuln/detail/CVE-2017-1000253'
+  cwes:
+    - CWE-119
+- cveID: CVE-2016-3714
+  vendorProject: ImageMagick
+  product: ImageMagick
+  vulnerabilityName: ImageMagick Improper Input Validation Vulnerability
+  dateAdded: '2024-09-09'
+  shortDescription: ImageMagick contains an improper input validation vulnerability
+    that affects the EPHEMERAL, HTTPS, MVG, MSL, TEXT, SHOW, WIN, and PLT coders.
+    This allows a remote attacker to execute arbitrary code via shell metacharacters
+    in a crafted image.
+  requiredAction: Apply mitigations per vendor instructions or discontinue use of
+    the product if mitigations are unavailable.
+  dueDate: '2024-09-30'
+  knownRansomwareCampaignUse: Unknown
+  notes: 'This vulnerability affects a common open-source component, third-party library,
+    or a protocol used by different products. For more information, please see: https://www.imagemagick.org/discourse-server/viewtopic.php?f=4&t=29588#p132726,
+    https://imagemagick.org/archive/releases/; https://nvd.nist.gov/vuln/detail/CVE-2016-3714'
+  cwes:
+    - CWE-20
