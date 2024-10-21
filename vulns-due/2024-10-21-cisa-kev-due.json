@@ -1,0 +1,62 @@
+[
+  {
+    "cveID": "CVE-2019-0344",
+    "vendorProject": "SAP",
+    "product": "Commerce Cloud",
+    "vulnerabilityName": "SAP Commerce Cloud Deserialization of Untrusted Data Vulnerability",
+    "dateAdded": "2024-09-30",
+    "shortDescription": "SAP Commerce Cloud (formerly known as Hybris) contains a deserialization of untrusted data vulnerability within the mediaconversion and virtualjdbc extension that allows for code injection.",
+    "requiredAction": "Apply mitigations per vendor instructions or discontinue use of the product if mitigations are unavailable.",
+    "dueDate": "2024-10-21",
+    "knownRansomwareCampaignUse": "Unknown",
+    "notes": "https://web.archive.org/web/20191214053020/https://wiki.scn.sap.com/wiki/pages/viewpage.action?pageId=523998017 ; https://nvd.nist.gov/vuln/detail/CVE-2019-0344",
+    "cwes": [
+      "CWE-502"
+    ]
+  },
+  {
+    "cveID": "CVE-2021-4043",
+    "vendorProject": "Motion Spell",
+    "product": "GPAC",
+    "vulnerabilityName": "Motion Spell GPAC Null Pointer Dereference Vulnerability",
+    "dateAdded": "2024-09-30",
+    "shortDescription": "Motion Spell GPAC contains a null pointer dereference vulnerability that could allow a local attacker to cause a denial-of-service (DoS) condition.",
+    "requiredAction": "Apply mitigations per vendor instructions or discontinue use of the product if mitigations are unavailable.",
+    "dueDate": "2024-10-21",
+    "knownRansomwareCampaignUse": "Unknown",
+    "notes": "This vulnerability affects a common open-source component, third-party library, or a protocol used by different products. For more information, please see: https://github.com/gpac/gpac/commit/64a2e1b799352ac7d7aad1989bc06e7b0f2b01db ; https://nvd.nist.gov/vuln/detail/CVE-2021-4043",
+    "cwes": [
+      "CWE-476"
+    ]
+  },
+  {
+    "cveID": "CVE-2020-15415",
+    "vendorProject": "DrayTek",
+    "product": "Multiple Vigor Routers",
+    "vulnerabilityName": "DrayTek Multiple Vigor Routers OS Command Injection Vulnerability",
+    "dateAdded": "2024-09-30",
+    "shortDescription": "DrayTek Vigor3900, Vigor2960, and Vigor300B devices contain an OS command injection vulnerability in cgi-bin/mainfunction.cgi/cvmcfgupload that allows for remote code execution via shell metacharacters in a filename when the text/x-python-script content type is used.",
+    "requiredAction": "Apply mitigations per vendor instructions or discontinue use of the product if mitigations are unavailable.",
+    "dueDate": "2024-10-21",
+    "knownRansomwareCampaignUse": "Unknown",
+    "notes": "https://www.draytek.com/about/security-advisory/vigor3900-/-vigor2960-/-vigor300b-remote-code-injection/execution-vulnerability-(cve-2020-14472) ; https://nvd.nist.gov/vuln/detail/CVE-2020-15415",
+    "cwes": [
+      "CWE-78"
+    ]
+  },
+  {
+    "cveID": "CVE-2023-25280",
+    "vendorProject": "D-Link",
+    "product": "DIR-820 Router",
+    "vulnerabilityName": "D-Link DIR-820 Router OS Command Injection Vulnerability",
+    "dateAdded": "2024-09-30",
+    "shortDescription": "D-Link DIR-820 routers contain an OS command injection vulnerability that allows a remote, unauthenticated attacker to escalate privileges to root via a crafted payload with the ping_addr parameter to ping.ccp.",
+    "requiredAction": "The impacted product is end-of-life (EoL) and/or end-of-service (EoS). Users should discontinue utilization of the product.",
+    "dueDate": "2024-10-21",
+    "knownRansomwareCampaignUse": "Unknown",
+    "notes": "https://supportannouncement.us.dlink.com/security/publication.aspx?name=SAP10358 ; https://nvd.nist.gov/vuln/detail/CVE-2023-25280",
+    "cwes": [
+      "CWE-78"
+    ]
+  }
+]
