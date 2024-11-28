@@ -1,0 +1,59 @@
+- cveID: CVE-2019-16278
+  vendorProject: Nostromo
+  product: nhttpd
+  vulnerabilityName: Nostromo nhttpd Directory Traversal Vulnerability
+  dateAdded: '2024-11-07'
+  shortDescription: Nostromo nhttpd contains a directory traversal vulnerability in
+    the http_verify() function in a non-chrooted nhttpd server allowing for remote
+    code execution.
+  requiredAction: Apply mitigations per vendor instructions or discontinue use of
+    the product if mitigations are unavailable.
+  dueDate: '2024-11-28'
+  knownRansomwareCampaignUse: Unknown
+  notes: https://www.nazgul.ch/dev/nostromo_cl.txt ; https://nvd.nist.gov/vuln/detail/CVE-2019-16278
+  cwes:
+    - CWE-22
+- cveID: CVE-2024-51567
+  vendorProject: CyberPersons
+  product: CyberPanel
+  vulnerabilityName: CyberPanel Incorrect Default Permissions Vulnerability
+  dateAdded: '2024-11-07'
+  shortDescription: CyberPanel contains an incorrect default permissions vulnerability
+    that allows a remote, unauthenticated attacker to execute commands as root.
+  requiredAction: Apply mitigations per vendor instructions or discontinue use of
+    the product if mitigations are unavailable.
+  dueDate: '2024-11-28'
+  knownRansomwareCampaignUse: Unknown
+  notes: https://cyberpanel.net/blog/detials-and-fix-of-recent-security-issue-and-patch-of-cyberpanel
+    ; https://nvd.nist.gov/vuln/detail/CVE-2024-51567
+  cwes:
+    - CWE-276
+- cveID: CVE-2024-43093
+  vendorProject: Android
+  product: Framework
+  vulnerabilityName: Android Framework Privilege Escalation Vulnerability
+  dateAdded: '2024-11-07'
+  shortDescription: Android Framework contains an unspecified vulnerability that allows
+    for privilege escalation.
+  requiredAction: Apply mitigations per vendor instructions or discontinue use of
+    the product if mitigations are unavailable.
+  dueDate: '2024-11-28'
+  knownRansomwareCampaignUse: Unknown
+  notes: https://source.android.com/docs/security/bulletin/2024-11-01 ; https://nvd.nist.gov/vuln/detail/CVE-2024-43093
+  cwes: []
+- cveID: CVE-2024-5910
+  vendorProject: Palo Alto Networks
+  product: Expedition
+  vulnerabilityName: Palo Alto Networks Expedition Missing Authentication Vulnerability
+  dateAdded: '2024-11-07'
+  shortDescription: Palo Alto Networks Expedition contains a missing authentication
+    vulnerability that allows an attacker with network access to takeover an Expedition
+    admin account and potentially access configuration secrets, credentials, and other
+    data.
+  requiredAction: Apply mitigations per vendor instructions or discontinue use of
+    the product if mitigations are unavailable.
+  dueDate: '2024-11-28'
+  knownRansomwareCampaignUse: Unknown
+  notes: https://security.paloaltonetworks.com/CVE-2024-5910 ; https://nvd.nist.gov/vuln/detail/CVE-2024-5910
+  cwes:
+    - CWE-306
