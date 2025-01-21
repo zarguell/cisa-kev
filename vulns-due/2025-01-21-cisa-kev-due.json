@@ -1,0 +1,17 @@
+[
+  {
+    "cveID": "CVE-2024-55591",
+    "vendorProject": "Fortinet",
+    "product": "FortiOS",
+    "vulnerabilityName": "Fortinet FortiOS Authorization Bypass Vulnerability",
+    "dateAdded": "2025-01-14",
+    "shortDescription": "Fortinet FortiOS contains an authorization bypass vulnerability that may allow an unauthenticated remote attacker to gain super-admin privileges via crafted requests to Node.js websocket module.",
+    "requiredAction": "Apply mitigations per vendor instructions or discontinue use of the product if mitigations are unavailable.",
+    "dueDate": "2025-01-21",
+    "knownRansomwareCampaignUse": "Unknown",
+    "notes": "https://fortiguard.fortinet.com/psirt/FG-IR-24-535 ; https://nvd.nist.gov/vuln/detail/CVE-2024-55591",
+    "cwes": [
+      "CWE-288"
+    ]
+  }
+]
