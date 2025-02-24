@@ -1,0 +1,30 @@
+- cveID: CVE-2024-20953
+  vendorProject: Oracle
+  product: Agile Product Lifecycle Management (PLM)
+  vulnerabilityName: Oracle Agile Product Lifecycle Management (PLM) Deserialization
+    Vulnerability
+  dateAdded: '2025-02-24'
+  shortDescription: Oracle Agile Product Lifecycle Management (PLM) contains a deserialization
+    vulnerability that allows a low-privileged attacker with network access via HTTP
+    to compromise the system.
+  requiredAction: Apply mitigations per vendor instructions or discontinue use of
+    the product if mitigations are unavailable.
+  dueDate: '2025-03-17'
+  knownRansomwareCampaignUse: Unknown
+  notes: https://www.oracle.com/security-alerts/cpujan2024.html ; https://nvd.nist.gov/vuln/detail/CVE-2024-20953
+  cwes:
+    - CWE-502
+- cveID: CVE-2017-3066
+  vendorProject: Adobe
+  product: ColdFusion
+  vulnerabilityName: Adobe ColdFusion Deserialization Vulnerability
+  dateAdded: '2025-02-24'
+  shortDescription: Adobe ColdFusion contains a deserialization vulnerability in the
+    Apache BlazeDS library that allows for arbitrary code execution.
+  requiredAction: Apply mitigations per vendor instructions or discontinue use of
+    the product if mitigations are unavailable.
+  dueDate: '2025-03-17'
+  knownRansomwareCampaignUse: Unknown
+  notes: https://helpx.adobe.com/security/products/coldfusion/apsb17-14.html ; https://nvd.nist.gov/vuln/detail/CVE-2017-3066
+  cwes:
+    - CWE-502
