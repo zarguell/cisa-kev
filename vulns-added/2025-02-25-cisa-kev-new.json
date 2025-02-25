@@ -1,0 +1,32 @@
+[
+  {
+    "cveID": "CVE-2023-34192",
+    "vendorProject": "Synacor",
+    "product": "Zimbra Collaboration Suite (ZCS)",
+    "vulnerabilityName": "Synacor Zimbra Collaboration Suite (ZCS) Cross-Site Scripting (XSS) Vulnerability",
+    "dateAdded": "2025-02-25",
+    "shortDescription": "Synacor Zimbra Collaboration Suite (ZCS) contains a cross-site scripting (XSS) vulnerability that allows a remote authenticated attacker to execute arbitrary code via a crafted script to the /h/autoSaveDraft function.",
+    "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
+    "dueDate": "2025-03-18",
+    "knownRansomwareCampaignUse": "Unknown",
+    "notes": "https://wiki.zimbra.com/wiki/Zimbra_Security_Advisories ; https://nvd.nist.gov/vuln/detail/CVE-2023-34192",
+    "cwes": [
+      "CWE-79"
+    ]
+  },
+  {
+    "cveID": "CVE-2024-49035",
+    "vendorProject": "Microsoft",
+    "product": "Partner Center",
+    "vulnerabilityName": "Microsoft Partner Center Improper Access Control Vulnerability",
+    "dateAdded": "2025-02-25",
+    "shortDescription": "Microsoft Partner Center contains an improper access control vulnerability that allows an attacker to escalate privileges.",
+    "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
+    "dueDate": "2025-03-18",
+    "knownRansomwareCampaignUse": "Unknown",
+    "notes": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-49035 ; https://nvd.nist.gov/vuln/detail/CVE-2024-49035",
+    "cwes": [
+      "CWE-269"
+    ]
+  }
+]
