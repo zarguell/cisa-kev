@@ -1,6 +1,6 @@
 title: CISA Catalog of Known Exploited Vulnerabilities
-catalogVersion: 2025.03.27
-dateReleased: '2025-03-27T17:55:47.8204Z'
+catalogVersion: 2025.03.28
+dateReleased: '2025-03-28T15:35:49.1853Z'
 count: 1311
 vulnerabilities:
   - cveID: CVE-2025-2783
@@ -65,8 +65,9 @@ vulnerabilities:
     dateAdded: '2025-03-24'
     shortDescription: reviewdog action-setup GitHub Action contains an embedded malicious
       code vulnerability that dumps exposed secrets to Github Actions Workflow Logs.
-    requiredAction: Apply mitigations per vendor instructions, follow applicable BOD
-      22-01 guidance for cloud services, or discontinue use of the product if mitigations
+    requiredAction: Apply mitigations as set forth in the CISA instructions linked
+      below. Apply mitigations per vendor instructions, follow applicable BOD 22-01
+      guidance for cloud services, or discontinue use of the product if mitigations
       are unavailable.
     dueDate: '2025-04-14'
     knownRansomwareCampaignUse: Unknown
@@ -141,8 +142,9 @@ vulnerabilities:
       by reading Github Actions Workflow Logs. These secrets may include, but are
       not limited to, valid AWS access keys, GitHub personal access tokens (PATs),
       npm tokens, and private RSA keys.
-    requiredAction: Apply mitigations per vendor instructions, follow applicable BOD
-      22-01 guidance for cloud services, or discontinue use of the product if mitigations
+    requiredAction: Apply mitigations as set forth in the CISA instructions linked
+      below. Apply mitigations per vendor instructions, follow applicable BOD 22-01
+      guidance for cloud services, or discontinue use of the product if mitigations
       are unavailable.
     dueDate: '2025-04-08'
     knownRansomwareCampaignUse: Unknown
