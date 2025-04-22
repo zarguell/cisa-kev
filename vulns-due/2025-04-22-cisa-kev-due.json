@@ -1,0 +1,18 @@
+[
+  {
+    "cveID": "CVE-2025-24813",
+    "vendorProject": "Apache",
+    "product": "Tomcat",
+    "vulnerabilityName": "Apache Tomcat Path Equivalence Vulnerability",
+    "dateAdded": "2025-04-01",
+    "shortDescription": "Apache Tomcat contains a path equivalence vulnerability that allows a remote attacker to execute code, disclose information, or inject malicious content via a partial PUT request.",
+    "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
+    "dueDate": "2025-04-22",
+    "knownRansomwareCampaignUse": "Unknown",
+    "notes": "https://lists.apache.org/thread/j5fkjv2k477os90nczf2v9l61fb0kkgq ; https://nvd.nist.gov/vuln/detail/CVE-2025-24813",
+    "cwes": [
+      "CWE-44",
+      "CWE-502"
+    ]
+  }
+]
