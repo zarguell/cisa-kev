@@ -1,8 +1,25 @@
 title: CISA Catalog of Known Exploited Vulnerabilities
-catalogVersion: 2025.05.08
-dateReleased: '2025-05-08T15:49:01.7238Z'
-count: 1335
+catalogVersion: 2025.05.12
+dateReleased: '2025-05-12T17:37:55.1269Z'
+count: 1336
 vulnerabilities:
+  - cveID: CVE-2025-47729
+    vendorProject: TeleMessage
+    product: TM SGNL
+    vulnerabilityName: TeleMessage TM SGNL Hidden Functionality Vulnerability
+    dateAdded: '2025-05-12'
+    shortDescription: TeleMessage TM SGNL contains a hidden functionality vulnerability
+      in which the archiving backend holds cleartext copies of messages from TM SGNL
+      application users.
+    requiredAction: Apply mitigations per vendor instructions, follow applicable BOD
+      22-01 guidance for cloud services, or discontinue use of the product if mitigations
+      are unavailable.
+    dueDate: '2025-06-02'
+    knownRansomwareCampaignUse: Unknown
+    notes: Apply mitigations per vendor instructions. Absent mitigating instructions
+      from the vendor, discontinue use of the product. ; https://nvd.nist.gov/vuln/detail/CVE-2025-47729
+    cwes:
+      - CWE-912
   - cveID: CVE-2024-11120
     vendorProject: GeoVision
     product: Multiple Devices
@@ -386,7 +403,7 @@ vulnerabilities:
     requiredAction: Apply mitigations as set forth in the CISA instructions linked
       below.
     dueDate: '2025-04-11'
-    knownRansomwareCampaignUse: Unknown
+    knownRansomwareCampaignUse: Known
     notes: 'CISA Mitigation Instructions: https://www.cisa.gov/cisa-mitigation-instructions-cve-2025-22457
       ; Additional References: https://forums.ivanti.com/s/article/April-Security-Advisory-Ivanti-Connect-Secure-Policy-Secure-ZTA-Gateways-CVE-2025-22457
       ; https://nvd.nist.gov/vuln/detail/CVE-2025-22457'
@@ -1449,7 +1466,7 @@ vulnerabilities:
     requiredAction: Apply mitigations per vendor instructions or discontinue use of
       the product if mitigations are unavailable.
     dueDate: '2025-02-14'
-    knownRansomwareCampaignUse: Unknown
+    knownRansomwareCampaignUse: Known
     notes: https://psirt.global.sonicwall.com/vuln-detail/SNWLID-2025-0002 ; https://nvd.nist.gov/vuln/detail/CVE-2025-23006
     cwes:
       - CWE-502
@@ -1598,7 +1615,7 @@ vulnerabilities:
       below to include conducting hunt activities, taking remediation actions if applicable,
       and applying updates prior to returning a device to service.
     dueDate: '2025-01-15'
-    knownRansomwareCampaignUse: Unknown
+    knownRansomwareCampaignUse: Known
     notes: 'CISA Mitigation Instructions: https://www.cisa.gov/cisa-mitigation-instructions-CVE-2025-0282
       Additional References: https://forums.ivanti.com/s/article/Security-Advisory-Ivanti-Connect-Secure-Policy-Secure-ZTA-Gateways-CVE-2025-0282-CVE-2025-0283
       ; https://nvd.nist.gov/vuln/detail/CVE-2025-0282'
@@ -1631,7 +1648,7 @@ vulnerabilities:
     requiredAction: Apply mitigations per vendor instructions or discontinue use of
       the product if mitigations are unavailable.
     dueDate: '2025-01-28'
-    knownRansomwareCampaignUse: Unknown
+    knownRansomwareCampaignUse: Known
     notes: https://www.mitel.com/support/security-advisories/mitel-product-security-advisory-misa-2024-0029
       ; https://nvd.nist.gov/vuln/detail/CVE-2024-55550
     cwes:
@@ -1648,7 +1665,7 @@ vulnerabilities:
     requiredAction: Apply mitigations per vendor instructions or discontinue use of
       the product if mitigations are unavailable.
     dueDate: '2025-01-28'
-    knownRansomwareCampaignUse: Unknown
+    knownRansomwareCampaignUse: Known
     notes: 'https://www.mitel.com/support/security-advisories/mitel-product-security-advisory-misa-2024-0029
       ; https://nvd.nist.gov/vuln/detail/CVE-2024-41713 '
     cwes:
@@ -2052,7 +2069,7 @@ vulnerabilities:
       for affected devices should not be exposed to untrusted networks, including
       the internet.
     dueDate: '2024-12-09'
-    knownRansomwareCampaignUse: Unknown
+    knownRansomwareCampaignUse: Known
     notes: https://security.paloaltonetworks.com/CVE-2024-0012 ; https://nvd.nist.gov/vuln/detail/CVE-2024-0012
     cwes:
       - CWE-306
@@ -5618,7 +5635,7 @@ vulnerabilities:
     requiredAction: Apply mitigations per vendor instructions or discontinue use of
       the product if mitigations are unavailable.
     dueDate: '2023-10-09'
-    knownRansomwareCampaignUse: Unknown
+    knownRansomwareCampaignUse: Known
     notes: https://www.zyxel.com/global/en/support/security-advisories/zyxel-security-advisory-for-command-injection-vulnerability-in-emg2926-q10a-ethernet-cpe,
       https://www.zyxelguard.com/Zyxel-EOL.asp; https://nvd.nist.gov/vuln/detail/CVE-2017-6884
     cwes:
@@ -7790,7 +7807,7 @@ vulnerabilities:
       of security features.
     requiredAction: Apply updates per vendor instructions.
     dueDate: '2022-12-09'
-    knownRansomwareCampaignUse: Unknown
+    knownRansomwareCampaignUse: Known
     notes: https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2022-41091;  https://nvd.nist.gov/vuln/detail/CVE-2022-41091
     cwes:
       - CWE-863
@@ -8493,7 +8510,7 @@ vulnerabilities:
       using WebRTC including but not limited to Google Chrome.
     requiredAction: Apply updates per vendor instructions.
     dueDate: '2022-09-15'
-    knownRansomwareCampaignUse: Unknown
+    knownRansomwareCampaignUse: Known
     notes: https://groups.google.com/g/discuss-webrtc/c/5KBtZx2gvcQ;  https://nvd.nist.gov/vuln/detail/CVE-2022-2294
     cwes:
       - CWE-122
@@ -8939,7 +8956,7 @@ vulnerabilities:
       of the calling application.
     requiredAction: Apply updates per vendor instructions.
     dueDate: '2022-07-05'
-    knownRansomwareCampaignUse: Unknown
+    knownRansomwareCampaignUse: Known
     notes: https://nvd.nist.gov/vuln/detail/CVE-2022-30190
     cwes:
       - CWE-610
@@ -11825,7 +11842,7 @@ vulnerabilities:
       which can allow for privilege escalation.
     requiredAction: Apply updates per vendor instructions.
     dueDate: '2022-04-15'
-    knownRansomwareCampaignUse: Unknown
+    knownRansomwareCampaignUse: Known
     notes: https://nvd.nist.gov/vuln/detail/CVE-2022-21999
     cwes:
       - CWE-40
@@ -13928,7 +13945,7 @@ vulnerabilities:
     requiredAction: The impacted product is end-of-life and should be disconnected
       if still in use.
     dueDate: '2022-03-24'
-    knownRansomwareCampaignUse: Unknown
+    knownRansomwareCampaignUse: Known
     notes: https://nvd.nist.gov/vuln/detail/CVE-2015-7645
     cwes: []
   - cveID: CVE-2015-5119
@@ -14391,7 +14408,7 @@ vulnerabilities:
       a JavaScript method that could potentially lead to remote code execution.
     requiredAction: Apply updates per vendor instructions.
     dueDate: '2022-03-24'
-    knownRansomwareCampaignUse: Unknown
+    knownRansomwareCampaignUse: Known
     notes: https://nvd.nist.gov/vuln/detail/CVE-2008-2992
     cwes:
       - CWE-119
@@ -15416,7 +15433,7 @@ vulnerabilities:
       which has a high impacts to confidentiality, integrity, and availability.
     requiredAction: Apply updates per vendor instructions.
     dueDate: '2021-12-29'
-    knownRansomwareCampaignUse: Unknown
+    knownRansomwareCampaignUse: Known
     notes: https://nvd.nist.gov/vuln/detail/CVE-2021-43890
     cwes: []
   - cveID: CVE-2021-4102
@@ -16496,7 +16513,7 @@ vulnerabilities:
       incorrectly enabled in release builds.
     requiredAction: Apply updates per vendor instructions.
     dueDate: '2022-05-03'
-    knownRansomwareCampaignUse: Unknown
+    knownRansomwareCampaignUse: Known
     notes: https://nvd.nist.gov/vuln/detail/CVE-2019-11580
     cwes: []
   - cveID: CVE-2019-3396
@@ -16903,7 +16920,7 @@ vulnerabilities:
       the image files.
     requiredAction: Apply updates per vendor instructions.
     dueDate: '2021-11-17'
-    knownRansomwareCampaignUse: Unknown
+    knownRansomwareCampaignUse: Known
     notes: https://nvd.nist.gov/vuln/detail/CVE-2021-22205
     cwes:
       - CWE-20
@@ -17576,7 +17593,7 @@ vulnerabilities:
       on the domain.
     requiredAction: Apply updates per vendor instructions.
     dueDate: '2022-05-03'
-    knownRansomwareCampaignUse: Unknown
+    knownRansomwareCampaignUse: Known
     notes: https://nvd.nist.gov/vuln/detail/CVE-2014-1812
     cwes:
       - CWE-255
