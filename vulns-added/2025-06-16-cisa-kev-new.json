@@ -1,0 +1,30 @@
+[
+  {
+    "cveID": "CVE-2023-33538",
+    "vendorProject": "TP-Link",
+    "product": "Multiple Routers",
+    "vulnerabilityName": "TP-Link Multiple Routers Command Injection Vulnerability",
+    "dateAdded": "2025-06-16",
+    "shortDescription": "TP-Link TL-WR940N V2/V4, TL-WR841N V8/V10, and TL-WR740N V1/V2 contain a command injection vulnerability via the component /userRpm/WlanNetworkRpm. The impacted products could be end-of-life (EoL) and/or end-of-service (EoS). Users should discontinue product utilization.",
+    "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
+    "dueDate": "2025-07-07",
+    "knownRansomwareCampaignUse": "Unknown",
+    "notes": "https://www.tp-link.com/nordic/support/faq/3562/ ; https://nvd.nist.gov/vuln/detail/CVE-2023-33538",
+    "cwes": [
+      "CWE-77"
+    ]
+  },
+  {
+    "cveID": "CVE-2025-43200",
+    "vendorProject": "Apple",
+    "product": "Multiple Products",
+    "vulnerabilityName": "Apple Multiple Products Unspecified Vulnerability",
+    "dateAdded": "2025-06-16",
+    "shortDescription": "Apple iOS, iPadOS, macOS, watchOS, and visionOS, contain an unspecified vulnerability when processing a maliciously crafted photo or video shared via an iCloud Link.",
+    "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
+    "dueDate": "2025-07-07",
+    "knownRansomwareCampaignUse": "Unknown",
+    "notes": "https://support.apple.com/en-us/122174 ; https://support.apple.com/en-us/122173 ; https://support.apple.com/en-us/122900 ; https://support.apple.com/en-us/122901 ; https://support.apple.com/en-us/122902 ; https://support.apple.com/en-us/122903 ; https://support.apple.com/en-us/122904 ; https://nvd.nist.gov/vuln/detail/CVE-2025-43200",
+    "cwes": []
+  }
+]
