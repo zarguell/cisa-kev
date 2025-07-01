@@ -1,0 +1,34 @@
+- cveID: CVE-2025-33053
+  vendorProject: Microsoft
+  product: Windows
+  vulnerabilityName: ' Microsoft Windows External Control of File Name or Path Vulnerability'
+  dateAdded: '2025-06-10'
+  shortDescription: Microsoft Windows contains an external control of file name or
+    path vulnerability that could allow an attacker to execute code from a remote
+    WebDAV location specified by the WorkingDirectory attribute of Internet Shortcut
+    files.
+  requiredAction: Apply mitigations per vendor instructions, follow applicable BOD
+    22-01 guidance for cloud services, or discontinue use of the product if mitigations
+    are unavailable.
+  dueDate: '2025-07-01'
+  knownRansomwareCampaignUse: Unknown
+  notes: https://msrc.microsoft.com/update-guide/en-US/vulnerability/CVE-2025-33053
+    ; https://nvd.nist.gov/vuln/detail/CVE-2025-33053
+  cwes:
+    - CWE-73
+- cveID: CVE-2025-24016
+  vendorProject: Wazuh
+  product: Wazuh Server
+  vulnerabilityName: Wazuh Server Deserialization of Untrusted Data Vulnerability
+  dateAdded: '2025-06-10'
+  shortDescription: Wazuh contains a deserialization of untrusted data vulnerability
+    that allows for remote code execution on Wazuh servers.
+  requiredAction: Apply mitigations per vendor instructions, follow applicable BOD
+    22-01 guidance for cloud services, or discontinue use of the product if mitigations
+    are unavailable.
+  dueDate: '2025-07-01'
+  knownRansomwareCampaignUse: Unknown
+  notes: https://wazuh.com/blog/addressing-the-cve-2025-24016-vulnerability/ ; https://github.com/wazuh/wazuh/security/advisories/GHSA-hcrc-79hj-m3qh
+    ; https://nvd.nist.gov/vuln/detail/CVE-2025-24016
+  cwes:
+    - CWE-502
