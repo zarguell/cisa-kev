@@ -1,0 +1,17 @@
+[
+  {
+    "cveID": "CVE-2021-43798",
+    "vendorProject": "Grafana Labs",
+    "product": "Grafana",
+    "vulnerabilityName": "Grafana Path Traversal Vulnerability",
+    "dateAdded": "2025-10-09",
+    "shortDescription": "Grafana contains a path traversal vulnerability that could allow access to local files.",
+    "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
+    "dueDate": "2025-10-30",
+    "knownRansomwareCampaignUse": "Unknown",
+    "notes": "https://grafana.com/blog/2021/12/07/grafana-8.3.1-8.2.7-8.1.8-and-8.0.7-released-with-high-severity-security-fix/ ; https://nvd.nist.gov/vuln/detail/CVE-2021-43798",
+    "cwes": [
+      "CWE-22"
+    ]
+  }
+]
