@@ -1,0 +1,48 @@
+[
+  {
+    "cveID": "CVE-2025-40602",
+    "vendorProject": "SonicWall",
+    "product": "SMA1000 appliance",
+    "vulnerabilityName": "SonicWall SMA1000 Missing Authorization Vulnerability",
+    "dateAdded": "2025-12-17",
+    "shortDescription": "SonicWall SMA1000 contains a missing authorization vulnerability that could allow for privilege escalation appliance management console (AMC) of affected devices.",
+    "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable",
+    "dueDate": "2025-12-24",
+    "knownRansomwareCampaignUse": "Unknown",
+    "notes": "Check for signs of potential compromise on all internet accessible SonicWall SMA1000 instances after applying mitigations. For more information please see: https://psirt.global.sonicwall.com/vuln-detail/SNWLID-2025-0019 ; https://nvd.nist.gov/vuln/detail/CVE-2025-40602",
+    "cwes": [
+      "CWE-862",
+      "CWE-250"
+    ]
+  },
+  {
+    "cveID": "CVE-2025-20393",
+    "vendorProject": "Cisco",
+    "product": "Multiple Products",
+    "vulnerabilityName": "Cisco Multiple Products Improper Input Validation Vulnerability",
+    "dateAdded": "2025-12-17",
+    "shortDescription": "Cisco Secure Email Gateway, Secure Email, AsyncOS Software, and Web Manager appliances contains an improper input validation vulnerability that allows threat actors to execute arbitrary commands with root privileges on the underlying operating system of an affected appliance.",
+    "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
+    "dueDate": "2025-12-24",
+    "knownRansomwareCampaignUse": "Unknown",
+    "notes": "Please adhere to Cisco's guidelines to assess exposure and mitigate risks. Check for signs of potential compromise on all internet accessible Cisco products affected by this vulnerability. Apply any final mitigations provided by the vendor as soon as they become available. For more information please see: https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-sma-attack-N9bf4 ; https://nvd.nist.gov/vuln/detail/CVE-2025-20393",
+    "cwes": [
+      "CWE-20"
+    ]
+  },
+  {
+    "cveID": "CVE-2021-26828",
+    "vendorProject": "OpenPLC",
+    "product": "ScadaBR",
+    "vulnerabilityName": "OpenPLC ScadaBR Unrestricted Upload of File with Dangerous Type Vulnerability",
+    "dateAdded": "2025-12-03",
+    "shortDescription": "OpenPLC ScadaBR contains an unrestricted upload of file with dangerous type vulnerability that allows remote authenticated users to upload and execute arbitrary JSP files via view_edit.shtm.",
+    "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
+    "dueDate": "2025-12-24",
+    "knownRansomwareCampaignUse": "Unknown",
+    "notes": "This vulnerability could affect an open-source component, third-party library, protocol, or proprietary implementation that could be used by different products. For more information, please see: https://github.com/SCADA-LTS/Scada-LTS/pull/2174 ; https://nvd.nist.gov/vuln/detail/CVE-2021-26828",
+    "cwes": [
+      "CWE-434"
+    ]
+  }
+]
