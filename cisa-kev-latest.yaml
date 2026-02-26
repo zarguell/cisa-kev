@@ -1,6 +1,6 @@
 title: CISA Catalog of Known Exploited Vulnerabilities
-catalogVersion: 2026.02.25
-dateReleased: '2026-02-25T16:25:36.9647Z'
+catalogVersion: 2026.02.26
+dateReleased: '2026-02-26T16:22:48.4561Z'
 count: 1529
 vulnerabilities:
   - cveID: CVE-2022-20775
@@ -636,7 +636,7 @@ vulnerabilities:
       22-01 guidance for cloud services, or discontinue use of the product if mitigations
       are unavailable.
     dueDate: '2026-02-16'
-    knownRansomwareCampaignUse: Unknown
+    knownRansomwareCampaignUse: Known
     notes: https://www.smartertools.com/smartermail/release-notes/current ; https://nvd.nist.gov/vuln/detail/CVE-2026-23760
     cwes:
       - CWE-288
