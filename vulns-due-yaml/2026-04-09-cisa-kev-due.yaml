@@ -1,0 +1,40 @@
+- cveID: CVE-2026-35616
+  vendorProject: Fortinet
+  product: FortiClient EMS
+  vulnerabilityName: Fortinet FortiClient EMS Improper Access Control Vulnerability
+  dateAdded: '2026-04-06'
+  shortDescription: Fortinet FortiClient EMS contains an improper access control vulnerability
+    that may allow an unauthenticated attacker to execute unauthorized code or commands
+    via crafted requests.
+  requiredAction: Apply mitigations per vendor instructions, follow applicable BOD
+    22-01 guidance for cloud services, or discontinue use of the product if mitigations
+    are unavailable.
+  dueDate: '2026-04-09'
+  knownRansomwareCampaignUse: Unknown
+  notes: 'Please adhere to Fortinet''s guidelines to assess exposure and mitigate
+    risks. Check for signs of potential compromise on all internet accessible Fortinet
+    products affected by this vulnerability. Apply any final mitigations provided
+    by the vendor as soon as they become available. For more information please see:
+    https://fortiguard.fortinet.com/psirt/FG-IR-26-099 ; https://nvd.nist.gov/vuln/detail/CVE-2026-35616'
+  cwes:
+    - CWE-284
+- cveID: CVE-2026-33634
+  vendorProject: Aquasecurity
+  product: Trivy
+  vulnerabilityName: Aquasecurity Trivy Embedded Malicious Code Vulnerability
+  dateAdded: '2026-03-26'
+  shortDescription: Aquasecurity Trivy contains an embedded malicious code vulnerability
+    that could allow an attacker to gain access to everything in the CI/CD environment,
+    including all tokens, SSH keys, cloud credentials, database passwords, and any
+    sensitive configuration in memory.
+  requiredAction: Apply mitigations per vendor instructions, follow applicable BOD
+    22-01 guidance for cloud services, or discontinue use of the product if mitigations
+    are unavailable.
+  dueDate: '2026-04-09'
+  knownRansomwareCampaignUse: Unknown
+  notes: 'This vulnerability involves a supply‑chain compromise in a product that
+    may be used across multiple products and environments. Additional vendor‑provided
+    guidance must be followed to ensure full remediation. For more information, please
+    see: https://github.com/advisories/GHSA-69fq-xp46-6x23 ; https://nvd.nist.gov/vuln/detail/CVE-2026-33634'
+  cwes:
+    - CWE-506
