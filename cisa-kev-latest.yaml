@@ -1,6 +1,6 @@
 title: CISA Catalog of Known Exploited Vulnerabilities
-catalogVersion: 2026.04.20
-dateReleased: '2026-04-20T19:01:09.3195Z'
+catalogVersion: 2026.04.21
+dateReleased: '2026-04-21T17:10:43.4666Z'
 count: 1577
 vulnerabilities:
   - cveID: CVE-2026-20122
@@ -26,7 +26,7 @@ vulnerabilities:
     notes: 'CISA Mitigation Instructions: https://www.cisa.gov/news-events/directives/ed-26-03-mitigate-vulnerabilities-cisco-sd-wan-systems
       ; https://www.cisa.gov/news-events/directives/supplemental-direction-ed-26-03-hunt-and-hardening-guidance-cisco-sd-wan-systems
       ; https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-sdwan-authbp-qwCX8D4v
-      ; https://nvd.nist.gov/vuln/detail/ CVE-2026-20122'
+      ; https://nvd.nist.gov/vuln/detail/CVE-2026-20122'
     cwes:
       - CWE-648
   - cveID: CVE-2026-20133
@@ -81,7 +81,7 @@ vulnerabilities:
       22-01 guidance for cloud services, or discontinue use of the product if mitigations
       are unavailable.
     dueDate: '2026-05-04'
-    knownRansomwareCampaignUse: Unknown
+    knownRansomwareCampaignUse: Known
     notes: https://www.papercut.com/kb/Main/PO-1216-and-PO-1219 ; https://nvd.nist.gov/vuln/detail/CVE-2023-27351
     cwes:
       - CWE-287
@@ -156,8 +156,9 @@ vulnerabilities:
       22-01 guidance for cloud services, or discontinue use of the product if mitigations
       are unavailable.
     dueDate: '2026-05-04'
-    knownRansomwareCampaignUse: Unknown
-    notes: https://www.jetbrains.com/privacy-security/issues-fixed/ ; https://nvd.nist.gov/vuln/detail/CVE-2024-27199
+    knownRansomwareCampaignUse: Known
+    notes: https://www.jetbrains.com/privacy-security/issues-fixed/ ; https://blog.jetbrains.com/teamcity/2024/03/additional-critical-security-issues-affecting-teamcity-on-premises-cve-2024-27198-and-cve-2024-27199-update-to-2023-11-4-now/
+      ; https://nvd.nist.gov/vuln/detail/CVE-2024-27199
     cwes:
       - CWE-23
   - cveID: CVE-2026-34197
@@ -256,7 +257,7 @@ vulnerabilities:
       22-01 guidance for cloud services, or discontinue use of the product if mitigations
       are unavailable.
     dueDate: '2026-04-27'
-    knownRansomwareCampaignUse: Unknown
+    knownRansomwareCampaignUse: Known
     notes: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-21529 ;
       https://nvd.nist.gov/vuln/detail/CVE-2023-21529
     cwes:
@@ -1491,7 +1492,7 @@ vulnerabilities:
       22-01 guidance for cloud services, or discontinue use of the product if mitigations
       are unavailable.
     dueDate: '2026-02-16'
-    knownRansomwareCampaignUse: Unknown
+    knownRansomwareCampaignUse: Known
     notes: https://www.smartertools.com/smartermail/release-notes/current ; https://www.csa.gov.sg/alerts-and-advisories/alerts/al-2025-124/
       ; https://nvd.nist.gov/vuln/detail/CVE-2025-52691
     cwes:
@@ -8540,7 +8541,8 @@ vulnerabilities:
     dueDate: '2024-03-28'
     knownRansomwareCampaignUse: Known
     notes: https://www.jetbrains.com/help/teamcity/teamcity-2023-11-4-release-notes.html;
-      https://nvd.nist.gov/vuln/detail/CVE-2024-27198
+      https://blog.jetbrains.com/teamcity/2024/03/additional-critical-security-issues-affecting-teamcity-on-premises-cve-2024-27198-and-cve-2024-27199-update-to-2023-11-4-now/
+      ; https://nvd.nist.gov/vuln/detail/CVE-2024-27198
     cwes:
       - CWE-288
   - cveID: CVE-2024-23225
