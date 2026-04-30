@@ -1,0 +1,18 @@
+[
+  {
+    "cveID": "CVE-2026-34197",
+    "vendorProject": "Apache",
+    "product": "ActiveMQ",
+    "vulnerabilityName": "Apache ActiveMQ Improper Input Validation Vulnerability",
+    "dateAdded": "2026-04-16",
+    "shortDescription": "Apache ActiveMQ contains an improper input validation vulnerability that allows for code injection.",
+    "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
+    "dueDate": "2026-04-30",
+    "knownRansomwareCampaignUse": "Unknown",
+    "notes": "https://activemq.apache.org/security-advisories.data/CVE-2026-34197-announcement.txt ; https://nvd.nist.gov/vuln/detail/CVE-2026-34197",
+    "cwes": [
+      "CWE-20",
+      "CWE-94"
+    ]
+  }
+]
