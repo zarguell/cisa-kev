@@ -1,0 +1,63 @@
+[
+  {
+    "cveID": "CVE-2025-2749",
+    "vendorProject": "Kentico",
+    "product": "Kentico Xperience",
+    "vulnerabilityName": "Kentico Xperience Path Traversal Vulnerability",
+    "dateAdded": "2026-04-20",
+    "shortDescription": "Kentico Xperience contains a path traversal vulnerability that could allow an authenticated user's Staging Sync Server to upload arbitrary data to path relative locations.",
+    "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
+    "dueDate": "2026-05-04",
+    "knownRansomwareCampaignUse": "Unknown",
+    "notes": "https://devnet.kentico.com/download/hotfixes ; https://nvd.nist.gov/vuln/detail/CVE-2025-2749",
+    "cwes": [
+      "CWE-22",
+      "CWE-434"
+    ]
+  },
+  {
+    "cveID": "CVE-2023-27351",
+    "vendorProject": "PaperCut",
+    "product": "NG/MF",
+    "vulnerabilityName": "PaperCut NG/MF Improper Authentication Vulnerability",
+    "dateAdded": "2026-04-20",
+    "shortDescription": "PaperCut NG/MF contains an improper authentication vulnerability that could allow remote attackers to bypass authentication on affected installations via the SecurityRequestFilter class.",
+    "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
+    "dueDate": "2026-05-04",
+    "knownRansomwareCampaignUse": "Known",
+    "notes": "https://www.papercut.com/kb/Main/PO-1216-and-PO-1219 ; https://nvd.nist.gov/vuln/detail/CVE-2023-27351",
+    "cwes": [
+      "CWE-287"
+    ]
+  },
+  {
+    "cveID": "CVE-2025-32975",
+    "vendorProject": "Quest",
+    "product": "KACE Systems Management Appliance (SMA)",
+    "vulnerabilityName": "Quest KACE Systems Management Appliance (SMA) Improper Authentication Vulnerability",
+    "dateAdded": "2026-04-20",
+    "shortDescription": "Quest KACE Systems Management Appliance (SMA) contains an improper authentication vulnerability that could allow attackers to impersonate legitimate users without valid credentials.",
+    "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
+    "dueDate": "2026-05-04",
+    "knownRansomwareCampaignUse": "Unknown",
+    "notes": "https://support.quest.com/kb/4379499/quest-response-to-kace-sma-vulnerabilities-cve-2025-32975-cve-2025-32976-cve-2025-32977-cve-2025-32978 ; https://nvd.nist.gov/vuln/detail/CVE-2025-32975",
+    "cwes": [
+      "CWE-287"
+    ]
+  },
+  {
+    "cveID": "CVE-2024-27199",
+    "vendorProject": "JetBrains",
+    "product": "TeamCity",
+    "vulnerabilityName": "JetBrains TeamCity Relative Path Traversal Vulnerability",
+    "dateAdded": "2026-04-20",
+    "shortDescription": "JetBrains TeamCity contains a relative path traversal vulnerability that could allow limited admin actions to be performed.",
+    "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
+    "dueDate": "2026-05-04",
+    "knownRansomwareCampaignUse": "Known",
+    "notes": "https://www.jetbrains.com/privacy-security/issues-fixed/ ; https://blog.jetbrains.com/teamcity/2024/03/additional-critical-security-issues-affecting-teamcity-on-premises-cve-2024-27198-and-cve-2024-27199-update-to-2023-11-4-now/ ; https://nvd.nist.gov/vuln/detail/CVE-2024-27199",
+    "cwes": [
+      "CWE-23"
+    ]
+  }
+]
