@@ -1,6 +1,6 @@
 title: CISA Catalog of Known Exploited Vulnerabilities
-catalogVersion: 2026.05.27
-dateReleased: '2026-05-27T17:08:41.0638Z'
+catalogVersion: 2026.05.28
+dateReleased: '2026-05-28T16:27:12.9227Z'
 count: 1606
 vulnerabilities:
   - cveID: CVE-2026-48027
@@ -16,7 +16,7 @@ vulnerabilities:
       22-01 guidance for cloud services, or discontinue use of the product if mitigations
       are unavailable.
     dueDate: '2026-06-10'
-    knownRansomwareCampaignUse: Unknown
+    knownRansomwareCampaignUse: Known
     notes: 'This vulnerability could affect an open-source component, third-party
       library, protocol, or proprietary implementation that could be used by different
       products. For more information, please see: https://github.com/nrwl/nx-console/security/advisories/GHSA-c9j4-9m59-847w
@@ -35,7 +35,7 @@ vulnerabilities:
       22-01 guidance for cloud services, or discontinue use of the product if mitigations
       are unavailable.
     dueDate: '2026-06-10'
-    knownRansomwareCampaignUse: Unknown
+    knownRansomwareCampaignUse: Known
     notes: 'This vulnerability could affect an open-source component, third-party
       library, protocol, or proprietary implementation that could be used by different
       products. For more information, please see: https://github.com/TanStack/router/security/advisories/GHSA-g7cv-rxg3-hmpx
