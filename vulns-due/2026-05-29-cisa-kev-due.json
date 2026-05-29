@@ -1,0 +1,32 @@
+[
+  {
+    "cveID": "CVE-2026-48172",
+    "vendorProject": "LiteSpeed",
+    "product": "cPanel Plugin",
+    "vulnerabilityName": "LiteSpeed cPanel Plugin Privilege Escalation Vulnerability",
+    "dateAdded": "2026-05-26",
+    "shortDescription": "LiteSpeed cPanel Plugin contains privilege escalation vulnerability that is exposed via the user-end cPanel plugin, which can be abused by any cPanel user account to execute arbitrary scripts with root privileges.",
+    "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
+    "dueDate": "2026-05-29",
+    "knownRansomwareCampaignUse": "Unknown",
+    "notes": "https://blog.litespeedtech.com/2026/05/21/security-update-for-litespeed-cpanel-plugin/ ; https://nvd.nist.gov/vuln/detail/CVE-2026-48172",
+    "cwes": [
+      "CWE-266"
+    ]
+  },
+  {
+    "cveID": "CVE-2026-42897",
+    "vendorProject": "Microsoft",
+    "product": "Microsoft",
+    "vulnerabilityName": "Microsoft Exchange Server Cross-Site Scripting Vulnerability",
+    "dateAdded": "2026-05-15",
+    "shortDescription": "Microsoft Exchange Server contains a cross-site scripting vulnerability during web page generation in Outlook Web Access and when certain interaction conditions are met, arbitrary JavaScript can be executed in the browser context.",
+    "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
+    "dueDate": "2026-05-29",
+    "knownRansomwareCampaignUse": "Unknown",
+    "notes": "https://msrc.microsoft.com/update-guide/en-US/vulnerability/CVE-2026-42897 ; https://learn.microsoft.com/en-us/exchange/plan-and-deploy/post-installation-tasks/security-best-practices/exchange-emergency-mitigation-service ; https://nvd.nist.gov/vuln/detail/CVE-2026-42897",
+    "cwes": [
+      "CWE-79"
+    ]
+  }
+]
