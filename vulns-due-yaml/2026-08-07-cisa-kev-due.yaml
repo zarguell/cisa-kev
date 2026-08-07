@@ -1,0 +1,67 @@
+- cveID: CVE-2026-18556
+  vendorProject: N-able
+  product: N-central
+  vulnerabilityName: N-able N-central Authentication Bypass Using an Alternate Path
+    or Channel Vulnerability
+  dateAdded: '2026-08-04'
+  shortDescription: N-able N-central contains an authentication bypass using an alternate
+    path or channel that allows for authentication bypass.
+  requiredAction: Apply mitigations in accordance with vendor instructions, ensuring
+    compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see
+    URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in
+    Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue
+    use of the product if mitigations are unavailable. Stakeholders are responsible
+    for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04
+    patching guidelines.
+  dueDate: '2026-08-07'
+  knownRansomwareCampaignUse: Unknown
+  notes: 'https://uptime.n-able.com/ ; https://status.n-able.com/2026/08/02/n-central-2026-3-hotfix-1-mitigation-for-cve-2026-18577/
+    ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk
+    ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk
+    ; https://nvd.nist.gov/vuln/detail/CVE-2026-18556'
+  cwes:
+    - CWE-288
+- cveID: CVE-2026-34486
+  vendorProject: Apache
+  product: Tomcat
+  vulnerabilityName: Apache Tomcat Missing Encryption of Sensitive Data Vulnerability
+  dateAdded: '2026-08-04'
+  shortDescription: Apache Tomcat contains a missing encryption of sensitive data
+    vulnerability that allows the bypass of the EncryptInterceptor. This vulnerability
+    can be chained with CVE‑2025‑24813.
+  requiredAction: Apply mitigations in accordance with vendor instructions, ensuring
+    compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see
+    URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in
+    Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue
+    use of the product if mitigations are unavailable. Stakeholders are responsible
+    for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04
+    patching guidelines.
+  dueDate: '2026-08-07'
+  knownRansomwareCampaignUse: Unknown
+  notes: 'https://lists.apache.org/thread/9510k5p5zdvt9pkkgtyp85mvwxo2qrly ; BOD 26-04:
+    https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk
+    ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk
+    ; https://nvd.nist.gov/vuln/detail/CVE-2026-34486'
+  cwes:
+    - CWE-311
+- cveID: CVE-2026-9198
+  vendorProject: IBM
+  product: Langflow
+  vulnerabilityName: IBM Langflow Code Injection Vulnerability
+  dateAdded: '2026-08-04'
+  shortDescription: Langflow contains a code injection vulnerability that allows unauthenticated
+    attackers to achieve full remote code execution on default Langflow deployments.
+  requiredAction: Apply mitigations in accordance with vendor instructions, ensuring
+    compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see
+    URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in
+    Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue
+    use of the product if mitigations are unavailable. Stakeholders are responsible
+    for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04
+    patching guidelines.
+  dueDate: '2026-08-07'
+  knownRansomwareCampaignUse: Unknown
+  notes: 'https://www.ibm.com/support/pages/node/7278927 ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk
+    ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk
+    ; https://nvd.nist.gov/vuln/detail/CVE-2026-9198'
+  cwes:
+    - CWE-94
