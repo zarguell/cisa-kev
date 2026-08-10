@@ -1,6 +1,6 @@
 title: CISA Catalog of Known Exploited Vulnerabilities
-catalogVersion: 2026.08.07
-dateReleased: '2026-08-07T16:45:47.0648Z'
+catalogVersion: 2026.08.10
+dateReleased: '2026-08-10T16:19:34.1767Z'
 count: 1662
 vulnerabilities:
   - cveID: CVE-2026-8037
@@ -753,7 +753,7 @@ vulnerabilities:
       for evaluating each asset's internet exposure and ensuring adherence to BOD
       26-04 patching guidelines.
     dueDate: '2026-07-04'
-    knownRansomwareCampaignUse: Unknown
+    knownRansomwareCampaignUse: Known
     notes: 'https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-45659 ;
       BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk
       ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk
